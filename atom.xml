@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title></title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-01-22T11:57:48.240Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>白菜</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>影子跟读法</title>
+    <link href="http://example.com/2020/01/21/shadowing/"/>
+    <id>http://example.com/2020/01/21/shadowing/</id>
+    <published>2020-01-21T11:48:26.000Z</published>
+    <updated>2021-01-22T11:57:48.240Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;外文学习，语感培养很重要。&lt;/p&gt;
+&lt;p&gt;推荐一个方法：&lt;/p&gt;
+&lt;p&gt;Shadowing</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>自我介绍</title>
+    <link href="http://example.com/2020/01/16/self_introduction/"/>
+    <id>http://example.com/2020/01/16/self_introduction/</id>
+    <published>2020-01-16T03:02:46.000Z</published>
+    <updated>2021-01-22T11:56:43.774Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;白菜&quot;&gt;&lt;a href=&quot;#白菜&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
