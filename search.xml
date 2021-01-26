@@ -3,7 +3,8 @@
   <entry>
     <title>写在前面</title>
     <url>/2021/01/26/statement/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这个博客网站很简单，使用hexo框架、ayer免费开源主题。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这个博客网站很简单，使用hexo框架、ayer免费开源主题，模仿大佬建站的。</p>
+<p><a href="https://shen-yu.gitee.io/">https://shen-yu.gitee.io/</a><br><a href="https://hexo.io/">https://hexo.io/</a></p>
 ]]></content>
   </entry>
   <entry>
@@ -19,9 +20,20 @@
   <entry>
     <title>自我介绍</title>
     <url>/2020/01/16/self_introduction/</url>
-    <content><![CDATA[<h2 id="白菜"><a href="#白菜" class="headerlink" title="白菜"></a>白菜</h2><p>大学读计算机，毕业后害怕中国996的加班环境，目前在无锡做对日开发，计划近期赴日工作。</p>
-<p>对技术有恐慌感，反而在学习外语的时候感到轻松。</p>
-<p>喜欢日文、英文学习，爱玩游戏。在这里主要分享外文学习。</p>
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="3a188d96cfdad61889af4deebb4e40859ec302577986f611c56690bda726dca8">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc33750194dcf1a6c4b27db81cce1bb58fe004696072eb97da91ad2f7a9cc2d86cdb7c0a3fdeccad918abdd1701d6bac84ba2a0230e5371068071c7244b149fc640ffdfba3dd686a93d5c33f91fff59b2afe8f1ebf2070d07cf84c4870f668c841d2a1041cdfff8c47cb8ae53c2ef202d0a33fd3451b2f1e3c384e6e21a7241413921104cad2272424e99ed19df87f47b6ab0dad6e6b4b96db24c79950827a1f9db0446e96a7762a61233786337713209a6958535bb4b73fd2fe0a24882187185dd29592bc86c916a736fa4208c1792a889274f77e6196edd11f39d438d37c414e92238471b395e6d63ab474e549276dfdf151d48cdc79593f7295ac55a55c9c7e197cbe98f37fec826e2333f26dce830046b4c80c0f82fb1fc8f49535639a02f7952e3bc19ca105e6422e0a95ea04b606acb2b31ce282e6ae6b89109b28b4601c9ddb47e4af2fc79044b1509ae03c09a82fe900d662abdcddc05b1a24218ff3e35d41274667e381a384c4deaa7613901de24178400159a069b5bb4cb8e6dcdadcbb60f6f5dfaa01724bcf1596620a0c4a58bde84</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>作为测试加密</tag>
+      </tags>
   </entry>
 </search>
