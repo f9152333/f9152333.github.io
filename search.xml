@@ -3,7 +3,7 @@
   <entry>
     <title>写在前面</title>
     <url>/2021/01/26/statement/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这个博客网站很简单，使用hexo框架、ayer免费开源主题，模仿大佬建站的。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这个博客网站很简单，使用hexo框架、ayer免费开源主题，模仿大佬建站的。只要了解一丢丢前端、git、markdown知识任何人都能轻松建站。主要是用来鼓励自己学习、记录自己生活用的。</p>
 <p><a href="https://shen-yu.gitee.io/">https://shen-yu.gitee.io/</a><br><a href="https://hexo.io/">https://hexo.io/</a></p>
 ]]></content>
   </entry>
