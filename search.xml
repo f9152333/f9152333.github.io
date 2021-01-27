@@ -12,6 +12,9 @@
     <url>/2021/01/27/Verb/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://ftp.bmp.ovh/imgs/2021/01/2543382840435fd8.png"></p>
 ]]></content>
+      <categories>
+        <category>外语</category>
+      </categories>
       <tags>
         <tag>日语</tag>
       </tags>
@@ -25,9 +28,9 @@
 <p>刚开始，可以用课本跟读。然后慢慢脱离书本。</p>
 <p>日文跟读课本推荐：<br>【超特急说日语】（台湾大新书局）</p>
 ]]></content>
-      <tags>
-        <tag>外语</tag>
-      </tags>
+      <categories>
+        <category>外语</category>
+      </categories>
   </entry>
   <entry>
     <title>自我介绍</title>
