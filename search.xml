@@ -8,6 +8,18 @@
 ]]></content>
   </entry>
   <entry>
+    <title>java基础</title>
+    <url>/2021/02/03/java-base/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://www.cnblogs.com/adamjwh/p/8868588.html">https://www.cnblogs.com/adamjwh/p/8868588.html</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>SAA_Vocabulary</title>
     <url>/2021/02/02/SAA-Vocabulary/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>behind 在…后面<br>request 请求<br>patterns 模式<br>unpredictable 不可预测的<br>per second 每秒<br>be persisted in a backend database 被保留在一个数据库中<br>currently 目前<br>query 查询<br>combination 组合<br>a managed storage solution 一个托管的存储方案<br>high-performance 高性能的<br>concurrent access to files 并发访问文件<br>deliver 提供<br>recommend 建议<br>establish 建立<br>multi-tier 多层网络架构，多层架构<br>scaling 衡量<br>Availability Zone 可用区<br>infrastructure 基础架构<br>across of</p>
