@@ -10,7 +10,7 @@
   <entry>
     <title>SAA_Vocabulary</title>
     <url>/2021/02/02/SAA-Vocabulary/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>behind 在…后面</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>behind 在…后面<br>request 请求<br>patterns 模式<br>unpredictable 不可预测的<br>per second 每秒<br>be persisted in a backend database 被保留在一个数据库中</p>
 ]]></content>
       <categories>
         <category>外语</category>
