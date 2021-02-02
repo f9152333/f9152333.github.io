@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-01-27T18:07:28.486Z</updated>
+  <updated>2021-02-02T08:57:46.267Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SAA_Vocabulary</title>
+    <link href="http://example.com/2021/02/02/SAA-Vocabulary/"/>
+    <id>http://example.com/2021/02/02/SAA-Vocabulary/</id>
+    <published>2021-02-02T08:47:34.000Z</published>
+    <updated>2021-02-02T08:57:46.267Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script</summary>
+        
+      
+    
+    
+    
+    <category term="外语" scheme="http://example.com/categories/%E5%A4%96%E8%AF%AD/"/>
+    
+    
+    <category term="英语" scheme="http://example.com/tags/%E8%8B%B1%E8%AF%AD/"/>
+    
+    <category term="aws" scheme="http://example.com/tags/aws/"/>
+    
+  </entry>
   
   <entry>
     <title>动词变形</title>
