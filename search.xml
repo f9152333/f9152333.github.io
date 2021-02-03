@@ -10,7 +10,7 @@
   <entry>
     <title>Oracle基础</title>
     <url>/2021/02/03/Oracle-base/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>sql我最熟悉的就是select from orderby left join..</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>sql我最熟悉的就是select from order by left join..</p>
 <p><a href="https://www.w3cschool.cn/oraclejc/oraclejc-xzfk2qv3.html">https://www.w3cschool.cn/oraclejc/oraclejc-xzfk2qv3.html</a></p>
 ]]></content>
       <categories>
