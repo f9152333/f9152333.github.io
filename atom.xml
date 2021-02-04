@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-02-04T04:46:27.330Z</updated>
+  <updated>2021-02-04T10:07:24.732Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>移民之路</title>
+    <link href="http://example.com/2021/02/04/immigration/"/>
+    <id>http://example.com/2021/02/04/immigration/</id>
+    <published>2021-02-04T09:14:38.000Z</published>
+    <updated>2021-02-04T10:07:24.732Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>単語メモ</title>
