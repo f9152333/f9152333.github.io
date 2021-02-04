@@ -71,7 +71,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">170</span>
+            <span class="post-count">175</span>
         </span>
     </span>
 
@@ -93,7 +93,7 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <p>画一些简单地图表</p>
+  <p>画一些简单地图表，移动端横向滚动条没加</p>
 
 <html>
 <head>
@@ -104,18 +104,18 @@
 </head>
 <body>
     <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="mainX" style="width: 600px;height:400px;overflow-x: auto;"></div>
-    <div id="mainY" style="width: 600px;height:400px;overflow-x: auto;"></div>
+    <div id="mainX" style="width: 600px;height:400px;"></div>
+    <div id="mainY" style="width: 600px;height:400px;"></div>
     <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
         var myChart1 = echarts.init(document.getElementById('mainX'));
-        window.onresize = myChart1.resize;
+        
         var myChart2 = echarts.init(document.getElementById('mainY'));
-        window.onresize = myChart2.resize;
+
         // 指定图表的配置项和数据
         var option1 = {
             title: {
-                text: 'ECharts 入门示例'
+                text: 'ECharts 示例'
             },
             tooltip: {},
             legend: {
@@ -125,11 +125,17 @@
                 data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
             },
             yAxis: {},
+                     
+
             series: [{
                 name: '销量',
                 type: 'bar',
+                center: ['10%'],
                 data: [5, 20, 36, 10, 10, 20]
-            }]
+            }],
+
+                 
+         
         };
 
         var option2 = {
@@ -138,6 +144,7 @@
                 name: '访问来源',
                 type: 'pie',
                 radius: '55%',
+                center: ['30%', '50%'],
                 data:[
                     {value:235, name:'视频广告'},
                     {value:274, name:'联盟广告'},
@@ -150,7 +157,7 @@
         };
 
         // 使用刚指定的配置项和数据显示图表。
-        myChart1.setOption(option1);       
+        myChart1.setOption(option1); 
         myChart2.setOption(option2);
     </script>
 </body>
@@ -220,6 +227,15 @@
 
    
   <nav class="article-nav">
+    
+      <a href="/2021/02/04/tanngomemo/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            tanngomemo
+          
+        </div>
+      </a>
     
     
       <a href="/2021/02/03/Oracle-base/" class="article-nav-link">

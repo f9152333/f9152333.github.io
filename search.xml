@@ -8,9 +8,23 @@
 ]]></content>
   </entry>
   <entry>
+    <title>tanngomemo</title>
+    <url>/2021/02/04/tanngomemo/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>四半期:よんはんき<br>１Q～４Q<br>等分：とうぶん<br>1.稼働日：かどうび<br>2.実働日：じつどうび<br>3.営業日：えいぎょうび<br>処理日：しょりび<br>計上日：けいじょうび<br>満期日：まんきび  到期日<br>五日：いつか<br>4.休日：きゅうじつ<br>祭日：さいじつ 节日<br>土曜日：どようび<br>5.土日：土曜日と日曜日<br>6.省略：しょうりゃく<br>加味：掺加，加入<br>付け加える：つけくわえる<br>あいまって：相俟って  お互い（たがい）に影響する<br>7.原価：げんか   成本<br>仕入れ：しいれ  买进，购买，采购，采办<br>8.是正：ぜせい    订正，更正，矫正，纠正  改める：あらためる    直す：なおす<br>9.洗い出す：あらいだす    選び出す<br>割り出す：わりだす   算出，推论，推断<br>10.昇順：しょうじゅん<br>降順：こうじゅん<br>11.連番：通番<br>12.日毎：ひごと</p>
+<hr>
+<p>おきに<br>構わない：かまわない  構いません<br>繰り返す：くりかえす<br>差し支える：妨碍，障碍，有影响，不方便<br>差し支えない<br>ゼロサプレス（zero suppress）<br>暦日：れきじつ<br>一日：ついたち<br>二日：ふつか<br>三日：みっか<br>四日：よっか<br>五日：いつか<br>六日：むいか<br>七日：なのか<br>八日：ようか<br>九日：ここのか<br>十日：とおか<br>閏年：じゅんねん<br>ニューメリック：numeric<br>実在：じつざい  实际存在<br>月毎：つきごと<br>日数：にっすう<br>右詰め：みぎづめ<br>左詰め：ひだりづめ<br>アーキテクチャ：布置，格局，安排<br>責務：せきむ 职责<br>均質：きんしつ  均等，均匀性<br>求める：もとめる<br>多岐：たぎ 多方面，复杂<br>擬似：ぎじ 模拟，仿真<br>延々：えんえん 没完没了，喋喋不休，接连不断<br>極力：きょくりょく </p>
+]]></content>
+      <categories>
+        <category>外语</category>
+      </categories>
+      <tags>
+        <tag>日语</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Echart</title>
     <url>/2021/02/03/Echart/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>画一些简单地图表</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>画一些简单地图表，移动端横向滚动条没加</p>
 
 <html>
 <head>
@@ -21,18 +35,18 @@
 </head>
 <body>
     <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="mainX" style="width: 600px;height:400px;overflow-x: auto;"></div>
-    <div id="mainY" style="width: 600px;height:400px;overflow-x: auto;"></div>
+    <div id="mainX" style="width: 600px;height:400px;"></div>
+    <div id="mainY" style="width: 600px;height:400px;"></div>
     <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
         var myChart1 = echarts.init(document.getElementById('mainX'));
-        window.onresize = myChart1.resize;
+        
         var myChart2 = echarts.init(document.getElementById('mainY'));
-        window.onresize = myChart2.resize;
+
         // 指定图表的配置项和数据
         var option1 = {
             title: {
-                text: 'ECharts 入门示例'
+                text: 'ECharts 示例'
             },
             tooltip: {},
             legend: {
@@ -42,11 +56,17 @@
                 data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
             },
             yAxis: {},
+                     
+
             series: [{
                 name: '销量',
                 type: 'bar',
+                center: ['10%'],
                 data: [5, 20, 36, 10, 10, 20]
-            }]
+            }],
+
+                 
+         
         };
 
         var option2 = {
@@ -55,6 +75,7 @@
                 name: '访问来源',
                 type: 'pie',
                 radius: '55%',
+                center: ['30%', '50%'],
                 data:[
                     {value:235, name:'视频广告'},
                     {value:274, name:'联盟广告'},
@@ -67,7 +88,7 @@
         };
 
         // 使用刚指定的配置项和数据显示图表。
-        myChart1.setOption(option1);       
+        myChart1.setOption(option1); 
         myChart2.setOption(option2);
     </script>
 </body>
@@ -123,7 +144,7 @@
   <entry>
     <title>SAA_Vocabulary</title>
     <url>/2021/02/02/SAA-Vocabulary/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>behind 在…后面<br>request 请求<br>patterns 模式<br>unpredictable 不可预测的<br>per second 每秒<br>be persisted in a backend database 被保留在一个数据库中<br>currently 目前<br>query 查询<br>combination 组合<br>a managed storage solution 一个托管的存储方案<br>high-performance 高性能的<br>concurrent access to files 并发访问文件<br>deliver 提供<br>recommend 建议<br>establish 建立<br>multi-tier 多层网络架构，多层架构<br>scaling 衡量<br>Availability Zone 可用区<br>infrastructure 基础架构<br>across of</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>behind 在…后面<br>request 请求<br>patterns 模式<br>unpredictable 不可预测的<br>per second 每秒<br>be persisted in a backend database 被保留在一个数据库中<br>currently 目前<br>query 查询<br>combination 组合<br>a managed storage solution 一个托管的存储方案<br>high-performance 高性能的<br>concurrent access to files 并发访问文件<br>deliver 提供<br>recommend 建议<br>establish 建立<br>multi-tier 多层网络架构，多层架构<br>scaling 缩放，衡量<br>Availability Zone 可用区<br>infrastructure 基础架构<br>across of<br>application load balancer(ALB) 应用负载平衡器<br>internal 内部的<br>browser-based 基于浏览器</p>
 ]]></content>
       <categories>
         <category>外语</category>
