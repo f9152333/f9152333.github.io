@@ -71,7 +71,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">162</span>
+            <span class="post-count">170</span>
         </span>
     </span>
 
@@ -104,13 +104,14 @@
 </head>
 <body>
     <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="mainX" style="width: 600px;height:400px;"></div>
-    <div id="mainY" style="width: 600px;height:400px;"></div>
+    <div id="mainX" style="width: 600px;height:400px;overflow-x: auto;"></div>
+    <div id="mainY" style="width: 600px;height:400px;overflow-x: auto;"></div>
     <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
         var myChart1 = echarts.init(document.getElementById('mainX'));
+        window.onresize = myChart1.resize;
         var myChart2 = echarts.init(document.getElementById('mainY'));
-        
+        window.onresize = myChart2.resize;
         // 指定图表的配置项和数据
         var option1 = {
             title: {
@@ -149,7 +150,7 @@
         };
 
         // 使用刚指定的配置项和数据显示图表。
-        myChart1.setOption(option1);
+        myChart1.setOption(option1);       
         myChart2.setOption(option2);
     </script>
 </body>
