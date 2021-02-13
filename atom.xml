@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-02-13T04:05:08.042Z</updated>
+  <updated>2021-02-13T15:06:42.666Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>杨中科大佬英语学习网站，屌丝必备神器！</title>
+    <link href="http://example.com/2021/02/13/eglish-learning-site/"/>
+    <id>http://example.com/2021/02/13/eglish-learning-site/</id>
+    <published>2021-02-13T14:55:48.000Z</published>
+    <updated>2021-02-13T15:06:42.666Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script</summary>
+        
+      
+    
+    
+    
+    
+    <category term="英语" scheme="http://example.com/tags/%E8%8B%B1%E8%AF%AD/"/>
+    
+  </entry>
   
   <entry>
     <title>学习英语的一大动力？</title>
