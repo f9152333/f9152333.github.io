@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-02-11T16:08:41.321Z</updated>
+  <updated>2021-02-13T04:03:00.148Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2021/02/13/learning/"/>
+    <id>http://example.com/2021/02/13/learning/</id>
+    <published>2021-02-13T03:48:13.000Z</published>
+    <updated>2021-02-13T04:03:00.148Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script</summary>
+        
+      
+    
+    
+    
+    
+    <category term="英语" scheme="http://example.com/tags/%E8%8B%B1%E8%AF%AD/"/>
+    
+  </entry>
   
   <entry>
     <title>new_way_to_build_a_website</title>
@@ -128,7 +151,7 @@
     <link href="http://example.com/2021/02/03/CSharp_base/"/>
     <id>http://example.com/2021/02/03/CSharp_base/</id>
     <published>2021-02-02T17:13:30.000Z</published>
-    <updated>2021-02-02T17:26:49.852Z</updated>
+    <updated>2021-02-03T02:46:24.953Z</updated>
     
     
       
