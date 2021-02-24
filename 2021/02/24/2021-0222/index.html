@@ -11,7 +11,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    2021-0222 |  
+    2021-0222(补) |  
   </title>
   <meta name="generator" content="hexo-theme-ayer">
   
@@ -54,7 +54,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  2021-0222
+  2021-0222(补)
 </h1>
  
 
@@ -73,7 +73,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">98</span>
+            <span class="post-count">285</span>
         </span>
     </span>
 
@@ -95,7 +95,68 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <font color="#dd0000">
+  
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="mainX2021-0222" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例        
+        var myChart1 = echarts.init(document.getElementById('mainX2021-0222'));
+
+        var option1 = {
+            tooltip: {
+            trigger: 'item',           
+            },
+            series : [
+            {
+                name: '完成与否',
+                type: 'pie',
+                selectedMode: 'single',
+                radius: '55%',
+                center: ['50%', '50%'],
+                labelLine: {
+                    lineStyle: {
+                    color: '#235894'
+                    }
+                },
+                label: {
+                    fontSize: 18,
+                    color: '#235894',
+                },
+                data:[
+                    {value:1.001, name:'超特级说日语',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'标日初中级',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'anki标日红宝书单词卡',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'n2真题',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'SAA题库',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'新概念英语',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'式样书日语',itemStyle:{color:'#dd0000',borderColor:'#235894'}}
+                    ]
+                }
+            ],
+            
+            formatter: function (params) {               
+                if(params.data.value==1.001)
+	                return '未完成'
+                else
+                    return '完成'
+            }
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart1.setOption(option1); 
+    </script>
+</body>
+</html>
+
+<font color="#dd0000">
 超特级说日语，一天听读2单元<br>
 标日初中级，一天复习4单元<br>
 anki 标日，红宝书单词卡 最快速度扫过<br>
@@ -171,7 +232,7 @@ youzack新概念英语从2开始听读，一天一篇<br>
         <strong class="article-nav-caption">上一篇</strong>
         <div class="article-nav-title">
           
-            2020-0223
+            2020-0223打卡(补)-今天开始加饼图视觉体现完成量
           
         </div>
       </a>
