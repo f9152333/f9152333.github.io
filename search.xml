@@ -15,7 +15,7 @@
     <url>/2021/03/01/20210301bug/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>突然连不上github，吓我一跳</p>
 <p>报了这个错Failed to connect to github.com port 443:connection timed out</p>
-<p>解决方案：先把子切换到全局，然后再取消，接着取消全局代理，最后git pull或者git push</p>
+<p>解决方案：先把子切换到全局，然后再取消全局代理，最后hexo d</p>
 <p>解决链接:<a href="https://blog.csdn.net/Hodors/article/details/103226958">https://blog.csdn.net/Hodors/article/details/103226958</a></p>
 ]]></content>
       <categories>
