@@ -6,7 +6,7 @@
   <link href="https://f9152333.github.io/atom.xml" rel="self"/>
   
   <link href="https://f9152333.github.io/"/>
-  <updated>2021-02-24T04:19:31.429Z</updated>
+  <updated>2021-03-01T02:48:46.199Z</updated>
   <id>https://f9152333.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2021-0224-0301懒人外语听读心得</title>
+    <link href="https://f9152333.github.io/2021/03/01/2021-0224-0301/"/>
+    <id>https://f9152333.github.io/2021/03/01/2021-0224-0301/</id>
+    <published>2021-03-01T02:19:25.000Z</published>
+    <updated>2021-03-01T02:48:46.199Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script</summary>
+        
+      
+    
+    
+    
+    <category term="打卡" scheme="https://f9152333.github.io/categories/%E6%89%93%E5%8D%A1/"/>
+    
+    
+    <category term="打卡" scheme="https://f9152333.github.io/tags/%E6%89%93%E5%8D%A1/"/>
+    
+  </entry>
   
   <entry>
     <title>2020-0223打卡(补)-今天开始加饼图视觉体现完成量</title>
@@ -427,31 +452,6 @@
     
     
     <category term="C#" scheme="https://f9152333.github.io/tags/C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>java基础</title>
-    <link href="https://f9152333.github.io/2021/02/03/java-base/"/>
-    <id>https://f9152333.github.io/2021/02/03/java-base/</id>
-    <published>2021-02-02T16:50:42.000Z</published>
-    <updated>2021-02-02T17:08:12.630Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script</summary>
-        
-      
-    
-    
-    
-    <category term="技术" scheme="https://f9152333.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="java" scheme="https://f9152333.github.io/tags/java/"/>
     
   </entry>
   

@@ -11,7 +11,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    Archives: 2021 |  
+    2021-0224-0301懒人外语听读心得 |  
   </title>
   <meta name="generator" content="hexo-theme-ayer">
   
@@ -42,120 +42,240 @@
       
     <main class="content on">
       <section class="outer">
-  
-  
-  <article class="articles">
+  <article
+  id="post-2021-0224-0301"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
     
-    
-    <h1 class="page-type-title">2021</h1>
-    
-    
+    <header class="article-header">
+       
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  2021-0224-0301懒人外语听读心得
+</h1>
+ 
+
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2021/03/01/2021-0224-0301/" class="article-date">
+  <time datetime="2021-03-01T02:19:25.000Z" itemprop="datePublished">2021-03-01</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%89%93%E5%8D%A1/">打卡</a>
+  </div>
   
-  
-  
-  
-  
-  
-  <div class="archives-wrap">
-    <div class="archive-year-wrap">
-      <a href="/archives/2021" class="archive-year">2021</a>
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> Word count:</span>
+            <span class="post-count">624</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> Reading time≈</span>
+            <span class="post-count">2 min</span>
+        </span>
+    </span>
+</div>
+ 
     </div>
-    <div class="archives">
       
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2021/02/03/java-base/" class="archive-article-date">
-  <time datetime="2021-02-02T16:50:42.000Z" itemprop="datePublished">02/03</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2021/02/03/java-base/"
-    >java基础</a> 
-</h2>
- 
 
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2021/02/02/SAA-Vocabulary/" class="archive-article-date">
-  <time datetime="2021-02-02T08:47:34.000Z" itemprop="datePublished">02/02</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2021/02/02/SAA-Vocabulary/"
-    >SAA_Vocabulary</a> 
-</h2>
- 
 
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2021/01/27/Verb/" class="archive-article-date">
-  <time datetime="2021-01-27T15:58:00.000Z" itemprop="datePublished">01/27</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2021/01/27/Verb/"
-    >动词变形</a> 
-</h2>
- 
 
-    </header>
-    
-    
-  </div>
-</article>
-      
   
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2021/01/26/statement/" class="archive-article-date">
-  <time datetime="2021-01-26T07:44:37.000Z" itemprop="datePublished">01/26</time>
-</a>
+    <div class="article-entry" itemprop="articleBody">
        
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2021/01/26/statement/"
-    >写在前面</a> 
-</h2>
- 
+  
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="mainX2020-0223" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例        
+        var myChart1 = echarts.init(document.getElementById('mainX2020-0223'));
 
-    </header>
-    
-    
-  </div>
-</article>
-      
+        var option1 = {
+            tooltip: {
+            trigger: 'item',           
+            },
+            series : [
+            {
+                name: '完成与否',
+                type: 'pie',
+                selectedMode: 'single',
+                radius: '55%',
+                center: ['50%', '50%'],
+                labelLine: {
+                    lineStyle: {
+                    color: '#235894'
+                    }
+                },
+                label: {
+                    fontSize: 18,
+                    color: '#235894',
+                },
+                data:[
+                    {value:1, name:'超特级说日语',itemStyle:{color:'#00dd00',borderColor:'#235894'}},
+                    {value:1.001, name:'标日初中级',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'anki标日红宝书单词卡',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'n2真题',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'SAA题库',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'新概念英语',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'式样书日语',itemStyle:{color:'#dd0000',borderColor:'#235894'}}
+                    ]
+                }
+            ],
+            
+            formatter: function (params) {
+                if(params.data.value==1.001)
+	                return '未完成'
+                else
+                    return '完成'
+            }
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart1.setOption(option1); 
+    </script>
+</body>
+</html>
+
+<font color="#00dd00">
+超特级说日语，Unit1-Unit5<br></font>
+<font color="#dd0000">
+标日初中级，一天复习4单元<br>
+anki 标日，红宝书单词卡 最快速度扫过<br>
+n2真题，两天看一卷（不做只看，听）<br>
+SAA题库，一天100题纯背不实操扫过就行<br>
+youzack新概念英语从2开始听读，一天一篇<br>
+对日开发日语和式样书单词总结</font>
+
+<p>刚开始听得时候非常排斥日语的音调，就一小节，两小节的反复听，很烦!</p>
+<p>可是听了很长很长时间之后，因为很熟悉很熟悉了，就觉得速度、音调也还行了，不是特别快了，偶尔个别没听懂，不影响理解意思了。</p>
+<p>然后一个单元一个单元的听，最后一本一本的听，我发现我不懂的点就那么几个，绝大部分都能听得懂，前提是要不停的听读，否则过几天又忘了。</p>
+<p>其实中文意思你也记住了，就像脑子里不停地做连线题一样，先出外语句子，你自己连中文意思。</p>
+<p>我学的方法似乎跟学技术一样，先是基础小知识点，一点一点的来回记、练习。而且我过段时间肯定会忘，所以学习习惯一定得好，<font color="#dd0000">必须做出笔记出来，</font>然后不停的记、练习。再之后，就可以一个模块一个模块的记、练习了。我长期学习的坏习惯就是总是挑简单的知识点学，学的不系统，而是过段时间总是忘了。</p>
+<p>最后就是整个框架，整个项目的看了，我还没这水平。主要是很多细节问题，我分析不出来，理解的不透彻。</p>
+ 
+      <!-- reward -->
       
     </div>
-  </div>
-  
-  
-
-  
-  <nav class="page-nav">
     
-    <a class="extend prev" rel="prev" href="/archives/2021/page/2/">上一页</a><a class="page-number" href="/archives/2021/">1</a><a class="page-number" href="/archives/2021/page/2/">2</a><span class="page-number current">3</span>
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+<div class="share-btn">
+      <span class="share-sns share-outer">
+        <i class="ri-share-forward-line"></i>
+        分享
+      </span>
+      <div class="share-wrap">
+        <i class="arrow"></i>
+        <div class="share-icons">
+          
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+          
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://f9152333.github.io/2021/03/01/2021-0224-0301/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>  
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%89%93%E5%8D%A1/" rel="tag">打卡</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+  <nav class="article-nav">
+    
+    
+      <a href="/2021/02/24/2020-0223/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">2020-0223打卡(补)-今天开始加饼图视觉体现完成量</div>
+      </a>
+    
   </nav>
+
   
+   
+<div class="gitalk" id="gitalk-container"></div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.6.2/dist/gitalk.css">
+
+
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1.6.2/dist/gitalk.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js"></script>
+
+<script type="text/javascript">
+  var gitalk = new Gitalk({
+    clientID: '463228449f286140e188',
+    clientSecret: '45c0637dba1af052e40d1165329460561ec4c149',
+    repo: 'f9152333.github.io',
+    owner: 'f9152333',
+    admin: ['f9152333'],
+    // id: location.pathname,      // Ensure uniqueness and length less than 50
+    id: md5(location.pathname),
+    distractionFreeMode: false,  // Facebook-like distraction free mode
+    pagerDirection: 'last'
+  })
+
+  gitalk.render('gitalk-container')
+</script>
+
+     
+</article>
+
 </section>
       <footer class="footer">
   <div class="outer">
@@ -305,6 +425,23 @@
 <script src="/js/lazyload.min.js"></script>
 
 <!-- Tocbot -->
+
+
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: '.tocbot',
+    contentSelector: '.article-entry',
+    headingSelector: 'h1, h2, h3, h4, h5, h6',
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: 'main',
+    positionFixedSelector: '.tocbot',
+    positionFixedClass: 'is-position-fixed',
+    fixedSidebarOffset: 'auto'
+  });
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.css">
