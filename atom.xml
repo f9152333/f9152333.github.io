@@ -6,7 +6,7 @@
   <link href="https://f9152333.github.io/atom.xml" rel="self"/>
   
   <link href="https://f9152333.github.io/"/>
-  <updated>2021-03-01T03:02:10.669Z</updated>
+  <updated>2021-03-01T03:23:18.885Z</updated>
   <id>https://f9152333.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20210301bug</title>
+    <link href="https://f9152333.github.io/2021/03/01/20210301bug/"/>
+    <id>https://f9152333.github.io/2021/03/01/20210301bug/</id>
+    <published>2021-03-01T03:18:58.000Z</published>
+    <updated>2021-03-01T03:23:18.885Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://f9152333.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="bug" scheme="https://f9152333.github.io/tags/bug/"/>
+    
+  </entry>
   
   <entry>
     <title>2021-0224to0301懒人外语听读心得</title>
@@ -427,31 +452,6 @@
     
     
     <category term="sql" scheme="https://f9152333.github.io/tags/sql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>C#基础</title>
-    <link href="https://f9152333.github.io/2021/02/03/CSharp_base/"/>
-    <id>https://f9152333.github.io/2021/02/03/CSharp_base/</id>
-    <published>2021-02-02T17:13:30.000Z</published>
-    <updated>2021-02-03T02:46:24.953Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script</summary>
-        
-      
-    
-    
-    
-    <category term="技术" scheme="https://f9152333.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="C#" scheme="https://f9152333.github.io/tags/C/"/>
     
   </entry>
   
