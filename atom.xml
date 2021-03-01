@@ -6,7 +6,7 @@
   <link href="https://f9152333.github.io/atom.xml" rel="self"/>
   
   <link href="https://f9152333.github.io/"/>
-  <updated>2021-03-01T03:32:38.347Z</updated>
+  <updated>2021-03-01T03:45:53.036Z</updated>
   <id>https://f9152333.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2021030recording</title>
+    <link href="https://f9152333.github.io/2021/03/01/2021030recording/"/>
+    <id>https://f9152333.github.io/2021/03/01/2021030recording/</id>
+    <published>2021-03-01T03:38:15.000Z</published>
+    <updated>2021-03-01T03:45:53.036Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>20210301bug</title>
@@ -427,31 +448,6 @@
     
     
     <category term="echart" scheme="https://f9152333.github.io/tags/echart/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Oracle基础</title>
-    <link href="https://f9152333.github.io/2021/02/03/Oracle-base/"/>
-    <id>https://f9152333.github.io/2021/02/03/Oracle-base/</id>
-    <published>2021-02-03T02:48:11.000Z</published>
-    <updated>2021-02-03T08:51:57.680Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script</summary>
-        
-      
-    
-    
-    
-    <category term="技术" scheme="https://f9152333.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="sql" scheme="https://f9152333.github.io/tags/sql/"/>
     
   </entry>
   
