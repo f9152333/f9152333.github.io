@@ -11,6 +11,88 @@
 ]]></content>
   </entry>
   <entry>
+    <title>2021-0302and0303</title>
+    <url>/2021/03/03/2021-0302and0303/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="2021-0302and0303" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例        
+        var myChart1 = echarts.init(document.getElementById('2021-0302and0303'));
+
+        var option1 = {
+            tooltip: {
+            trigger: 'item',           
+            },
+            series : [
+            {
+                name: '完成与否',
+                type: 'pie',
+                selectedMode: 'single',
+                radius: '55%',
+                center: ['32%', '50%'],
+                labelLine: {
+                    lineStyle: {
+                    color: '#235894'
+                    }
+                },
+                label: {
+                    fontSize: 18,
+                    color: '#235894',
+                },
+                data:[
+                    {value:1, name:'超特级说日语',itemStyle:{color:'#00dd00',borderColor:'#235894'}},
+                    {value:1.001, name:'标日初中级',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1, name:'anki标日红宝书单词卡',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'n2真题',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'SAA题库',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'新概念英语',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'式样书日语',itemStyle:{color:'#dd0000',borderColor:'#235894'}}
+                    ]
+                }
+            ],
+            
+            formatter: function (params) {
+                if(params.data.value==1.001)
+	                return '未完成'
+                else
+                    return '完成'
+            }
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart1.setOption(option1); 
+    </script>
+</body>
+</html>
+
+
+<font color="#00dd00">
+超特级说日语，Unit1-Unit5(初级整本)<br></font>
+<font color="#dd0000">
+标日初中级，一天复习4单元<br>
+<font color="#00dd00">
+anki 标日初级上册单词全扫完<br></font>
+n2真题，两天看一卷（不做只看，听）<br>
+SAA题库，一天100题纯背不实操扫过就行<br>
+youzack新概念英语从2开始听读，一天一篇<br>
+对日开发日语和式样书单词总结</font>]]></content>
+      <categories>
+        <category>打卡</category>
+      </categories>
+      <tags>
+        <tag>打卡</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>网站被google收录了!</title>
     <url>/2021/03/01/2021030recording/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>俺做的网站被google收录成功了，(百度不管它了，应该也成功了)好开心！</p>
