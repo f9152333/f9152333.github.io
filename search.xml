@@ -51,7 +51,7 @@
                 data:[
                     {value:1, name:'超特级说日语',itemStyle:{color:'#00dd00',borderColor:'#235894'}},
                     {value:1.001, name:'标日初中级',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1, name:'anki标日红宝书单词卡',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1, name:'anki标日红宝书单词卡',itemStyle:{color:'#00dd00',borderColor:'#235894'}},
                     {value:1.001, name:'n2真题',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
                     {value:1.001, name:'SAA题库',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
                     {value:1.001, name:'新概念英语',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
