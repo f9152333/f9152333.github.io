@@ -3,104 +3,50 @@
   <entry>
     <title>写在前面</title>
     <url>/2021/01/26/statement/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这个博客网站很简单，使用hexo框架、ayer免费开源主题，模仿大佬建站的。只要了解一丢丢前端、git、markdown知识任何人都能轻松建站。主要是用来鼓励自己学习、记录自己生活用的。</p>
-<p>学习计划：<br>超特级说日语，一天听读2单元<br>标日初中级，一天复习4单元<br>anki 标日，红宝书单词卡 最快速度扫过<br>n2真题，两天看一卷（不做只看，听）<br>SAA题库，一天100题纯背不实操扫过就行<br>youzack新概念英语从2开始听读，一天一篇<br>对日开发日语和式样书单词总结</p>
-<p>雕琢日文简历（2021/2/20补充）</p>
-<p>今天[2021/2/18]受一个大佬启发，我这种懒人不定计划每天散漫的学根本毫无进度，而且意志越来越消沉，恶性循环！<br>细节问题先不扣，以后慢慢想。java前端等技术也先不管，我总是贪多嚼不烂，坏毛病一直改不掉<br>【スキル】JAVA、SSH、SSM、ORACLE、MySQL、JS、Ajax、vue、aws</p>
-<p>每天都在博客上打卡，发文章记录学习进度。<br>目前的想法是：<font color="#00dd00">绿色代表完成，</font><font color="#dd0000">红色代表未完成。</font>要不做成表格，视觉化记录学习进度。类似这种<br><img src="https://ftp.bmp.ovh/imgs/2021/02/6e7176b1d6bbe25c.png"></p>
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="e9f99483594a8931693243b941effcc66a5c0a0bf14de27c2bec4781dfe72065">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019cff6ca7377f1249d6d89eb06ae74910b87af757ac039ba2a8fa8f9faeee94cb9bf457c57285fd81c3162d425e4ebe67ae6410078741b950ac0ddfb857a7819a1ed602e78d0b0249e439f406a5b461606bfae3a79b3f363695d828c30030f0a3377480e1294ad31dd1d6c48385a5ee8b744ad44283b1df9dbd906a22b5b3468353b80de7ac51f19942b9dd10fe84ac6d9551f70b695de8f9f5d54f437f99d91330fcb79e54cf73ce8fd55d2b933ae95bfb7f1eb7536fd580e7ddcf625a7b1cb95240fe6ee75e1805bb57673d66088ebfc1439d23ae4c5637a8811a9144e14b15b2ad8f087371d8a59649f810114fb0baf8b0ce95868f18a8982e4bf435993b91027f4b3f9b9263d91f57ffffcdfcde19786da846740da2dcae961df04f5220b272a2be8d9851bf9f6f3e8e6e157d8a6662f3ee91c1e9bdba15d811ac2c6e0a2c9077257b4266ceeccb477f5954ba6b6b4383b2bd8c85427842509810ead375f7d17921b9de3a7a2a5a14ffbbece2ab1ff15a1e5a7906ee4ccf50ae22cc411e612d4affa1b6176ee817acb2c59696c886300999a088e2f16a53c8bee8836cc8a8f081f4170f4601df3d3ba8aa482e01861c631ed1b9367fb579c2ba55681604f22a7373aa40821e5c1343e8f2f0c1ec3b67301a244c3846b678ce5698ebd6ae19dec45375d95e363b3c2d3f452a3351eeb6f2f29ca064d0f332c1d8e6148279a5ec9660a23d15048683aa4c6cd0f76f078cc43fb4f4dc89daefa3953ce44db518edbf19609223f0a65b9d01a8cb3fd04f3d91d5b49784467241520590b9306636bbb70fbc12a4b35b59c8c2de409df0c9c0113425a503aafc13a53ccdb53176b39b3133bba7ba098887f90e6b9951445794ca81acde7266cb132a2c2e95ec44f308593068b5b8c52b2589e70ad00521ffbde23b06b57345d0cfec4272cacfa10c801cbab43ed75e860b49058c3c98866d00b9e8cb7dfe0d4f2139b0bfb896e992645459f0fdfc8029d3727c60fca0ec618b371263b74e317fe5e5684c7f3c612fb00419989507204c89cc39ab641ba8b00bc6443eb39d90e2d7f1e6343ff11bda17347c8c770517682a810522462b2a47998903a995ba8751908064680c0e1a2415b8133d271f527c46f9c0b3656d8bed090eb70dc95580e083078240c0e7fd02cf9899da9cb07a8956babaa3afa5370fb79787c65dccb3ed4fb6c548816e4236a8f9e393a2aba92428d43782e30659dc341d2b3e40cd4a2cc17241212be3f9c04a576631bb53ff7dd53fcdb16cc75e1320ed97572220bd7f7a8628fc001b775f59e6a3106f98479d9d8e50aed5c0882c1112a06f0d67411172b2023cbbc8f585adca43a5a6517d7c539c12c79f359193b37c104d71eb62c12137440fdc67e32890004d81e19b494df4e44c13b4d5f8d309b692de3dbcfadbdfab80af961df6825ecd6292ead600e2cb889d99295a108f1731666a9b937619c8a0fc41bff11b53716fabc308fc10d3412ccd964dc0ee6d5aec31e001c9fdc7ce26fc0487fa6a3f9f79649383496ed8bfdefda71f45cc86bacbf93b22044426ebd92b8e4f09ac588411bbb4a55770fd034b741402c26359020b40fb465e298ecc39ebdd9157a45ba27310c07a775aac79029b3c8ee5fdec6c9d6606816f78a8cda30a54714da17a9fc48b256db6f01e002d820e8245bf2ce6c82ccdf0d3168a00f6ec98569938279be9b22907e161117facf78ecdec97bb5e197e9fc4769a3c6377b9aae5d9cf63a391677603fd681ff337cfec351e424a7d8cbcb5ff97bbf5af59831769748ce3ade598b5d3e0138289b72a519d180eb07fbe43b626cb1b1d94cd6f11129c065eff46ff444548e582affd19fb990949885fb45b926936b600cf82c893dc2a42ca4a960494eaa3b672db7275199986c8da539d155615a0cbfe3541217026a6a77fe</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
     <title>不能去日本的日子</title>
     <url>/2021/03/03/2021-0303article/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>如果顺利的话，我2020年4月就应该到日本的了。可是，没有如果。日本禁止新规入境。</p>
-<p>如果顺利的话，我2020年7月就应该考下n2。可是，没有如果。7月大陆考试取消，12月抢到不到考点。</p>
-<p>哎，我太不容易了，真的是苦熬的日子啊。非常非常痛苦啊。我又不好在国内全职，因为如果能去日本的话，几个月之内又要辞职，太累了。</p>
-<p>我的在留资格到7月31日取消，我最后赌一次，日本能在7月31号之前允许新规入境。</p>
-<p>我不想待在国内，我现在只有学习一条路，而且需要学习的东西很多，任务艰巨。</p>
-<p>1 语言关，日语流畅。报考n2。紧接着考n1。疫情之后，日语不好肯定找不到现场。</p>
-<p>2 我想从传统的开发慢慢转到AWS(云)上去。SAA目前题库是六百多道题，必须拿下！我现在的水平，很难接触到aws的项目，所以我要在做个人小项目的同时，尽量带上云，以此来增加自己云的实操经验，方便未来找AWS相关的工作。现在有个思路就是把项目部署到AWS上，EC2跑下，再容器化 ecs 或eks跑下。</p>
-<p>日语和技术(技术带上了传统的前后端开发加上云，包括英语)都特别难啃。我自己选的这个行业，跪着都要走完。</p>
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="d95b0a1b1f41d7f94deb47b8d65bde2e7153c095cac8a45625bfe4588060e3fc">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc33750196873b0681d0a056c97e82a590297d30db7547fbda13908d4ff3bff845bc1f0a987c967692bf5acf8761bfffdeb3a15de90a0d150ea51b599ebf24ce100571f623df65309e5dc1bcbcd99d673da5147d61c3d66ee3b8b7d221c8c783c55dc24d043a17dc5ae0b6bf76a97fb3c19e5ee9665a94446064149dacb1620fa7ccb0ef091383ccba20aa32c4105fe310e833edd8b2f27cd54124f1d315fe3662cb4da6fb1dc4fcbefc0175a2ed974a3e77d5df5b2d97b5134ebe35ebe8282e6a6bd15bedec87bd94eb857d8867547f432a8e772b6d8cbe5ed03e361c92c38f60448d8a1006988c32f13eda47ee2897bb3e4260c08529fcff676e895e01db051b0e86b4b172d2283a2537012e97d66583d5314746a3d4ec41c0c38f2490e2537071420a510b8d0fa71c97cd3666acf39ad9ea340b7935b6140a138b3c3a0a85c30c017460fc1e5788c23ebe8d6c039b3287f72fc8b15a0c864b28f7df2612f5bf03b3a03e0f2bfe2a59e9cee06685d28f290baf9fea5b654ac62ad76ad0490223e9d6f6cfc677ea0faaa5d41eed2f55736c1ed6d2116f277c87af26af21f4f16f3082b37c08b7c9d8db2f8528e2b02839863b779ddb73af7943c5d77076ef9992749a97327cf9604a312c2154e4a7591a08b929c98cebb223f067f3c81778b1b40fa709a00d368cc4218a0cb04af64773343912cc20e329f9785fa9ca160907b59e5f61e2583ec3e7f4e6e42ea0dc6e335273628c1b499ed74bcd39d8e7942ccd19ffa963c6f66a686e68470913d07e40fd30607943ddb92ea3edfcd00fb3b0392f30318b6cfc1a92aa2a3b8cc5842518e4d6bc4f90a534381d08c44f00e2135e3c6849f61392bc8e529de309a81bf708b4259ee410318351bc3ea28606009696c16b51718bb0b603156429837773347b03744bbac8dfac9238bc3e38492b2f7a39a66feccd00b4462b1c9b5d8bd3cc9d7098c0df7a4532b92d6eb0166339ab0f4b8de29daa2beaae30d385f73c130248edb71bb8dd0c042af733d7d8073b169d6cedd748dd57963729cba0c565058e4c2dfe6e552730771092ec51933e7b47c6d84460c0e1fb349aea3589c8816f69c5f827b5dafd9746a3c1aceaeb5e068f4f30e557f43fbe4d553f21d441bc618f7ddcb8732fb147036665b86d79f85938cdd5366b0584c2b1b9cdc6b7d45e46eb2a125622a837b27f92aa4cbeb1de57a3925cd72e714ba7d783d256a9eaee79521ae3a71e8355b17835c56a83ac3c12a3b18ac2c06bd4b475a723ff145c8177977128ab01fad56609bad39011907d2978e50af190d23396d1d3af110b1888ad8d057cce81494d4f8329bbdb16d2aeda10745a3858a9db5ee4c1253b35c1e4700abb4566d21ce5a747239c2d1cc0c96095925f868deaab5ed909f7d1e7c3b6e072bd044516f391b146133220b6b956db440130c6d326e707cfe36801be14d6361d35ad4bcfb701011545e7366f35cb4f114c8bb073ae113afa84e12f61257d8d4bee95ec893252c5e85272dc160a8db4f89cc09b33fd5fc6b2935f5de1c3249f7bc68af7f99e6edcf31a714a3acecffd5e24d8fb380484de6368b8b7e0507aeb1a8b9d5fa81bf5c390840397a6346ba687d9ebdd2a0736aabec87ff76c8edab014ceab24e49ca5b4f9b99794b62137d3d482f858c769e8191bf0ebfa8915ee9dd69741860d672f95c376217f6167eab111f09fc40697a30f71262723e0f01bcc8fcd765cf09ee7b3fce1215915833745765210bfcaccc7066db740ef1a70d4515abff921d8c09d892c2ebc6a37d4df7dfc0cf0822c9fc91ac515e2a13e1d6d8b4f492dc8f0cf379deca6eb3e6109d30af7a5cde9491a141c88811620d37ea8cee85eb748f458502a7dc2b7f206aee7009de504e58079d1ed2e33cd160016aa6e76444193741ecb55a42890dcb09642b6d9b1cd59be2</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
     <title>2021-0302and0303</title>
     <url>/2021/03/03/2021-0302and0303/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>ECharts</title>
-    <!-- 引入 echarts.js -->
-    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
-</head>
-<body>
-    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="2021-0302and0303" style="width: 600px;height:400px;"></div>
-    <script type="text/javascript">
-        // 基于准备好的dom，初始化echarts实例        
-        var myChart1 = echarts.init(document.getElementById('2021-0302and0303'));
-
-        var option1 = {
-            tooltip: {
-            trigger: 'item',           
-            },
-            series : [
-            {
-                name: '完成与否',
-                type: 'pie',
-                selectedMode: 'single',
-                radius: '55%',
-                center: ['32%', '50%'],
-                labelLine: {
-                    lineStyle: {
-                    color: '#235894'
-                    }
-                },
-                label: {
-                    fontSize: 18,
-                    color: '#235894',
-                },
-                data:[
-                    {value:1, name:'超特级说日语',itemStyle:{color:'#00dd00',borderColor:'#235894'}},
-                    {value:1.001, name:'标日初中级',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1, name:'anki标日红宝书单词卡',itemStyle:{color:'#00dd00',borderColor:'#235894'}},
-                    {value:1.001, name:'n2真题',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'SAA题库',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'新概念英语',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'式样书日语',itemStyle:{color:'#dd0000',borderColor:'#235894'}}
-                    ]
-                }
-            ],
-            
-            formatter: function (params) {
-                if(params.data.value==1.001)
-	                return '未完成'
-                else
-                    return '完成'
-            }
-        };
-
-        // 使用刚指定的配置项和数据显示图表。
-        myChart1.setOption(option1); 
-    </script>
-</body>
-</html>
-
-
-<font color="#00dd00">
-超特级说日语，Unit1-Unit8(中上级整本)<br></font>
-<font color="#dd0000">
-标日初中级，一天复习4单元<br>
-<font color="#00dd00">
-anki 标日初级上册单词全扫完<br></font>
-n2真题，两天看一卷（不做只看，听）<br>
-SAA题库，一天100题纯背不实操扫过就行<br>
-youzack新概念英语从2开始听读，一天一篇<br>
-对日开发日语和式样书单词总结</font>
-
-<p>中上级一下子难不少，初级我至少能听懂70%以上，并且能复述出来，个别音调实在说不出来，很别扭，但是还是能懂，中上级我至多能听懂10%吧，能复述出来的句子就几句吧，太快了，太口语化，太随意了。</p>
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="a69549d699cda2496a5c3d424896aeee511e72ce1c3a5bfba2ae0e0086c3407f">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019942a999a12d438fec1b86997b517b97f8af35d644b7ad9dc15239e5e187aa4dd684dce0afe8e76b1c2b0b2583f148ca930bbee1733177f281b475e75f49a3f0b3c4a01a05da414e7fd1d98209c673de2342478ff4fe68b622a0107cee8810768a1445eaebf3784aaa41c5c8ddd003adbf53d765524b75f4554eb455902f3e51eeb6b21ea2489b182bcd46164c80f9e664353d4a706a886d76b01a1c70d7345342aede70b3ac6faa03a41fc1723d21748c55f62b8c66324612bd20e92a57359b720116cbdce4879b1f62b5ad3924aac3055ec971ac4cd1a420527ed8a9ca093e40fd21405ab1f170efc75ed748d5df485a96a9c226a9aca61416eb32f8196bc256f968855b2f73a118ef55f7fc62844f9bb9f718b9a0ac9d42f3dd64e4b5a8885b717df5d9caafcd0337ae6aaa409d1b287e19747f61b5c3e4191ff914d2f973496e2d8e7360ae9b377f9080e77f553b25e4e926a030aa724b449a3e635655e168f7cc6bf6d2c21de7d27881a397436992cf651d905c632dfe913ee6022f90b1ad6b061b29efb5a5e48ec54d1095d7974d1cf35c92637e51cd18cc1f8dbe1ec34e1c9b45fc9c43f3ad5779e5babddfb8314be8819a781ab1326b0bd7faa11762a84cfd04bf3cb1aaad984d69507fe63aded28274c931cafed9a59223dafa8bedbb99e4a56fe13bb223efc13d2c0aa59bdac2ab85c25f92720d7515e8c6b1e60d2643ab89c954737876f1fd481cbf6ce8f5d0b6076d55df7a058275ab25c1ee7b01e8ec3cf4bdbe1c852c989c39af5de8a91e38c461f104be68a7fd569562e9c88b96f5697246764c4dd825db4681aeeb293f993c77468f0fd198a972db69ab807de20533b9230d360ee0aee14e8065f92e6cd1afcdc0b4e857915c2bb25b9f4fa597086d55f934a1670c8368fa9a65d255ca9e821f020a187ea6938fe77d1762b912eb2e66efc2c42baf3890009ac9b9932fe01b2bc2f04ac8da3d48f96472941a199419abc4a4c7bbfcef0a9a52351195623d86ac5186f88be0be3ee2cea33872ad9c17326d82f8334ff09508e3c6f415afe04ae261c51e3723779de10db12952100c50bd5ee26daf4f1cc6c229727727ec4bcfaba59e4c631c2cb29dc695bfdaa8d64cf986433d0f2330aefc92b84d8855c59c454d6173282afec22f3200af07caee8d33ba5401da72a2a77842b3b5658230da308357b59b4ff0f933ebf4ccd38c8d44b26b3c0f693d8ac37d0809e7dc31d76c98a2827ab2e826707af009e1f30ccfcade848861989c8aa21e3c74ce066b3fade51c079b73efb2bc4cd055e60eb23d00a05ad4152576d2747fbd46f1e09ff656096c68b79925af819abd988f3f0f88980dd56fd1be5b34838d860ad19651384fd36351dec5e63285593a3a24089e37ab911b406a3e71488b7dc06153a17642b476dc3a35e43ae32a566ea52549e47392c3bceb22db1e1fdde257a0980283e749a17774c393d3b3aeb5d3ca9ec6cb04a8fcf9dd605941a859d85879e18dadca79d45eff0732e0524bdf9970b225a7d43399dbb1f9f84c0a914ca4a650afbcafd38a40d4f8e7a238c97838973da9b861104455a2b4aeb9b765b5822d933ecde4ab660d7c889950b12939908a4aced300aa378383742b6d518944a2712a9414561a411c3c18ef54ae65e6a728dfb06d29d108a4e92113d91ffc221453707c0553852d81d767dd56baee30a36c03bd37981f963d766b96daa330338c496b50b1f882e794dbee7bcab4d912bf22d58f5fe5c085fd42a64ce28c544a5c483e62d6c153dfc1ba5dc68eb49bba53d51e4516b92135af25237f76ec689d9f2e48b3bc808bba47685b0dc7dc6569d411be7ff2af95e1a5fba5e33c1d1fdbfaa6611808abfd6d1b9b24742367e88fc8614455b367df049afab5909af66ed8a91b530b5ac151ef648053554d038a2dda48dba21712217dccd9e265131e7a0997e284bbfba58237ce04dbc13b58e1a659146140d88d48e7e01ccff2d8bf6065b4a1b3be92eec0b4e4a3b27953e7949b5914e295d8697f9dd9ed269c3c79c9962594785947eccd3d23286ecb6c701c2e0ab3f2d9abcc6e215202ac6414f6736c1a736c38cff042bf7f9c334b7982f7db1d964231cbaf350d19d32fd9056daba11158f21185d4d9b3b6b23d57c798c6b23eede57ebdbeedc8d658ca27e4771274280418ebdf19a4f832566686e8196dceded9d702fd853442acd278d371c7cc4c8908a43554377bae1fb93bc0c24bc6cc8628a1285672d4a6cc6ff4bc361cf334440738caad4595dc6c81c5d814a746d979adcb3ef473e55cdd449eb70ce1fa411b8cca3c259d3ce1a64ac1bd924a611ea7372d5b0bedd1896af97a136c1004b4c25e2e932c7d7f9ba8df3988028e9e2237fb52283ca9587f168e070af77a3f60c8d628c102588a4c31033bb429a73917dd38664575d7ba1816dd577a964020efb226b71c8b57117b30958dd3e9d5710802a01783c65fe507a93da4fcf83114c1ebb2c4ffab7791dfee9a92499a2b670a6aebdba8f75b3ed17598c08211afe76f9085f37cdb96d336386e9597f60c897cf0ea8d13593d8db13d05a804802f3d51ed539ff7a997ca344022cb9a6d2f1e76be9df9e7fdef26772a50c770fe12e82dce95d2aa9671f3eda925b1b583a7e34aee4ca737aac4d726828cfc305b94d342fbb46dc6a04be15c85412796165d89401e7c4596fcacd222107fc11e891eb2a1b5c20a3afcc215e0edd66ca721e39e57d61ba0a2615d57695ca7d0c801f0a29bc59a58e9b711aeb79525391f0ae96c6b806d11db7a46cdb4b04b756ed60a664fb9eeadd6f62179c6b23a5fc18eb2e16a9d6a9228b5c4fbd6e7a830c1218e0dbdd3ff049a357a2f059f682dd255ffb807a1e2a9607c155806c8c7d853a7d8456c1582a6a535a59c740c5bb9eb08c90ed06b2feb0251efd69b5a387068bd38a082b4061141fb16e33006541f0569ac6b8e3751c2bdf044ece1c47509ea8f754638f8327d446c6401dc480b8bf483344c6f7d6348d22ae504f4ebdda5419e6d60c97421cb9b50056f3710f755bccde975434a67071dfbdaba6bd948bd991b7127f00eff130701d9aaaf005fd2203e2c79104dba23084a73925bdb72e3d8294092fcd87940ee995a46e8e04307ed36a3695f0a34ec80dc0007672286d05b4d449dafb69768a5c4d3dee99eafff05b2b27b4943d9f17a6c2a73e99458c0faf95bbed2243756247af66307b2002848d51eb0251c5a7c8c5f722023aa65c9c87a34d7f6ea8f105c0d1afffc4b206fb9fd0ef3c67da0d598055b68ef902f9c5d2ada584d196fab17c9525ad4eb1512488d7f6ac81e6fa7127704f5e0e12dfbfff76bdddb55af7ed64a651cedcc05cd43d235d82e85a8072d7b29bf0c2c021defafb8d85e02b1b1fc757c7ff9d2b895ae2eaa54101adf9489436fc61dea3623445f95a04dddf84ecbdd2312e311dce26b8ce3b3d675cb277b431ea5f70335b22e0cf63ba21db60653ae4eedc6f552b61558d1e72323b45c8fef22a1a7234131c91bf09b6a0033c7a7f752128f73cd4e7e1eae711c98cb278247fa88338b66f95176524c5cdf67b9d2e7f96f2b3da81977ccaa6eff1c240199472580a9bfc547440d6d44ab57ae7b707a5c2030b5e5e1f8dd30035a829abbe092bb3fa34e5fd3f7a59dd9d4e339b9f8e3172ef8704e8d3c2550d76a37b5ff195e43847be39ea421d8134354c9b6ac06842176b090c12765522b5350a5d00bb87bb44c76bdb60e5d1cccd0417befd7ef4cb390f832974a323d373365584ee74f2edc2cb23547196f0e65a1a21eb86273f803d7cc520d564940084c59971ff4baad2c1598febdbdef3e23ab0e98f91663af2438f2b75aad41cff969ba4d22e5b6e214cc470ddb0fac4a416fe48e967ac5b6b0e2b169c43279b6582e0bda7a5cca06261249b3457b2770d8083bdbdc736d31a311529fe4be86cc55c406d1a09a06bf806f1895485a26344d3b7a9e94ec447050f1a50789e103984d485e303fb341470fe22bddb960ca9cd75cb3f1af1d839a9ef455d621aee1d5d4df5d7e6e4f1cbc9cb6168d1bc63ba1a5a0fd2df34442ff80e00704683e8fc611627ca06ce1d8e21b441697363cc2cec5147990965af80cbecd31412d5b52f029b493e20bb427f38da5cfec5281acfd8a5e488a2eee72ccd5affcbf183597bcbc80368c591157a279797c5b42912c070ef9ca9960334b0591b549004e8ba4dd9f3f6b7971004ee134f941d76f3508a11c4d268a7fc90</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>打卡</category>
       </categories>
@@ -134,85 +80,18 @@ youzack新概念英语从2开始听读，一天一篇<br>
   <entry>
     <title>2021-0224to0301懒人外语听读心得</title>
     <url>/2021/03/01/2021-0224to0301/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>ECharts</title>
-    <!-- 引入 echarts.js -->
-    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
-</head>
-<body>
-    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="2021-0224to0301" style="width: 600px;height:400px;"></div>
-    <script type="text/javascript">
-        // 基于准备好的dom，初始化echarts实例        
-        var myChart1 = echarts.init(document.getElementById('2021-0224to0301'));
-
-        var option1 = {
-            tooltip: {
-            trigger: 'item',           
-            },
-            series : [
-            {
-                name: '完成与否',
-                type: 'pie',
-                selectedMode: 'single',
-                radius: '55%',
-                center: ['32%', '50%'],
-                labelLine: {
-                    lineStyle: {
-                    color: '#235894'
-                    }
-                },
-                label: {
-                    fontSize: 18,
-                    color: '#235894',
-                },
-                data:[
-                    {value:1, name:'超特级说日语',itemStyle:{color:'#00dd00',borderColor:'#235894'}},
-                    {value:1.001, name:'标日初中级',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'anki标日红宝书单词卡',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'n2真题',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'SAA题库',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'新概念英语',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'式样书日语',itemStyle:{color:'#dd0000',borderColor:'#235894'}}
-                    ]
-                }
-            ],
-            
-            formatter: function (params) {
-                if(params.data.value==1.001)
-	                return '未完成'
-                else
-                    return '完成'
-            }
-        };
-
-        // 使用刚指定的配置项和数据显示图表。
-        myChart1.setOption(option1); 
-    </script>
-</body>
-</html>
-
-
-<font color="#00dd00">
-超特级说日语，Unit1-Unit5(初级整本)<br></font>
-<font color="#dd0000">
-标日初中级，一天复习4单元<br>
-anki 标日，红宝书单词卡 最快速度扫过<br>
-n2真题，两天看一卷（不做只看，听）<br>
-SAA题库，一天100题纯背不实操扫过就行<br>
-youzack新概念英语从2开始听读，一天一篇<br>
-对日开发日语和式样书单词总结</font>
-
-<p>刚开始听得时候非常排斥日语的音调，就一小节，两小节的反复听，很烦!</p>
-<p>可是听了很长很长时间之后，因为很熟悉很熟悉了，就觉得速度、音调也还行了，不是特别快了，偶尔个别没听懂，不影响理解意思了。</p>
-<p>然后一个单元一个单元的听，最后一本一本的听，我发现我不懂的点就那么几个，绝大部分都能听得懂，前提是要不停的听读，否则过几天又忘了。</p>
-<p>其实中文意思你也记住了，就像脑子里不停地做连线题一样，先出外语句子，你自己连中文意思。</p>
-<p>我学的方法似乎跟学技术一样，先是基础小知识点，一点一点的来回记、练习。而且我过段时间肯定会忘，所以学习习惯一定得好，<font color="#dd0000">必须做出笔记出来，</font>然后不停的记、练习。再之后，就可以一个模块一个模块的记、练习了。我长期学习的坏习惯就是总是挑简单的知识点学，学的不系统，而切过段时间总是忘了。</p>
-<p>最后就是整个框架，整个项目的看了，我还没这水平。主要是很多细节问题，我分析不出来，理解的不透彻。有的逻辑和bug，形成原因很复杂，弄透彻太费劲了，这可能就是经验、智商阻碍，技术能力不够的原因。</p>
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="644bdf0686685bedac075f912868369e412e209a0c8c4ae1ce9abc4653fb7743">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019942a999a12d438fec1b86997b517b97f8af35d644b7ad9dc15239e5e187aa4dd684dce0afe8e76b1c2b0b2583f148ca930bbee1733177f281b475e75f49a3f0b3c4a01a05da414e7fd1d98209c673de2342478ff4fe68b622a0107cee8810768a1445eaebf3784aaa41c5c8ddd003adbf53d765524b75f4554eb455902f3e51eeb6b21ea2489b182bcd46164c80f9e664353d4a706a886d76b01a1c70d7345342aede70b3ac6faa03a41fc1723d21748c55f62b8c66324612bd20e92a57359b720116cbdce4879b1f62b5ad3924aac3055ec971ac4cd1a420527ed8a9ca093e40fd21405ab1f170efc75ed748d5df485a96a9c226a9aca61416eb32f8196bc256f968855b2f73a118ef55f7fc62844f9bb9f718b9a0ac9d42f3dd64e4b5a8885e52aad46595cde004cf4dbbd29cdcbf07e88e6b95b38b49c2bae4ed2373b9987967542a77a43ff18eb17556d8db755824c040252f7cddccf4c3a0d5df1a8d91f668a2b0f13c31e65fa8fe3fb605cf80397044c6ab3f50b8e79dfa520c96028028b598bfe0a39569e3d2a74eff0503d3774ea07fdbc8f270a577f69406dd88d3cec68f81a9da356b83d649cdfffa2935cf233b007608453bcd1fee4ffee1cbf329d558b3c21ea10b1ba319a375ff8fe519b397b54448974664f7718205d58875520b2fbd9529897c42a57261ef0180b867ff2d97eafbb63dc3f5668827ab578684b07e8c432244bea9305fcc53b737e2bda7ee9e23a94d949cc87c593d7cbd6f35b6036bf231dd53d3825dff506b9aade46179af59fb4c09e3b99ed1924da4479aa4656c3298d0e4e7f0d58efa0d7e600ab3e45a11c9e71e70d29d4244433a2070f1dcb71d71591382962e4c474bc2e583e67650697a8158aee8d752bffa98bbe5c20705493e41dd2c562d76c0407cb65805f17e6f5f1ae5f92e1b636da8379847e429be4f5fa67dc18c03470db646e49b28c5b78c7bce669ce18c7c0c8835d3f480887b16ecf3e521275844bd0b82cefb74045a18687770503b8c3e037bd16a6450a89f61e69509b2a344a0c0debb392f248b265f1163abd3d17ac100d9fc8e90ea47b0efebe8324823f0f602a5cc8ea41ed6258f6ad9908c533379f954a97102a00587f7b10b84f4f285241218d38c8261857dd780d8a2164faab10a8c17e7dea3714cbbee90dc7d537f99541afb4073decc358f928e5a8dd0269cf77bca5f540225a741ebfdc5549adfca3f3b15701f78e0c35d785aaa389709938c745ec4f809573a9bd490afe67bb98f0ca4325c527d116d4687119375f6531330f51736a4e174860973649c31340fac3efae436e19a4dfe6a06b964077c657f6cfa79e0cc34435b83d45302065b2381927ffbc23aed16b0636ed80f71bc4b69649f33991ef0c1251cce1fdee572714f884d735cdc7567c2e530b1c3505f163772eb51587b847cac2f71a71fcd428b90f834d75d489324d8f97e29158b71cbaba2de564993341cc4063fc3c895c15f99b8ac91868aabdfd63541b194428283982483823fe76d8c16fbbac3a0283746518bb9e61b21d3a784a39260ec9d8307e7dc2c14205066ac9c3ebf68a4048517dd3c9ac92ce052e07dde4464242a1904f55076a5c3a3093709632e84b5365260a4e18ab7c30465f72dc73d6055b1aa3ea9b8d98a6ce08c37f2974a85ef59fa0e14550eb43cf7d4aa578bb17c02f209c98bf550fb9a23c9c39b2fb982b56b5932aac5c3ff10496845fd2b2c90cc3df8c8fab285cbb3487235eaef0be28d8f84d66218050df52356d2ca6bee44a033fade38046d15ce33b7132722dea1beff8619f88fda75a4785c7162a495a830c4a3c232c8ab5a9ff97645aa671f0ea3e6052b55601fe570a75a78b00c9feffc3e5c46f80c8ab53a2eb64de458f79a572f9b317319cbb3953bfb113bb9062483ff16842237314ae9e6eb8ccdfcde36c1cf1a93fbf663c76260ca4c6f2d7b339f776ed84451101c44a1b99637d42d3e689a003f7451731353d1a618b4e7d76dc336ce800d9c5a684d6cb2174bd92bde6f16392f39c025f63b1eb9b0520c6fee56d1a60aac293cc76ade9b076d8ca1c51565f48a3f3b72872d2964770746e11cdc6a4a37e4c689a883df5eaf875ada711dc3895c46697d97808a3a2fca1e14aa3458c2a5e971408dc220cc7149f73afa2295b8667f14e143d9ba9c8046f11d6c59c77ef024f61267b047f40ab1f96022113e41fa77c40e8cfbbb804538f757c4d4aae9b740551a436f2ca1d3268c50535e8a645d3566e0a5f173bd3a1387907a5a9c1c3f704b1e1cd2aedfc803a798f620f3d6aef11840dca95052f20716ee9f600903593c2b828b156d9855bb24cec9efd4e3b531784675182c8e53cae7be3fccda5032cc56ab55e25aa037108f408a6fa309fe70c127e9fbdafa4a5f1fe7b4a6f5a4423220084cd8ef52f9a4a04c1787bafeec55eae773686050dc0ffaf43ac3e1057b6cdc50f03ceec7f3b463c823d65677b4dae32702f95bd7fc400869daded8fc960bf93a39ac83dc4bd0d61ec817a796efdc09fc83f8e3c57771575e352cb17c8f119e22c4319c1ec18f4db317cc0c21f8ab714a4fbc7b714f39f0ba570f5a36191bea75b07e3aebeff1d7335a7dfc719471f15b60119cecdd52d335ed85bae1375628520f669048ef3e30d305f5a0a77c370c8e797603190d342516ceda9596cdec896c78b6ad4d9e5da0155203d926d5208f6e6b3e95b3f8b4e0def75fa8591aac028f3abdb70812fed98991cc76a2f772af5c9dbf036f4ba764cbafb37191004088dca9436f1b6dfe8728ad718d701bd18579bbf0b4fecfbab478c7d3df22ca773edbda74f5291913d328d1db8d691bfdab01334119d3f634b01f7ed63223b5a51871bce173b52b36a59e6cc459bb541baf19c8becbb57aa2e8a7d5cad6b55c13bb57035b5dba33147cac0c37cb076249ea7d62e244b69cc407f299c481d159ee54fee1fdb1357a11ce52229eaac68a48cd77237ff854ebaec6d4e6f06d0ebbaec31ad43eba0aa79490fbd3a34e9768f58f4cd141c002836afb006620d581fe16e1ab5fa57bf052dc852730b213db3dcad0d43cc611a98f8ac63c830119faa4e7f2a4192738f994e7e0bbb07d1b84fd6c2a9d3927b8e087111f1c1244f4cf1ca7eafaa4a6a6a46fa242418b53a0947da009d11649ec6ed5d1f312c5af54f37fdd1912a75c1ca558e1963c228526d7fb08ee764dcdceb64cda69e9cae43a22bf926ac91a03599eeb5d80cf41366332f3a120ad54b925d23b487d6678c2bd7564977922ec69eabc9f844339d89a9d8cef2bd50e3688c8a2b5cd858505205f164e77cdbf07eba28e12be0f1fb98485a98ee0cdaa27d8c21788dd7a58ea41865a018d9b4ba402163411e9b0a39b174f8eddfbc32538c7e9e232afbc13e31752d1ad0466045aef03d842dbf945cd7d502d36bd047c399a27d0b56933ab90221e86d1d4c413471d99bd35211c71dba46ea576ab8abf7570ada36f9dc8c2b98da948d510ce05380f830cf9115d3bc16804da7d67d004a3c6dc7b61adf045391f9d9411bb3bb71931ea3f056149a73c831698237d4e956c59abb9df35d2e2d904f520de3f40b6aaf2054b0e08699818074e1e450873e9e5491556ad4f498a8611c2cb4a2c745b076fff1103d2084e00887223147dbbc9d281d0fa2cde4c83884a1a249ca36edd537362374f8dfca75a328d4a75dd053f21567c8267439dbfbb6042eeb143a6dd239125b62e2edef7fba8af8a71d7ce64b87d620bb99e68fcc1ea0a4227464e8dc88e6b62804fa9e83104d86cb3927129eb5e67381c59424b7f51064274d9974a14853b627266750971d7f243e27891bfe1bc02b30db34b78c28275ab7c05ecd411b78eb84a32b9e8f9b6d55f34e5262266d95a4cc5804c66ebb9285b4ecafa8c8fe2314a89d71d7884cfa1206f0019d3a95fab126a7b1e8d65a4c76953dd552f38f93c50fe69d3e0d82edbc678725bc5e86c89859a588d1ee3b0946903dfa054c6993468e0ea35feb3cee98b34476d6ce38104cabca813bc49cff73c60d5985005913730c14a758752622e64fd4b7eaf2279edc9a00669a44996fdb1c90802be0e1d09149e72cebaa49f11ac68a9468165430ce1fe130d12c9357925810312f6046b50cee914c86aee840ec12874af9a4a13c7f4ced776610913ffef9e0682ca4740f4bccc99835d441fbf00f9dc82766c354e89af8400c67daf0ca89c38b5382fbc38e1e534c2af58995b60f96b576c801ee7210b918da99ea0518b0b78e5b330cd2bb43bf689e89ffc595d38ff0d3412655c368498afc7b52be0a1fc8454fa93070815f15d1a74009a7359279ff09376bcc57f2c0cccefedda8ea634dbe6ed7c1f37d3a41f7e1691e060aa8cd11dea42e15a07ff9e33857f6b2300314608b5589172cf76ee24bdde4195892f558e7b70bd9a7b07ae1997cda62236bd55d0bfe9d7a16c8f5b6e010c4cd977237585f6d5048257b18a6f7ba3f9935c3c133214c591a133e6f7a192981dc349e9c31b8d2de353d88ee5668fd2fae0fc4913ed53ca144db30271bc02bcdff198f4a2211ab28eb4e55cfaf48f0393a5ca7eaa1e243a707db1ad765cec0500a37bce054f9878ee9fd2ea0f9579ed14db9b9af43ef91248104f5f4efe086b1431d8bd2001c56d2800c04c4ecb88dfd36f5e4ba8e84efcdf3f2de29f8041b07daa62632055036420881dd30d733b0965e4db67dd00a44617bfb93ec88d9ee53b9e7e2f4bb635e27528a2b329de24bff4ce8d1e129529268f64989a0ab65674e678487f774dea8c90394a29bd4a3d6c8a5e52f6865c31f00f359c773ca5a2639a5b6d2924adc73928a415b2b7e85688f1d34ef06c2ad8711815e7e5c9a4b81d24544d5f17e793cbcb1bf0aa36a7956b1356f82856d338f0ed552033dae7f75a5d34010c1d57d4c567e666dec1353b9fe8e93344c05cc61ed23e0eb996d85dbeee7bd1184175bcfad56fa79b14302b22448ea746e4f878d641f0bb270772d0b318510150ed43b506d4a34c168adc90881776afd2f90e140ff79f541a30718741f43fdcad79a2fa9c35988bb661cbfdc71b81926d1728308f6890b281d802b14ce045e32cff9a52d6434f0bc38f5bff933f75d0ac77a0705bb1f1a8cff69a32e1e25a1f800fca20dcee5bb81a781c851cc82bc24dddfd3673f9237be5250f21480686bfee311a07f0d24be649555f096928558aeaa50c2c34eeeff4080f9397d7dce0b8dc4750551d30837d2325a24efab97f0edca23d62ca41c5b9860ce1fcca3423d756f2b1b3eaa053eb2dabbc5e6513d07e24f29dc0f87139b7ce2de82190f2adfcc07d9d5c810743dae05cced7a2a2aa861a98d8408310ac31e4151ed4c84e383d74a43f19449f4a13b421a639f5126aaef25046af4d6debee4b02b9298128f4e8207ecafb0b2c0b9576e5e1e0fedfb94db3fb2a80d6136fa3e2d9cfb5c8933d23455ec93280d2b1840a6513bbb4f02b05367b5afebe4daa3fedd422613b82af4db320d3f6df1bf146d7378d0b550de26ddc273941643adeb7e47f17b77eea983418013ba8237f0fc40c460df5b86973d5f109e323562c720f241052dbf2018bfb181ceaecba61ff4354c8bf94c5a19546a711317939e0fd2b3e27af810ad57d599b2bf44bb9c788497e511296f59e4ca9308d9d6439768c09c72aa82fbec2f18ab152f1fc02e4d43216f2a561bdf801a0d0c50fe5d2f59fac33d311ec4586cced23b4ed657247181bac013ba27a36a59332cc9516158c7</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>打卡</category>
       </categories>
@@ -223,79 +102,18 @@ youzack新概念英语从2开始听读，一天一篇<br>
   <entry>
     <title>2020-0223打卡(补)-今天开始加饼图视觉体现完成量</title>
     <url>/2021/02/24/2020-0223/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>ECharts</title>
-    <!-- 引入 echarts.js -->
-    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
-</head>
-<body>
-    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="mainX2020-0223" style="width: 600px;height:400px;"></div>
-    <script type="text/javascript">
-        // 基于准备好的dom，初始化echarts实例        
-        var myChart1 = echarts.init(document.getElementById('mainX2020-0223'));
-
-        var option1 = {
-            tooltip: {
-            trigger: 'item',           
-            },
-            series : [
-            {
-                name: '完成与否',
-                type: 'pie',
-                selectedMode: 'single',
-                radius: '55%',
-                center: ['32%', '50%'],
-                labelLine: {
-                    lineStyle: {
-                    color: '#235894'
-                    }
-                },
-                label: {
-                    fontSize: 18,
-                    color: '#235894',
-                },
-                data:[
-                    {value:1.001, name:'超特级说日语',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'标日初中级',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'anki标日红宝书单词卡',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'n2真题',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'SAA题库',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'新概念英语',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'式样书日语',itemStyle:{color:'#dd0000',borderColor:'#235894'}}
-                    ]
-                }
-            ],
-            
-            formatter: function (params) {
-                if(params.data.value==1.001)
-	                return '未完成'
-                else
-                    return '完成'
-            }
-        };
-
-        // 使用刚指定的配置项和数据显示图表。
-        myChart1.setOption(option1); 
-    </script>
-</body>
-</html>
-
-
-<font color="#dd0000">
-超特级说日语，一天听读2单元<br>
-标日初中级，一天复习4单元<br>
-anki 标日，红宝书单词卡 最快速度扫过<br>
-n2真题，两天看一卷（不做只看，听）<br>
-SAA题库，一天100题纯背不实操扫过就行<br>
-youzack新概念英语从2开始听读，一天一篇<br>
-对日开发日语和式样书单词总结</font>
-
-<p>打了2天游戏，罪孽深重!不过全是mvp，虐黄铜真有劲。今早起床花2个小时把饼图做了，弥补一下内心的罪恶感。。移动端优化不想做了。。在div里加横竖滚轮，还要兼容echart，太恶心了。以前好像遇到过，暂时忘记了。。哎，打游戏比挣钱，学习考证，找工作简单多了。。我已经沉迷虚拟世界，不想结婚不想恋爱，也没能力哈哈。。找工作哦。懒！</p>
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="0c5b0842330d14b40f1868ec85cb1d9787b18ed7d0fbef71845121968947efa9">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019942a999a12d438fec1b86997b517b97f8af35d644b7ad9dc15239e5e187aa4dd684dce0afe8e76b1c2b0b2583f148ca930bbee1733177f281b475e75f49a3f0b3c4a01a05da414e7fd1d98209c673de2342478ff4fe68b622a0107cee8810768a1445eaebf3784aaa41c5c8ddd003adbf53d765524b75f4554eb455902f3e51eeb6b21ea2489b182bcd46164c80f9e664353d4a706a886d76b01a1c70d7345342aede70b3ac6faa03a41fc1723d21748c55f62b8c66324612bd20e92a57359b720116cbdce4879b1f62b5ad3924aac3055ec971ac4cd1a420527ed8a9ca093e40fd21405ab1f170efc75ed748d5df485a96a9c226a9aca61416eb32f8196bc256f968855b2f73a118ef55f7fc62844f9004c0917e8d03cea1933a88ba38cb605cd13cf89bc4d1ff08cc7d33d5f44460d814f6afe37640c12d9396639cedd913e15738a96b84e875d1dd0d04d9ee66868f4c378aaa3a82b7a55249d851699b8839d93ad348a6d1ebc78d4c969e9469289961e55c97edd4bd6d7f07e350b7259936eb9d8720e23f23820a40b53800c6c352bca960454e8b52548c74537cdde3729e27873c69314ee0b734bddf24cca3cdcc0b9598ca636a25d4f3b331e8c736d4697fdc3acb35f959d45c225b5c862b591d1eb07083cb04ab8d86f5daba9d97fc631e48732bd0b41ae5b403a985591e5cb02a70a6ae931baed895fc7d088a582f51a49fed1fc6d94da497791994c35d9aacf31a94717cdf72b76d58b4d348f4ba8f8682e7f346c445780066ee36b6e3a956810ecad12dbf8ae1be99d5368fcfc59a8b49230d9e4f4d207bc552bf5f8bcfe52c471d9134066a26604e309397a3888cce1d94b8f0ffd2c2b28415f408fc4143217d0caedfdd44bf02993ceed26f17378a9b6cd5ca9d43fafec5cbaa8bd67baa752d98f7d1cdb38fa6ede5427eb94f906b82f46184b0e53f6507c0b9e7bf863b840222917932abf7a4cc8ba7723fa3cdc5d64fa999ff43bac6a4c1ee0582debf1cd12b7466f1ec598027f15b82a1983e0ff0a7b4df4fe9f69d693c8a1457b49afb7fa82f6c9520a87bdf97f8b11e10a77f68e23451b5360a67c7e09502e20859201b01738e1b50e2b85062d9f4eb4c29e1363e80b8879223d96c398b0797e6b31897c69368da9fae3edfcaaf99e1a6bf5eba1de845556db062f54d47dd885c32fab82fbd8465a5d69fbdc2ef96e477cce721199dd80995a5d7bb734c03aa6730816794f174246bb4bd6168eee1c4b4d4dd2f2d5fe0da6111503bd93e95f70fce71749696a4f2cb91a3ef08098dcd678cb2c615f6bc2148f396fa9fab7d9d42b17074c2308d37025cc1215b1d0a2aa7886dea2c6b781c1bbbfbd093ce3bc1aa94ce45f49b8445ab882fdfe40d8b860e71f70d4b98ebfd3976fd7564ad078b86badc9d1a0d86ba1bd92d51858ec50ab207a594179f088aed510efbc24aa3753eff30cb39b01c9a1b6885f9c69f5d3d7d6e37bcdc29d51be9c3d0da7986310692bdc27a5be0d1c2d2711eaeaf1d8a08c214020fc46f0fd8a28df8120e290125803134f7e06e0d815a6d055fc3f6fbe0bd577eb8ce187a0b4331dd4a8e1742415ecc9524b10fba85641a5e9eb44e9754e77772c8b9550233d1fcadf6c3225359618a1ab1daa5a484f6e8d3870070d18932dd37d36d253f4ce2f1b2b63c634230b22e27e38fd74bb82bffb8a420620b7a58707177884eb0d9ad32ddc876e5315610470fbb7020d240ab85c282b09972cccee3ef24b13c2df977eafd8f8acf3e84279357ac50ab21e81ad2b537d50965947f7e3f789c472018f046f167bd266103d864906f44edee8f5d258bf3c518d80d269f1fcfa4583b3b55d3ad0a3f57b4bcab7741779f337e79dc8ffac990c54821e16c59921168762504ebd59a5f44cb6977aaaa5bf03df1b429d035c4d9519efebed7cd3c91d379cbc0851bc06fb6e773df421114dacf80dcf44523657ba3981ba5c009fe791d619bb70b66fb97e6fe2df2c22ab9b8ca5f8f4a343fa3d9e24cb5fe73b34ca8ab0f05192f883b57bb5744157567c936a0ba34275e07669a3981dd079f00020999e93d51a4c171f717327e9408296a02cbd72347d2e3a2b5b5f24c92dd4ff587e206eaa7d992e9e800cedcf5aa3f9424ff63e00ffadfd914466d04f697505220419f462f7370a2492fd52c98aaac114e5e5ee2abed8345ce8474afb933b872214bd4242dfe088cb3a2b17c27aa27b201ea2b2156e0d219d2a59bcdea42eb80f13eb19f60eb09f9032e21f7563254f28d790966eb2105c57f84c1fb3abc75db42d185646dfa8fb9fca339c1a7c2ee46f761eff8b66e6f15065389402698b01766bfa903d32bc97a9e43b88de313524cec836aac25e3357c1c39330d2bf3922ad93be84a1571b8e03fc0a6e623d5aaeef977d1b1cee578c6a0395a16d9a0462a4211e3133f2165754b91a18dcfc7b317a28652ddf680fcdfebd6be31603063a4ac757ac9795c98390b27f25391a30bb83461d6aef406eabe5d7afe26fac4ff712c47dac8a9785012c8639f31a703aa6f51df148f1acc355d38177ad4de055641872f51ce493a661a8ad18eeab98d3f555bf3ce2f7545a21d66ae702e6c187273dc31f4911e0c9c861c0fb03ea60ccca5df617d47151c2b821ba1c87c1453b36a41b29720f7906f97ac58fbd41df2615fe3bc6e278ca224228bbd6002be947c22671fca7e582a4aa5bc4ea7df689aa90e79173c9dc6cddf9b00c684e1bdf1afa44e9fbbb5176a7b0c4844b73d1aaca574f935028d6941f7579f2385fac6c0cd7ba3351e9da4c8e99f15762b2cd39813414384efa09c2b5991b257d366232772367e6e37520084aa01c0c4073d4973c91211e27f4846a2e02d5b74e0f9c75c3fce9d763d0aac0541ef003b5b10171d2644e84f3d92b7354bc14ce784e64fd7f1240eeaf9f87a9750553da12a46939f1c94a769d04970e141163e0aad2179ef9dc5e1d62237120df6db53e839c53c46789e77d7ada5ebcc3bc2fbda854c21e8bd6028356fd9cedc771a08864c18321f715fceddce304f89c19601a5f7b2e42b1fc825b15018574b412021b04026fed9282ec90b05c3a712b9a12b668dd8ea0f5db1c26f44c06b5e25187f9af7cf157c29b9788e21d60dc16684b66c32c7178f019838d1fc960e5ea008e0027448a0dc64ac547c4f98c422a294294d5f7a73ad3742830ca967d19efc7795d37d6c3f0c9b5f231b90f4dbc8c08535200850a4bb0dfdc2bf206f21be38240cd03d0a1c95432f1673dc375667e781bb772153382a7aad38ac3175621b6abea0511ea6b2c2dfedf77845960916a3daa40256e11ed633b3946fd730b21e399c8cf9b206a3fa2fa0de04dcbf635d7237dfd7d6fdd2f1496d878e8ae9f03439d06f7c204598179d0e14093336ffb1c00a4350703c37c10a0c00778528d44b0fbf3e849c6a61a0e17be376ed765b312be5220fb2268c6706ea8b03054a6456ad346d89b720f51dba4d43e9866ddac591a279797f8b42e30750357398b91aaacbd8ad8bad93e2d3ab2e99f20729bca019579cd2c6bbc77fcf257652b880a91c8ab2426c873415eefdd91279cf9163bd1424fef96952c039a64cd2817041d73f788d16d8e8e5b65bf346b21861a04c1a825ca65be4c06a5c05f1ea47878702f9e125cd666652302e7bf70720b2be3d870dba70f59f1117c50963dc8cebed4dbb1b633a43a73d5f25fb9e07934eb2c83e1bdd960db5d4a812dcf8fe805c54dc558335aa03af79e41facaa0f04c05b5413b45d788e7f990123b7d14e7beceee5461e6d7593d86f028960357cd2efe6182a0b3349c1aa5e4466a614866fe6aa51f0b6f6796ef8c2221954d6b090193592b5a9a64a34a8dcfae04df6dfffc704a7abeef1aa7be1d744a44bb2b02726bb3bb3f5b13ff95f86bf71a97967d66420d3f92b0ae8f63bcc0f575a7be412099043f3195100fb86088239ff18c6b189fb4c292d15f123d3d97495f91c80bb96efcbf4cbe377d434f2a7e4fdebcc0698353b6580f734ae68a9d4db463cdc1d5921a83b3021041ec910e996f83558a1d600e0e9377f891849f63fc58cf90244ff82495fa33a0b98f6625f13c16a0eefa0e8b6c3c447d5e0ac26bb681f41759cb549bb02186937881a27e38b6a324bac0af6b0fa2c51f491bb627646a51d108579d56fed8e1da1d83234b414b8bdf736786fedec042511a5f2468c659f2c3a3dfae6cdb865d660f500799f6f85fbaf342baf428fe2ef7b966777e316e80271ba463ea710e885f8fc84aaf299053dca51631a502dd045dd7ab90d4317f388405688ed6d22a8981261d2d250b3745822abc0d0630017bcc3dba99b7707bc5cde7503385b0ec066ab66b17080cecfd0d5f2db4b788cca1d5e53aca8d73b301a3e8cb9803f42941428ca2f6c1bbb2577f6c3f3e2cf0c09db24b55568f00</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>打卡</category>
       </categories>
@@ -306,75 +124,18 @@ youzack新概念英语从2开始听读，一天一篇<br>
   <entry>
     <title>2021-0222(补)</title>
     <url>/2021/02/24/2021-0222/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>ECharts</title>
-    <!-- 引入 echarts.js -->
-    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
-</head>
-<body>
-    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="mainX2021-0222" style="width: 600px;height:400px;"></div>
-    <script type="text/javascript">
-        // 基于准备好的dom，初始化echarts实例        
-        var myChart1 = echarts.init(document.getElementById('mainX2021-0222'));
-
-        var option1 = {
-            tooltip: {
-            trigger: 'item',           
-            },
-            series : [
-            {
-                name: '完成与否',
-                type: 'pie',
-                selectedMode: 'single',
-                radius: '55%',
-                center: ['32%', '50%'],
-                labelLine: {
-                    lineStyle: {
-                    color: '#235894'
-                    }
-                },
-                label: {
-                    fontSize: 18,
-                    color: '#235894',
-                },
-                data:[
-                    {value:1.001, name:'超特级说日语',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'标日初中级',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'anki标日红宝书单词卡',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'n2真题',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'SAA题库',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'新概念英语',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'式样书日语',itemStyle:{color:'#dd0000',borderColor:'#235894'}}
-                    ]
-                }
-            ],
-            
-            formatter: function (params) {               
-                if(params.data.value==1.001)
-	                return '未完成'
-                else
-                    return '完成'
-            }
-        };
-
-        // 使用刚指定的配置项和数据显示图表。
-        myChart1.setOption(option1); 
-    </script>
-</body>
-</html>
-
-<font color="#dd0000">
-超特级说日语，一天听读2单元<br>
-标日初中级，一天复习4单元<br>
-anki 标日，红宝书单词卡 最快速度扫过<br>
-n2真题，两天看一卷（不做只看，听）<br>
-SAA题库，一天100题纯背不实操扫过就行<br>
-youzack新概念英语从2开始听读，一天一篇<br>
-对日开发日语和式样书单词总结</font>]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="7e701f2535a0a33e40c99a9b3804dc919409c4851fa9467a10e1ff3b6f1e7f5b">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019942a999a12d438fec1b86997b517b97f8af35d644b7ad9dc15239e5e187aa4dd684dce0afe8e76b1c2b0b2583f148ca930bbee1733177f281b475e75f49a3f0b3c4a01a05da414e7fd1d98209c673de2342478ff4fe68b622a0107cee8810768a1445eaebf3784aaa41c5c8ddd003adbf53d765524b75f4554eb455902f3e51eeb6b21ea2489b182bcd46164c80f9e664353d4a706a886d76b01a1c70d7345342aede70b3ac6faa03a41fc1723d21748c55f62b8c66324612bd20e92a57359b720116cbdce4879b1f62b5ad3924aac3055ec971ac4cd1a420527ed8a9ca093e40fd21405ab1f170efc75ed748d5df485a96a9c226a9aca61416eb32f8196bc256f968855b2f73a118ef55f7fc62844f9004c0917e8d03cea1933a88ba38cb605151b5f07e5d86cbf602eb57856196f181aa1cd25e37a5f49225f42a802267006683fd3aba8dfd2d49107a47ca9f0076f8d01072e511e9ff644cdf103c2de1f6e07d6a06d8361b12dcc2672b3f6861ff8cadfa1b39bf521c6b45e53f66018e5dc524ea9cc61647ac09fd8f8d1433cdd894ad098426d0a72f7fbd3137362b04cceebdc315d4e7d90ac75aeddc1445ed7a8cd9a8ae94e3cb6a0a6bd467bd1054744812e390e8b9efd86881d5af944f58233348a19ade8b7a071ea3dd3e5dede4c48214d8f6092e546fdce779227575dd3f0a521df7b9b127c4f3de36a8a262107f561fc770b81d047ee404d8b43ecad7bd80eb7ebe82f93efa8a065206fdb8f68f45a2d3f35c9085e5ea56906c6098a0a8e5b11a330115371374fea8632fe93a2a6a989f7f31836601c523a162b80210d04b1ec1a61a4f293a40f8d5d3e40d032984e21c2a88b9b649eecc32d90e5a401a8774b5d6b30155012dbd5671ecea8901b3642c01f7fd788ef5e6a33f1a407acd913033695e2033569a5542ca55d253d40a82a05d19e1ac4caf339ee505ecaaa488b71fbc3e06c585498e4829ba190a296684e3aa00a71fdc25bedcdf5c9c53dfbbe3daa2d22bae8a1ab75b680ea21e661fcee6be28027838a1a128098756cb6883a7ce3e4560f47defb42470fbfbdd753de5436e16bbb11db3706a0ffbfd68bb317b546c70ac43e67ea1172ed2e9655cf84fc7295e750cf6d19a7b1da9f2181adf52ea5f957c58f310c2caceb4f75bc9bb9b64edc1aff78d5fe046adda039b9a421fad84b90c1890708ff80013515b01f6da0dae0d1965f558aaf44508419302ac4d576006e18fcc93e97fecfc09abe7da730204d9c9c4b43b0744c0e78b3c5f6d9c192b53ab48c5d29ba82af0369f03b97473a499f93416623290dda3cfe490d41ec1b8f98735ebced9daceefa739878e15258279bcf5c9608444bbbcd67f3030cab290d5e0ab81c2200e967d4aab7a070c44af97f79ee32caaf05f7733c728c948aca95f67b9d81825fd6a383f7c4a02fe9ec10a3dde78e279fb0e357c87953cfa33fcf23f538444398acdb46ffd2bb77238742f5e51c596d971bab507092c26e646d3b29217f75b36adc37f4890762c0058f3e07aae845cc7296dbe4fd1a23c4953eed85ead23bd0e9a137a19d3653cedc590dd60cad2d7bed6962e670d430849fbf7b1446c00d95029bd07b23f83cb7c98637b0a36d7d0e5a368fef271d4255128607ccb5b1b78eca4928c2f978890ada3b69f602f4196e3bac4d24ca269f8f66ecf38986e5fac6036831d769b2a15b54e97079bd6aa7406b0f23e47e2f9fa16c19026c20b03ec9162ee0a3f435fc0e6a64946e3271ddbd17aa6a81846408f5034aa346c34c9da060abe130a646a5cf1a4e121270ba484e791d12159fd1e3c869a4974a28c96a41c087f65f9c3de1b17204686b5864e2606a557c40cf1ce5f468bf5c40de9c5cdfdec5c349efeaaae9f895cdcd130439c21ceea1c06b232dcebe06bf6d37114bc5a26a55fc957470ec6fa803d9ce65a469e0c692ea8ee985fdee0bf9f4a8e32ba0f6de5698e3bd6ef8f91a2df7ec88f46ac704e4019488a66a3709b186436ca87608afb6b29da821428a9f56d2f08ad2df074d5eb163a682a74dde8cec8068da79d90a5dc4e97158dea0677cb043b18d9f9b2f2bf81f2bfdca45e136a78cbd1f990473c73d44b929af117c2105c99b020ea5e98d243768839edf4e3478e358c104601b6ba7762bf0835cce285145c04b761700d0ada2f069b9a790557cc6a5da946d3bc932f4ecf9161e8cef5adad61dcefdff6f83d0425216de0927c728cbaa53f3fcbf287375ca79530895b6db19ad9a456c41d07163024073f91d1ddb8e3f1f6a681a9187a0817cd24ce42f44f689510ea532c730bc18d9707b1f5d13fdc2528d4a2301a8fcfdc3843fc764ecb117d1115ec68b3b47d8cc7f76268340e822802c5baeefc59264dacef9a2d7618ecca95075ba8588ddbeb9de3dbf9e0f6582c8753ccbbce9bb680fe5e5b33ee9ae9abd89d2592ee2978e0fcb06b0f6432735c6b37c22cb3d37c355e07d508cffce49a52a3913147071760acbdce5b5a8e163bc7ae437ca3652426ab818867625772fa50b1e2f6e26bb9203682432b52e69deca3905ff28f93894d7556b58196a66d0bc29de69bdc436f837f23837102c7190f0ab92f235e23f783f62878633285617f0ecd346b3786a3816ad44a4ec3e922b55a811a20f9767fa3ff02e7b8b9268defae66d1345495f740747a7f07eb7d04f899418f474ba99555e0e2fb8a129f38d66ce2b805796a518bf1605fcc4096813931a2aa86b9fff4d557d816ce18b1cd2a55136ef8fac1935f130118d3c28d54661f7820383d7ff1ac16cfc60c7040f3d760035c8a08603830aa5d0df8077993634d325c26e290c3ab12af4419c4bbf12388df6b85279e8a21290662aaecd7f8ca079adf43a5628c3df3ea676f3840d68b8c6c148e758d4a6f11999bb176e3f97a6bc9a84a07c8592cf309920985d27399158ec8e3576c483df5f368083fea62ca164e8628dfd29f0ee02200697fd58ad1b66f6ff30a5c951bf2045391aed12e49f94a054f9b7c3446cbc51520776788cbb944bcd8fa79462b108a2cf6e40c635f78824c5ddc1f76186a29f22cee48cf49e3aa4490937d8610f6fc4b45f20e59f08b7861a8e012972aed4ba8810213582d93f3e663cdda1caa50946153da0728e56fb2ae8656742c0df1dc210c5754c69a808214d8b6beff8c95ab04651c9f64afb3c2330213625a3b1f0e88c817fcaf5bfcbf325b80e4d02f3f59d68e03df8c9f828d7d36054a4b4b38ea6bc27ca433362c9c7333068d99890e6dbce78009d782a013257d1549787b1dc44a91b39079efe8f6571ee353465482ff10875a326a24b436e48a349b70016bacc65ddca8d0167f40edbacaa4a5b4e333a72438aff8d92ee52399e5988fa7c5cd223e32713039385a449b78b3f1d931f05f4327a9c91c32214ea69c53915caa99817f3917d3dea8e1e61e0aaa2d04b1133f1477d08d7bf19da0df48383fd354fdf4f73d5aebb8dc53a7849b85a2c8d8e13c1a21f86eac40eb1bcb38dd0a7ff5d2ab60df6b67704f88a204025b2e09bc600cd589189ae7ff0bb6bd60f1fbc7bb0b2dabd944b0c763a529df21721c78094d770e83b8bb30968c4d0be8390b617b6db5e19301919f95a6be8ba3cb3502c55b2cf3665637a1179263756825aa2c7f05839b07010185dbc253339c138ebcd1facf818462b2fb68c283effc57a50389b154d0b6cabe17251f0d7fbb960116002a6f7a2b51dc5956cd294b3c6b845c5e95419f2a0c7ab561b685eff197e9564589807c07e641c1b86b8f1bdf4fa85308718edd3072d3f18b9d078f7396ae2</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>打卡</category>
       </categories>
@@ -417,84 +178,34 @@ youzack新概念英语从2开始听读，一天一篇<br>
   <entry>
     <title>reason_for_study</title>
     <url>/2021/02/22/reason-for-study/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这就是必须努力学习的理由，日语，技术，英语。在保持身体健康(适当运动)的同时，学外语学技能是活下来唯一能走的路。<br><img src="https://ftp.bmp.ovh/imgs/2021/02/6651c233cb7404b2.jpg"></p>
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="f757ce21ed31d5584d084ab6029097d44cb714245f6850a43125e81637503639">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019b836ac572598484d38288c88b6acb9679a939872a21fc90d42514ee5ad5485c70f3897ec41cc6adf11cca33279975b5a09ce51f3cdb878acbfa21cc22fa2072c9e5e48ae772e1f5a3416583dee1b44793696acfd9c711f9df251a0c7aec0f036508d267951ebf0da9337c843fb6c586ddf14344a44d57d6ecc94f036324749938c6ec3ed9eb783b081e99af87586898951ffaac7f13988104fb9b11c5dd98075a2c9dc05248d19e9e4866cfe00741dd58574e5c4e2277ea69998cc0618dd2a18c7682846563039276a0f41e72a8014c1defe69e1bae45261ef48a997980eeecda01a5b966cca4fc550336eb12176f5e17047940d7177d709549d5f20ca07ef6e</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
     <title>2021-0221打卡</title>
     <url>/2021/02/21/2021-0221/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>ECharts</title>
-    <!-- 引入 echarts.js -->
-    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
-</head>
-<body>
-    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="mainX2021-0221" style="width: 600px;height:400px;"></div>
-    <script type="text/javascript">
-        // 基于准备好的dom，初始化echarts实例        
-        var myChart1 = echarts.init(document.getElementById('mainX2021-0221'));
-
-        var option1 = {
-            tooltip: {
-            trigger: 'item',           
-            },
-            series : [
-            {
-                name: '完成与否',
-                type: 'pie',
-                selectedMode: 'single',
-                radius: '55%',
-                center: ['32%', '50%'],
-                labelLine: {
-                    lineStyle: {
-                    color: '#235894'
-                    }
-                },
-                label: {
-                    fontSize: 18,
-                    color: '#235894',
-                },
-                data:[
-                    {value:1, name:'超特级说日语',itemStyle:{color:'#00dd00',borderColor:'#235894'}},
-                    {value:1.001, name:'标日初中级',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'anki标日红宝书单词卡',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'n2真题',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'SAA题库',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'新概念英语',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'式样书日语',itemStyle:{color:'#dd0000',borderColor:'#235894'}}
-                    ]
-                }
-            ],
-            
-            formatter: function (params) {
-                console.log(params.data.value);
-                if(params.data.value==1.001)
-	                return '未完成'
-                else
-                    return '完成'
-            }
-        };
-
-        // 使用刚指定的配置项和数据显示图表。
-        myChart1.setOption(option1); 
-    </script>
-</body>
-</html>
-
-
-<font color="#00dd00">
-超特级说日语，Unit4,5</font><br>
-<font color="#dd0000">标日初中级，一天复习4单元<br>
-anki 标日，红宝书单词卡 最快速度扫过<br>
-n2真题，两天看一卷（不做只看，听）<br>
-SAA题库，一天100题纯背不实操扫过就行<br>
-youzack新概念英语从2开始听读，一天一篇<br>
-对日开发日语和式样书单词总结</font>
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="bbc7fb344651694b0db4bfb961ba04867d853631b761c1016dd88a1280be978a">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019942a999a12d438fec1b86997b517b97f8af35d644b7ad9dc15239e5e187aa4dd684dce0afe8e76b1c2b0b2583f148ca930bbee1733177f281b475e75f49a3f0b3c4a01a05da414e7fd1d98209c673de2342478ff4fe68b622a0107cee8810768a1445eaebf3784aaa41c5c8ddd003adbf53d765524b75f4554eb455902f3e51eeb6b21ea2489b182bcd46164c80f9e664353d4a706a886d76b01a1c70d7345342aede70b3ac6faa03a41fc1723d21748c55f62b8c66324612bd20e92a57359b720116cbdce4879b1f62b5ad3924aac3055ec971ac4cd1a420527ed8a9ca093e40fd21405ab1f170efc75ed748d5df485a96a9c226a9aca61416eb32f8196bc256f968855b2f73a118ef55f7fc62844f9004c0917e8d03cea1933a88ba38cb605c3e906cfd5bb0bf45d7d0f1b9b255b590a7e9ba3ad588768498bee06e1bf8ddb4d5bbebc0cab7f9809f0477a6c87f56f156154fd5787ce6defc9bcae29b60784a6285194d6875dfe9f1cf16e041a36620a3c7698fd68582e484fe079e72dcfc3e330bfe12c81cca1c362f5316289fb2763195bbc3816f8a5566e7c73fb2e0c3782bf1b48fb9bab2f663d1b7613a243d174eb283a9a8ed5bc608880c29c5d274ee93f2f66a9a305b83a22faeeab3e8d0551015b630e7761659523145fb502a1bc9f4e6ddae6386f907b14ce5e1a5f3ba37cc110c6f4f9462be999dd8eff6dc5a25f71c981c41aa01266e309d0527e197814c213eee7b45b79c31f69e8a44f5744f2f4229be7d5ac566f52cfc617212059ac85667cbdc77aa9113885ed3fbec59a7e82084b2c6d838f7ab655f2b7a51cce02af186d7b480834a193adde8723ea7f1f6cc44d28223170d1dfab2023788f123e6e3c5ce7538bf5d1354848b9168e4bcefc88a10171c24e03176c28d46b994c399a8d695fca5d4b40a077b303eb7627131708e3d024f5a4238413b891787af762be6ab86ca3393b9f937c2b6aefb2475c33588d8f76bf99337d594230c5fd28dd3e0dd8c7786977b7cbf5c937793b8ff183b1b0d6c3832c342d88118dcf0577066c131a3750cd4c9869d4dd9a8c79cb01d2b56ffafc7bc2526b79c5691e3c783c2d3de2ec046af52778cd8680f141b41b74a4e8105db23211d9f5206160ed1eb28ba1b3b9e77957c81a3627d7b2c2a238b38e4ddef2a7e6ae8c21059073ca51c9329ba1cb6ff14dc1729ab863644e3b7464ce9edbd76bdf2130c72d8e9cfb8899410e404cc92e386dff7d496bbf4de97a02ea37f57095262b6888770e0d8c7969599d16ff2a3c2c684561fce32ab2f6370629b1684f6d88bdc1fe68b4fa03c3bb7ae7bd4551b0877c5ed46a73dc0fd16947618874869ed9a1644076cfd2dc02abdf8b7469a2abfb6140cf95d18fed8d72640b0ea6f8a4ec82598d3927bf3d2db13d2dad988f0b3efa9e1ab8fc24a8d78825d0f743882c30ee2ec3cf848f5ae90f59b56538a9c32e23d9c5bbc3228fb5c59bb2945e065d169729766e3eb2ca73d25b97eb1435501be19b6c30b2c677a96b40aa0b0da8a040b079f09a811465daf2428d0073cf8670a2ade3b2557ee53961f4160f5df235761f5777565e16902dbc94fdfbca63ca1561f3dd64aac357e4fc9296f9126017fca62ef13cf3bd0036bfdad3462b5ce1f9b32e7d5427e2368352b6697332514b19e7c80f833eab3607b5f3c82623f42aeae31377bc56bd33f54c7704539e962d5fba1bca466316f8a0afe2fe02385604e2ffcd91ddd5c4b9529538327fa49273449ba70907998583a19c0c09ed6d739bf71c8e4b048da1586dda1d402aac2e4f8fd1192888864541f355b250af4bb62e68b9709551de02109418f8e40d23d90995a7d7961f465e8719eb633b01fd7dc18783a598ab12b4f23773514fa27cb289e621b6b7b5e96d5959af3857378e21b97e43d95371f3f555e56dbd964cd58248abb69345054d51b91bd75b1db8d0a52e0419b82ace2ead8530533172105bb91bdeba69184d9ca8d41d7822544444d4dd3303306f659f0a302b3ac84169f310860f4557656d01f7947f83832e8dc0a9c1bca36d9321d079f90118a825faab6cb216d9af4bce92ad3109b70cefe3f969f94086f1a8f22b0ee1b5917c5e0fad851e45544c801022ffba62e00eb9a87b892e6c44ed3930c6cea3ca3d91656121afcdd7a281cd13c8ac6a57048e2743eafeeff7b9742ff2ce4959787ac1e4baf642033c5579d58e6c28edccacce4df44298fc0684d2b0c2c26aaf809ece50d771b527d30b6f2365733e80b803955f19ec484cc3e61bf2bbfc5ba06011edf85a60877395605c854fb9c701a9e57abfc57eb88f2f2607a9ec9195f8a2a87af6b383382ce0e2614cf20b78a3ef71b664de772b58b975b7fb8ef0361d7e3621dbba2e5792e4fefe19b255cee4bc4fd64ba767e30e8dc7cc933373b0b0bce849b17dfb79c6aeacb16861818b74087b7ce824a5234bda03dd91ab0724b3a8cc3a3f8dba226cdb1b39e6de4b8ad80fe657dc9761efbd7ead75e6b7efa1c272a33966ce55bd6a62fa6ae07a432d980ec5e8aeff1b4a8e05b5f33f18db39a75dabeb0ab0368136037e163ac42e5958e212700f30ad1cae2cabf402e3961576b1127d42557163fd5b18913a23c398cfb280d0c858f6bedf6ddc4fe91b8c6baf719a4cfe96ad17f8435c26a2290dbd8f2943557ef873d8af09cf4ecff42e9ee730e882581421ff5ca9bae8f878d7c2fb335fbe1df5feb2003c82355933e842e6689c70540be23eeefad44f2835e73ffe3240e6556e08e278882be5f4c8b0e6f31e774fa426be905b541dd3cbec22fd5e6d2006a52779b6a5efe8c8ede71177fc1eea0b8210272b84e03425a1c1c753c1dddd398661881a5f53d9331ce037b6f09d50cb0d18c1353551e3e12716278cda9d22389c8cc648fc60dd3d4b6dea7b3a5947bf8c6e03fc3845a7688049932934a58b9b06f14787f1935623eeb918be6e1149d2b9c3943e69011dfa269413210b92b4d4bea3ba92151539fb69f9f70ccf9f4b583c003259b8ad62385c470b1eaa8476fa419372b6e5214722ddd264ac3e75bd543d5da13c5296e2674e2c1f5f5f55bac38a8b4e44207dbef3c5c11712bd5461f6790b2c907b026b5bfa08f1b215123cb63f35cc5a188c03ad2219fe7c8e1b3aba4cafe9e1edbdafbb8b937664cbfc8b0b24587a48edee2a9ca530d6d9c52baecb5f62cfd47bd5427794ec22967a1be25f3715f0b60acf7c09556c7a83806f28899bbce169ad029a1190fe1cf269cd90fa4b02cbf41b8f4f41feee587d4fa066f15d0223d6b783bd6264581445253c79d0f7074ec6004a72643860d6d511fffc05222f988fd2748d409b939e6d6938e8428743b12344de0d45d75f9e870dcd5a716bf827bc0e130e0b7c588ef82dee74059eff3c6fa3f6f0da2c84b6a81cdd2d0210350a79c49f7b04dc9132200a338d100c9ff57d8cd92886dc396acbf584077133b61a4e6327f1b58b28716cdcc156042325b0ff3925ef365d4e165f939fdd7e9d236cd1cf390c888638a878b3920153b314e40e55414500465a5130f760a45f42ad8e6466e26a0abc39c0f0ff53ae9db760d0e42aeffff1daa3570584e5e2dd563d44622e2c23c84ad63de9de025d2ae84409f9fcad26838fc958f217c8065acd0e691e548a87991220a4a6fdd3f33ec1a97f81f398e70e31db48634344677ea60f28f0f85be57fbbab495e647b50bd4535093cf2a9bd71549b09fdefd6f909fc536a98b8e59bb2c0fcd5cda051470438931742df22d1d1f5238c335fbddeb04743d98ee1365f0362affe45a5d6631c380085adc6b6d0a6cbaafc9beeac833eaeae09594da31002c1386389bfc001aa842092cc821e96ce0810b569b03a</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>打卡</category>
       </categories>
@@ -505,24 +216,18 @@ youzack新概念英语从2开始听读，一天一篇<br>
   <entry>
     <title>2021-0220打卡</title>
     <url>/2021/02/20/2021-0220/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>为什么我要转载这篇软文，因为我就是文中说的那种垃圾。。光五十音图我就背了两个多月。。还没背好。。。过段时间还忘了。。</p>
-<p>不管是技术，日语，英语，写拍记录等，我都遇到过大佬指导，但是每一个我都没坚持下来。。</p>
-<p>我是铁打的懒人，无论怎么做就是懒，不愿意学习知识，锻炼技能，不愿意前进，只有在生活重压之下，才会被逼着往前走两步。。</p>
-<p>主观能动性的学习能力太差了，这和我想做的人是不一样的。</p>
-<p>嗯，首先，先去日本工作吧，然后继续学，锻炼头脑和身体，攒技能！</p>
-<p>在任何地方，都要锁住自己，远离一切阻断自己学习锻炼的东西，亲近一切帮助自己的学习的东西。</p>
-<p>1DK是学习的良药。俺要赶紧找现场，换掉寮！</p>
-<font color="#dd0000">
-超特级说日语，一天听读2单元<br>
-标日初中级，一天复习4单元<br>
-anki 标日，红宝书单词卡 最快速度扫过<br>
-n2真题，两天看一卷（不做只看，听）<br>
-SAA题库，一天100题纯背不实操扫过就行<br>
-youzack新概念英语从2开始听读，一天一篇<br>
-对日开发日语和式样书单词总结</font>
-
-<p>家里来人了，出去玩了</p>
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="8cc471d307cdd05069d6eea1763913c7b231ae5d03441b3abd203ed8d0d148ef">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019bef02ab33fcfd57872c7f60d78f308ab65e60e54590b74202f9cb62ab65d64ad06383c9a61f9c40b6a26a6c23ff0f33b5b00fee51ae449495c59784a69d7015f27bb11f9421684a8c21254ff57dfa71884cd103b5e766e7e7b325d4d84443880a54df34a490fccad1a3017745b86c3d20aa8827577830c17eb161f51d62d69cb490dedd94ffdc5b17f6a1f5b376c4fc58f5eff87634ae1f661b4e403a325a9beb2c0b8e44b58c96f7b263c4396cd25e6b44e6520a55aad262c0b890ac50d1fcfee0ce62027f81041fbb5f25d1f06dd4277feaab161e2d5d5812da65a96eb0b08c891ba748cfc7d0d8ba1ff1d3ee6f950c3229f8b8a0ec14e2cb2e60b0b7cd2b582524f1dd98e4d242c61d7fb6442259e57cc562805b1d3c94804fa95451c03c025e7421d9514b9c9e1bd7303ab27460fb0e98f1423ebc2038a40f83a034277529b8bb4b6685f3a2b767feb838871f1c628dc2e18f6a7e2d4d0a57d720edbf5a53dc32718140d2fd55776edfef189cb2de7fdd55f2b561c34d04ff5b2a49b443b192354b2225c5884cd5b7d8093742d71459ac5e5b74c5c9916a1a3df008dd23de95ce16a3bd4b0a30bf3bcebce7ebbc03bd3a524fe95e224a2e4815e212c38a4e8bd390c1c05af9d7863961ddd835878840c7ff5d28eb484ac39964e2076344767c41ea9218b18b94f1ff8a412f06d494c3dcb5cdc6b601728d2d45140b38f2865a193394fe1b4b184dc6062067db1e247eda2c16250fcb3c1c17cc2575852cd7716cf79304195b3c7bbe9293f429a421c72b8b96407dfa6628d80b57a54cc0252fb05f63f762add788233c6f4875dfbf29322cbdec179c0855451237255e9e99a798a12349d045b3fe3395f9547f0869a28b5c743276fbe75cf34a5d4a360408c36cfa1959e0eb174e65912b91aa7e87812b0fb837166a8aa7eb292c1748ebe69ad7cccd0c3c38a994a4e7795f4f387de8713c32d0aef01c9d94ef1859e944aadbd92c39bfe8fc323629c9b3ced1237d01c9e14d04bddf66ce72961685e802a187ff341f5138fb38cdd8b2085834d60ce2208b186c579dd89832385a3ac617b6f2093c537c967ce73bf0d9f4dec0c8a3f3c04de31890bb5c1926dee79c6b0710e9d1a5d4710edef73ae6eec301295bf2a61c05bc26a3705872a216b761fe366b49cb5d5fcbdc67645ec69657c789958a6563493909b4b24d0816a43235a30f912f16054bc350abec54bb38999a2d0532172b7f144d1af0de2418f3c2e1a642f4561e1dd5a3720130caa4df2db0ddb06c9ee998c86fc47e40456deee6349b8ed4c2e8623087a61e326211d0ae0af637774f18b99f710e8ec2c8b40bf4bade4948c7d5c6e9dbf9ac6804697de6c19e33a57a1d885097b992e7018272733e765bbd7d2a88d882eb0d0a50faa48597dab2e1aa84c488da314bc514b423de935628de0664d71f9097b1e0d442dc0a7c76d09635dded4c68178950741b45bfe2225a248523bf04bdee1ce009e0ba9181039b205a584d55978a79d202d12113534fbdc323321c8ba5a7f1668fd953a88f308d1f14d07e236a23dd1d4fe8663d267e61d89cf405fa7ddaf1988771852ab9a6de8d65bd1bacb986817651949b69307f3cc15ed4f59e8b4d220b8b671c3c81128f53b929681e9e63883190d740074ac847bc95cbfccd983abc5a4d22226b2d2bd2953890c767edf3a6d9ab2662e0a35924d5e746a090f45586ba5f7d3fe52989a9bea6683e4d429744f5596fe660c580b08f26760ba40115e29580b2214c83a5033bbc72294a5bb238bac2de86eb3fdf7f3f84204cb816589f902d99b80c734da9cab656348cf6d3330e59cce0bd587ab8ef8da1da698bb9fa509ad3b5508af8b79</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>打卡</category>
       </categories>
@@ -564,21 +269,18 @@ youzack新概念英语从2开始听读，一天一篇<br>
   <entry>
     <title>2021-02-19打卡</title>
     <url>/2021/02/19/2021-0219/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><font color="#00dd00">超特级说日语 Unit2,3听读完成<br>标日初级 第二–五单元复习完成<br>新概念2 C204听读完成</font><br><font color="#dd0000">anki 标日，红宝书单词卡<br>n2真题，两天看一卷（不做只看，听）<br>SAA题库，一天100题纯背不实操扫过就行<br>youzack新概念英语从2开始听读，一天一篇<br>对日开发日语和式样书单词总结</font></p>
-<p>俺小时候跟奶奶生活在农村，最多的快乐来自一个人玩游戏（盗版），看日本动画片。还有一小部分来自和小伙伴瞎玩。</p>
-<p>念书的时候看过一些外国小说。</p>
-<p>毕业后发现在中国活下去确实不太容易，而且买房结婚，这不是我想要的人生。我想要更自由一点，有更多的可能性。</p>
-<p>我觉得，人一定要有良好的教育，相对公平的社会环境。处在中国底层的我，是不可能改变命运的。</p>
-<p>改不了环境，改自己嘛，就自学，换环境去日本(海外现代文明国家就行)生活嘛~<a id="more"></a></p>
-<p>我这种人俗称“屌丝”，其实“盛世鼠人”更恰当一点，生下来就是工具人，奴隶，当然我父母那一代更惨，他们的遭遇更让人难以忍受。对父母，我是心怀愧疚的(只能以后慢慢想办法补偿)。有这么一句话，我很喜欢：“当你意识到生活的美好的那一刻起，你就不是奴隶了，你就自由了”。</p>
-<p>可是我觉得我并不自由，穷困环境下的人身上总是有枷锁的，再怎么强装快乐、乐观，来自生活的隐形的枷锁是客观存在的。我依然是处于牢笼里的人。</p>
-<p>人一旦悲观到一定程度，反而就显得乐观了。。我每次在网上看那些自杀的人的遗书，我都能读出那份释然感，我觉得他们不像悲观，更像乐观。。</p>
-<p>还有一句话，我也很喜欢：“一个男人，不要整天想着一个女人到底爱不爱你，你应该在法律允许的范围内，尽一切可能的赚钱，养家糊口。”自己都养不活，还玩个屁啊。</p>
-<p>毫无疑问，底层屌丝就不要追求爱情了，这是一份痛苦的传递。人生苦，祸害他人，罪孽深重。</p>
-<p>更别提生小孩了，先不说未来能给孩子提供多少资源和条件，最基础的家庭教育你能提供吗？生下来，随便管管，不考虑未来？那多简单，谁不会？赋予人生命，不代表可以不负抚养和教育的责任。哎，活着太难了。</p>
-<p>当你放弃与命运斗争的那一刻起，你就已经老了。</p>
-<p>王侯将相宁有种乎？俺，就像是新时代的陈胜吴广。去日本，是我起义的开端。</p>
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="98738ad95aa3d7c4a0e48e82af0452210c5e56443cacf32a2d94bd31e4808d5f">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019e8bc3718d479cfefa4e8dad81ea5300df5144928957c57eb624c83aa2cdf0f1daa3d7eccb69f90c643e28c00454c02564e7b09976896bb96da9a78b555f049040f5d05792b2ae810942df9fa723c9c4ff8374f444e2045a55afdf843da9a28c46e2b22db0b436c3cdda9acb003ca007a027a90e9a00bb181c54294c5b54c68ee09a3835e4dd8bd6ecf235621fb0555edb0ae75553514ea8c8d639be02f0a320f59445653f61e8bb79206ebca02b9741c306cb4baf406fb9dc039e52078ffae900f32e1d0e9389f65026ab149e44c5a5d33f74ff6908d22b7b7b7b52cf1c8d09b7fbda123fe78e6b89dec642d5b5d798d621a6b68d2ea63fa1007b1753f7b3c8cb1d075279608d74f5da2f423b378089d28cef60db98738b569d8e4fb6868babc9f1c15af72b44a4411755dcefca207b96b3b56dd7c03e6a5b1a709a1fd2db921de32f18ba40451aedfc4d7fb4991d7918adaf1fba9af201378aff459810ffb9002a408b568fddf047658e13ce130745a5855fe8ed9ad8ffc10f14ecd4e0ff063f32de73bdb1789ed6b52e13b0d19c8bf240397c248ed7d22e24ec5328aef8d27004a0ac460c593c838471469699e662b2d0b45d666577dfda9147995e68b15309f7c03d09f967f5014767e3cfaf0f4fcde17c6409f6bf8d525909ff4a546a6e03ffb22d140edc26f0609bd5950d8441a7c0a4b0ab5c1e0e17559afe3803e0b2959a92359cb9f0044984dc1ce63276e1a77e76274b4231db9d0802bc9d5e40891b3324465a070fe824cbd034a20f4db26927cf789c1d29fdd30adc53548eda5893d1d31baf3fa69f53cbb989b2279909f6f43c2035e2a3b8c6d4c62222368c234e7c69ed5fb1d23dfe6520e611ea881aaf95315179e561cb8a85e6daee60f24a26b9a945db034f9d2f6e53ae715be646a85a4d677c30690cea4d2899d89bd9becdc43aa60d9e015249f2241a1e6c7b6b2bd60164e61dfe0729b857461e2ef77507804b7ac0f641f087ca74c61dca0c8df35c8b64c7d28a834547d477a026639a5c2876e3c7a3d2c789c191440ba31983431b1215b7c65f0fec09d8adfcf9540320e1eb82485c71a617d4edde33fe3b5634dad296cdf61f646b9b4a7cae4f67e038a796fee8a6448ad016bdf27bb39be7d176fbe45f5a7ae0f90bea46da7388a0677cd9a282fcfc45c1a52cddd5ea268d25a4306486d0cbe0e8166ab2ff835233271dbb0f6b263958e21903993f7f795daaa2ad8e2ac41301da12d555b6596f654884f561a33f2743804ada2846a6066506233373a185764d726e8abad4506722556ef945455033d2227fcb1317ad5113f15c94983765e557f34c5c3fd9abc15cd72a382e616c8eec16fa7b0a488c2aa985710409283c55944175a7520ccb66cb65ba7212fb8ac929f54d23ea29fea724bcbac430d4c62a71c6d866f5bd637f768f72b6cea8cc8ed9202bad647533bba005fe121eb7721dc8e3cbe12f0f3a5e72b5156d920e84b56e2800facad86604f5400c2f32afa06b9f1e8947efc18051bd352b4e493580362866538863cb47ef5ba7e9c1aa9ee52dff6494ed48537bcf1b6916c3c70742ba455d570b103cb113b260f26771e0ff43b9da43addbc08066d820599a003a5d08b4a92087b969fb0362016897f04c27396421b1ef95a4e521d0a85cfa1557eadd217b2c2a3590612432217f22a305dea3ff7155f6465a779b8d7b26992057cf6de379226fa5517867afa5e0b3bbdcc0dfe800b501b3dff16c7eb0433c897337cf64bdaf958b448c12a6e427ae81f3d82358211726fb93fac26a91de91f4fbaa567ab63f6ddd5b1e72c68d2f44963041cec0fd38556c58abdcf6d4d6c26f871c85f13a3db653f56807265c5c690b83434519dc768e5ff0b375022d24bd4dec6d83fab3980ab038deb9728ecd3e134f35ce40ea4968bf9a27d485d5f47b6bf3bcbb626ab62c7510854077f3e31386073b83feba4cc0092a6fe371e6e7654c27322961d6a166c4df0195b740480b5997d53869fdc03229ab905a929a83ea95bfc756df668cfcbbf7071d9b56a51342f72a9a60a678bba7191608ec395872af0bff7130976c2c127b7ea1ab7fb66992bd706c4f5351e490f9846fbed4d57e5f8abc8f6058e7f7affa152f3ba82b67004f0f60551122668b41a7868574de04d5d03670d2060ec81ec02032a5e374285c6c1897f8d836be8db1f5a765f7c473fba07b5882505f14f37163ceadfd6d683f0975b764934a911fb4ebcd229aff8f835350a67c679d5dc7c0e240b09f13c21ee41dcadd84de7b134b25bd5302d6ed656f78b49e02ba8bd5eb89a982f562e5b6cbb1944f697a3f50174ba32b6db540261bd4c20b49c6fbf546f51cfe4cd5b10083c0899fe5df7faf9d248fff71afa2d348ec94b36468d7c14cc0594e6581fdc17db3e241cb0615f4bf31a9583a3f15b21dd980c4b736be9e27dcd62bdc3d06e7198299754ef241c49d0752e8634f8d07a8788aa14b1ea66633eabd86abf3d96a39b9173d039b27b10837387fc4a8baf957bb26a56822d939c5850f615c15278a5b5ef7f7e3025bcba68e358c4d63e7f48253cecb1c55fd79cbb14aef771ef1c9cf15fbbb429819e168aff2a91d573c8f7f638d282c93e265fcaa5615ce9f982f1b72b7ba8b79b54f00e15286cfc903529fd0f7d6262fe6ffe79886d11cc48ebe6cf9d1c3adf35eb0dba9fab931003c153a2be42e581d40ffed5c9e4d65e82df37ba68ac85eb0b140c4e60ad3ad10b2c3b7fecd7122b328b16db7564d5a6e208635aad0535fbfdf6e160598612e80e6ebc13e1e0b14fcca1859dd376bd07642e1225b9ee65f75482bfd8aa2caf2ac5dec4335cb018879e2d023c03974688daed0540a875e859ff0e86dbf625167f983754ed940a4624061ec73bcd8b56f809d04b354e1163e041bd588992f10e22066f094b6eef6cf348acb69f41665f220a2ef3939e64de6b05341c3f0b8cec7f55eff18679c1f672551c8d44c2493e05b322829cee13dfe7b1437e3388b793a4e2df2794febd436b2027a71b49b00a6b5234e9ddf1315b9dbff99adda5d4e484aa0ba928a5dbd074e6afb36305eeab93a1a51775342309d997160d7b73081f508395111b209a34284d913825abba04a15a19a38c81c6813eab9326a56afccf806217d1b446950fe90dc551e276a1d3f63c22fd963c57167d642cf2f55b5f0867c6d9f9e66cfafb6e7ddb207ad2582cfbb8ad00a0f0bb43fe0b8bf1bd272ce74ca134d974b53b69a41b35794e3e470037eeaf176626ca9e77e649c444d3776891dfbe38bcc29da9a973575818866f4110c7f87749aed8ca407b6ba80eac5e51454d945272b99392765a293048a446b435e10c04b62c8e6202ceeb97fe314b196a45887f42652545e23d6d359833b279620006a10d37283a810a77e8a465a1b5b1c785acfbb8807ead5bbffe7252773a267782ee2ce2883c23a68acd4e846f1b318495ae86c1727aad5a522c37599fdd567844bf770794fe84af7efd8593a6f3970ae22ed8e5c3787137c805b8edb664b48f6e6a38363c8ec812489074bd272317ada8b1dca51a8667adcf60e20bf913d143b337fe8d2fd1b97b83b71e2e91e259a6721957c6c5b54c4704de75e0b85b0c1529570ddc1e564cb787dabe9ff044ea08efa9df8bd8bad755e45084deaa38584a31c2127d79ebcc23157e90408c7a954bdc8c2bb23da2d1bd5510c9fdde5d27c897882ebe56f66c7f68ac6c3f10c88af9e7fc3c6526d0d120af1c12906436def1ba00eb32d6ce3440e27ce3b0a75d335cb1159cf82b7489e9bd0901d6e2313486ba4dc7dea479ca624867038efa3738e6e0aa51773224320af885b10efca111af6c4905847157fc7a62034cc74980</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>打卡</category>
       </categories>
@@ -637,9 +339,18 @@ youzack新概念英语从2开始听读，一天一篇<br>
   <entry>
     <title>2021-02-18打卡</title>
     <url>/2021/02/18/2021-0218/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>俺是从2021-02-18傍晚开始制定计划的<br>今天是第0天，搞少点</p>
-<p>超特级说日语 Unit1听读完成<br>标日初级    第一单元复习完成<br>新概念2 C203听读完成</p>
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="acfd98a8aa88221ab44b74ac4738769cef81197543e17aca881c22745569ede2">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019995a62b9ced86390e6c36249af4047396c299b116e3f81a447a6640885f5efd48aecbb6db50d2a5b54576a9130d1625f8338bda2418de438c2e01d4859c08e9cf67a143594a048447e9fc340d023b94371e76ea49c0e267d5b1c641c55c10d2ccb0ac272ef595d7be47dee62c74779580b95b9d2a5106253fdf337388ff7dc7907b45cc516a9d1bdc33f9f8800f6b74ef1883f24a3b394c47863755f06618951f365743a8875ddc4da588407558ad03d82a3b362a2b5f0a93720d98005e0727964f048119b638ae7a7a4cfc1d98f5792c9a14fefd275e5a07b215ea18476a514</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>打卡</category>
       </categories>
@@ -667,13 +378,18 @@ youzack新概念英语从2开始听读，一天一篇<br>
   <entry>
     <title>学习英语的一大动力？</title>
     <url>/2021/02/13/learning/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>日语不用说，我把它当第二母语。<a id="more"></a></p>
-<p>俺接触到英语最多的就是在youtube上，俺很想听懂看懂他们的话，从西方人的角度看中国，很有意思。</p>
-<p>e.g.:</p>
-<p>Poverty is a very real and big issue in Modern China, but because the Chinese government claims that it has already lifted everyone out of poverty, they hide and ignore the fact that many people in rural China still suffer greatly…</p>
-<p>“My heart goes out to all the people of China that cannot speak out against their tyrannical  government.”  💯</p>
-<p>poverty 贫穷<br>issue 问题<br>lift out 举起<br>rural 乡村的<br>tyrannical 残暴的</p>
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="e5671d1524961b328736362ab4a35acf43a650dc45c64f891461e0c863615907">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc33750190f3307e62178a74b3a1bb920b02f7d04c341ba2d150e0cdfe8a075f9c69a4fb3c0af4b63a753edd101618a4df8c24e7705542f265833c43d0bb70218d68a0f8b03a93ae90b38136c9daa9b5116ebdceb4886c39c68926f738466370720d994772776b90042c57ee54d68bfd76b3983cd38700d4fdf655176b32f05a7d946436ec378c397a67d31a61746e369b9d0d2af5c0a14d0186e28b5fc14e3b8f5a12a6c01a39c5f045159a5f31b496f0b13687d15f69fb8ede83d103993930e5d8ff4c62c11988d1a4e6bdf5cade2714b0b3e391344f019c6c02a3292330a0f55f3bb6139d72a1d73f2a253eabef664cf6d3f6b786b03a5facf9c15ae73faf88fe2fed3e727750c86857d296c553d874122e9d56989ce46f5448ec81fd7f71c8c4430f13beb1ba69e78d8095eba448af346917d6f4e7e1f36f241a9dcda51a43f83e5c499d4450d48d01a918d9e988cef64f33dd01c233906122ff696bb2c4a5bd779be484b8d379bb0973591f2184646e13dd88422281bf0f0a1aff6f3798c0577b7490b5dae36b67d56473556d57a053c867f6366af92cce81259d5660b1731cf371d2e86c6cb90c61ada448e13e6cef3e2a8afbfd2b8d8430b299d0252e987d5b7362f9e1daa50b7e2ad79aaf271b7ae88c03764256aed0ba2c055afc5168e0e59d6cccae890e1b3e7dce4b532f425c4859cf528c52c93c91ef0e56d007b182f2a6fcc527f41fb59c2d786a5061f9e960749390fae0956c8479fb46e396aa5c142d51fb4b3704029e785561a661ec32497591d7b32a1f47d4fe633c9b208d53e095476b40672a67fea9835f6889aaf05dd93f34cdedeab026e176cc93022ca82d82e94a0e13e2697cd8946919523e2fb5730f4aecf95b02c2f759308bde75b7be356638ba7a8862a010b6154f3b8bf0a32fd32670ec64c9ff98f47275a21e11f4aa97283d6fba392a834d57819abd19578472e80a4a67f0bbad71ec8235c896e0422</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <tags>
         <tag>英语</tag>
       </tags>
