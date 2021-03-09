@@ -105,7 +105,7 @@
 </head>
 <body>
     <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="mainX2021-0221" style="width: 600px;height:400px;"></div>
+    <div id="mainX2021-0221" style="min-width: 100px;height:400px;"></div>
     <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例        
         var myChart1 = echarts.init(document.getElementById('mainX2021-0221'));
@@ -119,8 +119,8 @@
                 name: '完成与否',
                 type: 'pie',
                 selectedMode: 'single',
-                radius: '55%',
-                center: ['32%', '50%'],
+                radius: '40%',
+                center: ['50%', '50%'],
                 labelLine: {
                     lineStyle: {
                     color: '#235894'
