@@ -11,6 +11,117 @@
 ]]></content>
   </entry>
   <entry>
+    <title>新增竖版功能（为了背小说，写日语日记）</title>
+    <url>/2021/03/14/Vertical-Plate/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>为什么我要做竖版功能？</p>
+<p>原因：今天在知乎上搜【日语学习过程中日本外教到底有多重要？】，发现有位大佬学习日语的经历非常励志。他刚开始去日本的时候，日语只学了标日初级上，基本啥都不会。因为日语不好，工作很痛苦。于是，他给自己订了一个计划:</p>
+<p>早晨5点起床大声朗读课文,并背下所有教材中的例句;</p>
+<p>白天上班过程中尽量多找日本人交流,大胆开口说日语;</p>
+<p>晚上下班回来,7点到10点啃日文教材或小说,请记住不是看是啃,就是搞懂每个句子的语法,每个单词的意思不懂的查字典或记下来第二天问日本人;</p>
+<p>10点到12点看电视练习听力.看的过程中一定要聚精会神注意听他的表现手法和发音,有必要时做点笔记,比如记下发音再去查字典<br>.<br>他从不给自己找借口头懒.不仅工作上的交流基本没问题就是电视也基本都能看懂.在会议上能比较流利的发表自己的看法,也能写出教好的业务报告.</p>
+<p>我觉得他的经历非常有参考价值，学习日语的方法写得也非常好。我的听说读写，就写完全没有锻炼，所以我也想会写。之前有朋友建议我用博客写日语日记，奈何我水平太菜，先从研读日文小说开始吧，日本小说，超让我感动！！由于日文小说是从右往左竖排写得，所以我必须得解决竖着排版的问题。</p>
+<p>日语学习过程中日本外教到底有多重要？ - 言吉外国语的回答 - 知乎<br><a href="https://www.zhihu.com/question/38841412/answer/125171737">https://www.zhihu.com/question/38841412/answer/125171737</a><br>需求：</p>
+<p>解决过程记录。<br>1.寻找竖版解决方案，看了以下文章，决定使用竹取（taketori），它是一个静态js文件。涅槃（nehan）也行，下下来发现太复杂，遂弃用。<br><a href="https://kaix.in/0000/vertical-writing-mode/">https://kaix.in/0000/vertical-writing-mode/</a></p>
+<p>2.导入到hexo中，放入到对应主题的source目录下。发现我的ayer主题下style文件格式是styl（Stylus 是一个CSS的预处理框架），而竹取的style格式是css，所以浏览器搜索，在线自动转换成styl格式，发现其中有4个样式报错，selector expectedcss(css-selectorexpected)，怎么想语法都没错，最后发现是vscode没装styl插件，下了个插件，就不报错了。<br><a href="https://wxnacy.com/2017/12/12/hexo-cust-js/">https://wxnacy.com/2017/12/12/hexo-cust-js/</a></p>
+<p>3.在项目路径下，安装npm install stylus -g<br><a href="https://blog.csdn.net/zc639143029/article/details/72630087?utm_source=blogxgwz1">https://blog.csdn.net/zc639143029/article/details/72630087?utm_source=blogxgwz1</a></p>
+<p>4.导入项目后发现css无法加载，后来仔细扫了一遍taketori.js这个文件，发现它是直接引用方法导入同级的css，于是我把taketori.css和taketori.js放在一起就加载出来了。taketori.js正常使用，竖版问题也就解决了。</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>日语学习过程中日本外教到底有多重要？ - 言吉外国语的回答 - 知乎(文章写得太好,我决定放到博客上，激励自己好好学。)</title>
+    <url>/2021/03/14/jajpStudyIdea/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>外教不是那么重要，重要还是靠自己，下面分享个人学习日语的方法，希望能帮到大家<br>学日语并不难,难是难在你有没有信心学好日语,有没有恒心学好日语.如果三天打鱼两天晒网的话,我劝你还是趁早死心,在语言世界里没有任何的捷径,有的只是艰辛和不懈的努力.</p>
+<p>我自认为自己在学语言方面很有天赋,大三时就很轻松地过了英语六级.大学毕业后进了厦门一家很有实力的日资企业,又很幸运被公司选派到日本来学习.</p>
+<p>在这之前根本一点都不懂日语.只是在来日本前学了初级日语第一册来了日本以后才体会到那种什么都听不懂无法交流的痛苦.业务上当然就进展很慢.那个时候反而激起了我的斗志,我发誓要把日语学的比日本人还要好.</p>
+<h2 id="我给自己订了一个计划"><a href="#我给自己订了一个计划" class="headerlink" title="我给自己订了一个计划:"></a>我给自己订了一个计划:</h2><ul>
+<li><p>早晨5点起床大声朗读课文,并背下所有教材中的例句;</p>
+</li>
+<li><p>白天上班过程中尽量多找日本人交流,大胆开口说日语;</p>
+</li>
+<li><p>晚上下班回来,7点到10点啃日文教材或小说,请记住不是看是啃,就是搞懂每个句子的语法,每个单词的意思不懂的查字典或记下来第二天问日本人;</p>
+</li>
+<li><p>10点到12点看电视练习听力.看的过程中一定要聚精会神注意听他的表现手法和发音,有必要时做点笔记,比如记下发音再去查字典.</p>
+</li>
+</ul>
+<p>就这样我几乎陷入疯狂的境界每天都坚持不懈,从不给自己找借口头懒.半年下来日语水平简直突飞猛进.不仅工作上的交流基本没问题就是电视也基本都能看懂.在会议上能比较流利的发表自己的看法,也能写出教好的业务报告.</p>
+<p>在日本人睁大眼睛对我说信じられない时,我只是笑笑,有谁会知道这个背后的艰辛.</p>
+<p>现在我仍然每天不懈的坚持着,只为实现自己的诺言把日语学的比日本人还好.</p>
+<p>我个人认为在听,说,读,写中说应该是最难的</p>
+<p>接下来是听,写,读.现在看日文小说99%能看懂,但是请千万记住看懂不等于你懂因为你还不会用,你还不会说.你会用时你会说时还不等于你会.因为你还不会象母语那样随心所欲地使用.</p>
+<p>所以说学日语要一个一个层次来,决不能操之过急,更不要得意忘形.看懂离会还有十万八千里呢.另外我想说学日语当然是为了多掌握一门外语多一份竞争力,但我认为更重要的是通过学习日语来了解这个民族的文化,风俗,这比什么都重要.</p>
+<p>了解日本为什么会发展那么快,了解他的国民性为什么那么令世人讨厌,又为什么不得不佩服他的工作精神.这些我想才是学日语的根本.</p>
+<p>当然这只是个人愚见,总之希望我的这点意见能对大家学习日语有帮助. 关键是要有信心和恒心. 虽然是老套点但也不失是真理,让我们共同努力!</p>
+<p>首先,我想说自学当然比正规的上课,由老师来教来的困难些.但既然是没办法找老师教,又想学日语,那只有自学了.</p>
+<p>说实话自学绝对可以把日语学的很好,只要你有信心和恒心. 其实做任何事都一样,这是成功的必要条件. 有了上面的条件接下来就开始学习了.</p>
+<p>首先要找好的自学教材,最好是正规日语教学用的教材,因为这样的教材往往比较系统. 很遗憾,我自己本身当初来日本比较急并没带什么教材过来,也不清楚哪些教材比较好.我所知道的就是「中日交流标本身当初来日本比较急并没带什么教材过来,也不清楚哪些教材比较好.我所知道的就是「中日交流标准日本语」,分初级和中级.这套书真的很不错,语法很全面.我精研这套书以后,感觉在以后的自学道路上打了一个很好的基础.强烈推荐!</p>
+<p>但这里我想说怎么学这本书,这套教材我粗看了三遍,精读五遍,最后在把他背起来.真正做到里面的各种用法都能随手拈来.</p>
+<p>或许有人会认为在一套书上花这么多时间不是太浪费了吗?这样想就大错特错了.要学语言精读一本书比泛读十本书来的有效的多.</p>
+<p>如果要扩大知识面那就去泛读了,当然精度和泛读都必不可少.</p>
+<p>在初学阶段最好多花点时间在精读上面.到现在我读日文小说有时一个晚上才看4,5页.不是我看不懂.实在是那些句子还有表现手法太妙了.每一句都读几遍再默写下来, 第二天一早又去大声朗读.这种学习效果真的太妙了! 写起文章来也比较正统,不会成中国式的日语.</p>
+<p>学语言一定要说出来.我当初刚来日本时,自以为学了点日语,跟日本人讲话时心理明明想好了怎么说,可说出来却错误百出搞的人家一头雾水.语言这东西要真的说出来才是你的东西,心里想的和说的完全是两回事.所以目前早读成了自学必修课了.</p>
+<p>我觉的在国内的朋友一个有利的条件就是可以买到大量的参考书.这个很关键.由于是自学,不懂的东西只有靠阅读参考书来解决了. 我很后悔当初没有买大量的参考书过来.建议朋友们多买些参考书来看.</p>
+<p>另外想说在听力方面,要想听比较正式的日语最好是新闻之类的,这类都比较规范.用的大都是敬体.要想听日常的生活方面,就去看日剧.这类比较随意,语言简单轻松.</p>
+<p>建议初学者最好先学敬体,不会敬体等于你不会日文.不要以为日剧里面才是真正的日文,里面也有好多垃圾.</p>
+<p>另外想说说听力.听一盒磁带最好做到每个单词都听懂,反复听,直到听懂为止.一开始不要一味追求高难度,也不要一味追求量多.搞懂一盒再听下一盒, 一步一步循序渐进.这个很关键.</p>
+<h2 id="日语学习大忌"><a href="#日语学习大忌" class="headerlink" title="日语学习大忌"></a>日语学习大忌</h2><ul>
+<li><p>第一，过分讲究方法和技巧，而不愿意下真功夫。语言的运用是一种技能，而这种技能不是靠技巧能获得的。太讲究方法和技巧会被其占用很多的时间和精力，而对学习的内容本身投入较少的时间和精力，因此反而会影响学习的效果。</p>
+</li>
+<li><p>第二，过分将就速度和效率，不愿花时间经常重复复习学过的内容。语言运用是一种技能，技能只能靠熟能生巧，要不断重复才会熟练，只有熟练了才会形成一种不加思索的技能。</p>
+</li>
+<li><p>第三，三天打鱼两天晒网，没有恒心，不能长期坚持学习。技能的额数联要有一个过程。在这个过程中会遇到各种困难，但不能向困难低头，要坚持不懈的反复学习，持之以恒。</p>
+</li>
+<li><p>第四，不重视听力训练。语言是有声的，我们对语言的感受首先是语言的声音作用于我们的大脑。如果不练习听力，只是默默的阅读和背单词，其结果是不仅听不懂别人讲外语，而且阅读水平也难以提高。</p>
+</li>
+<li><p>第五，只学而不用。语言的实践性很强，如果只学不用，就永远也学不好。我们学语言的目的就是为了应用，要学会在用中学习，这样才能提高兴趣，达到好的学习效果</p>
+</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>悪魔</title>
+    <url>/2021/03/14/novel-test/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>   
+    <div class="tategaki">
+        <span style="display:block;text-indent:2em;">
+        その湖は、北の国にあった。広さはそれほどでもないが、たいへん深かった。しかし、いまは冬で、厚く氷がはっていた。
+        </span>
+    </div>
+
+<a href="#" id="toggle">表示切り替え</a>
+<script type="text/javascript" src="js/taketori.js" charset="UTF-8"></script>
+<script type="text/javascript">
+
+var taketori = (new Taketori()).set({fontFamily:'sans-serif'}).element('div.tategaki').toVertical(); 
+taketori.document.element('toggle').addEventListener('click', function (e) {
+	taketori.toggleAll();
+	taketori.document.stopPropagation(e);
+	taketori.document.preventDefault(e);
+	return false;
+}); 
+
+</script>
+</body>
+</html>
+
+
+]]></content>
+      <tags>
+        <tag>小説</tag>
+        <tag>星新一</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>不能去日本的日子</title>
     <url>/2021/03/03/2021-0303article/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
