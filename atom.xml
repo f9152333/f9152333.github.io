@@ -6,7 +6,7 @@
   <link href="https://f9152333.github.io/atom.xml" rel="self"/>
   
   <link href="https://f9152333.github.io/"/>
-  <updated>2021-03-14T12:42:16.744Z</updated>
+  <updated>2021-03-14T14:16:34.666Z</updated>
   <id>https://f9152333.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>archive归档页面的Bug</title>
+    <link href="https://f9152333.github.io/2021/03/14/archiveBug/"/>
+    <id>https://f9152333.github.io/2021/03/14/archiveBug/</id>
+    <published>2021-03-14T13:36:35.000Z</published>
+    <updated>2021-03-14T14:16:34.666Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://f9152333.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="bug" scheme="https://f9152333.github.io/tags/bug/"/>
+    
+  </entry>
   
   <entry>
     <title>新增竖版功能（为了背小说，写日语日记）</title>
@@ -67,7 +92,7 @@
     <link href="https://f9152333.github.io/2021/03/14/novel-test/"/>
     <id>https://f9152333.github.io/2021/03/14/novel-test/</id>
     <published>2021-03-14T08:50:54.000Z</published>
-    <updated>2021-03-14T12:36:36.705Z</updated>
+    <updated>2021-03-14T14:05:18.275Z</updated>
     
     
       
@@ -414,29 +439,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>杨中科大佬英语学习网站，屌丝必备神器！</title>
-    <link href="https://f9152333.github.io/2021/02/13/eglish-learning-site/"/>
-    <id>https://f9152333.github.io/2021/02/13/eglish-learning-site/</id>
-    <published>2021-02-13T14:55:48.000Z</published>
-    <updated>2021-02-13T15:10:46.192Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script</summary>
-        
-      
-    
-    
-    
-    
-    <category term="英语" scheme="https://f9152333.github.io/tags/%E8%8B%B1%E8%AF%AD/"/>
     
   </entry>
   

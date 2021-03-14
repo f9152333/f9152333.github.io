@@ -183,6 +183,59 @@
 
     
     <article
+  id="post-archiveBug"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2021/03/14/archiveBug/"
+    >archive归档页面的Bug</a> 
+</h2>
+ 
+
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2021/03/14/archiveBug/" class="article-date">
+  <time datetime="2021-03-14T13:36:35.000Z" itemprop="datePublished">2021-03-14</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a>
+  </div>
+   
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>首页没问题，但是在archive归档页面出现了bug。发现是get404，archive页面下的get路径不是项目主题的默认路径了，而是一个新的路径,我在后台找到这个路径，新加一个js文件夹，复制taketori.js,taketori.css放进去就行了。</p>
+<p><img src="https://ftp.bmp.ovh/imgs/2021/03/76b758480b1c4d79.png"><br><img src="https://ftp.bmp.ovh/imgs/2021/03/1b80d12fc900554a.png"><br><img src="https://ftp.bmp.ovh/imgs/2021/03/36218d2326818eaf.png"><br><img src="https://ftp.bmp.ovh/imgs/2021/03/5d9ec247903193e8.png"></p>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/bug/" rel="tag">bug</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+    
+</article>
+
+    
+    <article
   id="post-Vertical-Plate"
   class="article article-type-post"
   itemscope
@@ -373,18 +426,16 @@
         その湖は、北の国にあった。広さはそれほどでもないが、たいへん深かった。しかし、いまは冬で、厚く氷がはっていた。
         </span>
     </div>
-
 <a href="#" id="toggle">表示切り替え</a>
 <script type="text/javascript" src="js/taketori.js" charset="UTF-8"></script>
 <script type="text/javascript">
-
 var taketori = (new Taketori()).set({fontFamily:'sans-serif'}).element('div.tategaki').toVertical(); 
-taketori.document.element('toggle').addEventListener('click', function (e) {
+taketori.document.element('toggle').addEventListener('click',function (e) {
 	taketori.toggleAll();
 	taketori.document.stopPropagation(e);
 	taketori.document.preventDefault(e);
 	return false;
-}); 
+});
 
 </script>
 </body>
@@ -798,61 +849,6 @@ youzack新概念英语从2开始听读，一天一篇<br>
 <p>我学的方法似乎跟学技术一样，先是基础小知识点，一点一点的来回记、练习。而且我过段时间肯定会忘，所以学习习惯一定得好，<font color="#dd0000">必须做出笔记出来，</font>然后不停的记、练习。再之后，就可以一个模块一个模块的记、练习了。我长期学习的坏习惯就是总是挑简单的知识点学，学的不系统，而切过段时间总是忘了。</p>
 <p>最后就是整个框架，整个项目的看了，我还没这水平。主要是很多细节问题，我分析不出来，理解的不透彻。有的逻辑和bug，形成原因很复杂，弄透彻太费劲了，这可能就是经验、智商阻碍，技术能力不够的原因。</p>
  
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%89%93%E5%8D%A1/" rel="tag">打卡</a></li></ul>
-
-    </footer>
-  </div>
-
-   
-    
-</article>
-
-    
-    <article
-  id="post-2020-0223"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2021/02/24/2020-0223/"
-    >2020-0223打卡(补)-今天开始加饼图视觉体现完成量</a> 
-</h2>
- 
-
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2021/02/24/2020-0223/" class="article-date">
-  <time datetime="2021-02-24T00:58:00.000Z" itemprop="datePublished">2021-02-24</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%89%93%E5%8D%A1/">打卡</a>
-  </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  有东西被加密了, 请输入密码查看. 
-      <a class="article-more-link" href="/2021/02/24/2020-0223/"
-        >阅读更多...</a
-      >
-       
       <!-- reward -->
       
     </div>

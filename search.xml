@@ -11,6 +11,19 @@
 ]]></content>
   </entry>
   <entry>
+    <title>archive归档页面的Bug</title>
+    <url>/2021/03/14/archiveBug/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>首页没问题，但是在archive归档页面出现了bug。发现是get404，archive页面下的get路径不是项目主题的默认路径了，而是一个新的路径,我在后台找到这个路径，新加一个js文件夹，复制taketori.js,taketori.css放进去就行了。</p>
+<p><img src="https://ftp.bmp.ovh/imgs/2021/03/76b758480b1c4d79.png"><br><img src="https://ftp.bmp.ovh/imgs/2021/03/1b80d12fc900554a.png"><br><img src="https://ftp.bmp.ovh/imgs/2021/03/36218d2326818eaf.png"><br><img src="https://ftp.bmp.ovh/imgs/2021/03/5d9ec247903193e8.png"></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>bug</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>新增竖版功能（为了背小说，写日语日记）</title>
     <url>/2021/03/14/Vertical-Plate/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>为什么我要做竖版功能？</p>
@@ -97,18 +110,16 @@
         その湖は、北の国にあった。広さはそれほどでもないが、たいへん深かった。しかし、いまは冬で、厚く氷がはっていた。
         </span>
     </div>
-
 <a href="#" id="toggle">表示切り替え</a>
 <script type="text/javascript" src="js/taketori.js" charset="UTF-8"></script>
 <script type="text/javascript">
-
 var taketori = (new Taketori()).set({fontFamily:'sans-serif'}).element('div.tategaki').toVertical(); 
-taketori.document.element('toggle').addEventListener('click', function (e) {
+taketori.document.element('toggle').addEventListener('click',function (e) {
 	taketori.toggleAll();
 	taketori.document.stopPropagation(e);
 	taketori.document.preventDefault(e);
 	return false;
-}); 
+});
 
 </script>
 </body>
