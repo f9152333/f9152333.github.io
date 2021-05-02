@@ -6,7 +6,7 @@
   <link href="https://f9152333.github.io/atom.xml" rel="self"/>
   
   <link href="https://f9152333.github.io/"/>
-  <updated>2021-03-14T14:16:34.666Z</updated>
+  <updated>2021-05-02T01:44:41.319Z</updated>
   <id>https://f9152333.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>再来无锡工作，整理最近的感悟</title>
+    <link href="https://f9152333.github.io/2021/05/02/20210502/"/>
+    <id>https://f9152333.github.io/2021/05/02/20210502/</id>
+    <published>2021-05-02T00:24:52.000Z</published>
+    <updated>2021-05-02T01:44:41.319Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>archive归档页面的Bug</title>
@@ -424,21 +445,6 @@
     
     
     <category term="打卡" scheme="https://f9152333.github.io/tags/%E6%89%93%E5%8D%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>分享有用的专业东西，还是有人看的</title>
-    <link href="https://f9152333.github.io/2021/02/17/csdnsuccessdemo/"/>
-    <id>https://f9152333.github.io/2021/02/17/csdnsuccessdemo/</id>
-    <published>2021-02-17T08:00:14.000Z</published>
-    <updated>2021-02-19T04:23:52.979Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;在大学时，我曾在csdn上写过一篇简单的教学博客，今天突然发现有了7千多的访问量，</summary>
-    
-    
-    
     
   </entry>
   

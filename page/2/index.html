@@ -131,6 +131,135 @@
     
     
     <article
+  id="post-2021-0224to0301"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2021/03/01/2021-0224to0301/"
+    >2021-0224to0301懒人外语听读心得</a> 
+</h2>
+ 
+
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2021/03/01/2021-0224to0301/" class="article-date">
+  <time datetime="2021-03-01T02:19:25.000Z" itemprop="datePublished">2021-03-01</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%89%93%E5%8D%A1/">打卡</a>
+  </div>
+   
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="2021-0224to0301" style="min-width: 100px;height:400px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例        
+        var myChart1 = echarts.init(document.getElementById('2021-0224to0301'));
+
+        var option1 = {
+            tooltip: {
+            trigger: 'item',           
+            },
+            series : [
+            {
+                name: '完成与否',
+                type: 'pie',
+                selectedMode: 'single',
+                radius: '40%',
+                center: ['50%', '50%'],
+                labelLine: {
+                    lineStyle: {
+                    color: '#235894'
+                    }
+                },
+                label: {
+                    fontSize: 18,
+                    color: '#235894',
+                },
+                data:[
+                    {value:1, name:'超特级说日语',itemStyle:{color:'#00dd00',borderColor:'#235894'}},
+                    {value:1.001, name:'标日初中级',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'anki标日红宝书单词卡',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'n2真题',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'SAA题库',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'新概念英语',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'式样书日语',itemStyle:{color:'#dd0000',borderColor:'#235894'}}
+                    ]
+                }
+            ],
+            
+            formatter: function (params) {
+                if(params.data.value==1.001)
+	                return '未完成'
+                else
+                    return '完成'
+            }
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart1.setOption(option1); 
+    </script>
+</body>
+</html>
+
+
+<font color="#00dd00">
+超特级说日语，Unit1-Unit5(初级整本)<br></font>
+<font color="#dd0000">
+标日初中级，一天复习4单元<br>
+anki 标日，红宝书单词卡 最快速度扫过<br>
+n2真题，两天看一卷（不做只看，听）<br>
+SAA题库，一天100题纯背不实操扫过就行<br>
+youzack新概念英语从2开始听读，一天一篇<br>
+对日开发日语和式样书单词总结</font>
+
+<p>刚开始听得时候非常排斥日语的音调，就一小节，两小节的反复听，很烦!</p>
+<p>可是听了很长很长时间之后，因为很熟悉很熟悉了，就觉得速度、音调也还行了，不是特别快了，偶尔个别没听懂，不影响理解意思了。</p>
+<p>然后一个单元一个单元的听，最后一本一本的听，我发现我不懂的点就那么几个，绝大部分都能听得懂，前提是要不停的听读，否则过几天又忘了。</p>
+<p>其实中文意思你也记住了，就像脑子里不停地做连线题一样，先出外语句子，你自己连中文意思。</p>
+<p>我学的方法似乎跟学技术一样，先是基础小知识点，一点一点的来回记、练习。而且我过段时间肯定会忘，所以学习习惯一定得好，<font color="#dd0000">必须做出笔记出来，</font>然后不停的记、练习。再之后，就可以一个模块一个模块的记、练习了。我长期学习的坏习惯就是总是挑简单的知识点学，学的不系统，而切过段时间总是忘了。</p>
+<p>最后就是整个框架，整个项目的看了，我还没这水平。主要是很多细节问题，我分析不出来，理解的不透彻。有的逻辑和bug，形成原因很复杂，弄透彻太费劲了，这可能就是经验、智商阻碍，技术能力不够的原因。</p>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%89%93%E5%8D%A1/" rel="tag">打卡</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+    
+</article>
+
+    
+    <article
   id="post-2020-0223"
   class="article article-type-post"
   itemscope
@@ -755,61 +884,6 @@ youzack新概念英语从2开始听读，一天一篇<br>
     
     <footer class="article-footer">
        
-    </footer>
-  </div>
-
-   
-    
-</article>
-
-    
-    <article
-  id="post-2021-0218"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2021/02/18/2021-0218/"
-    >2021-02-18打卡</a> 
-</h2>
- 
-
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2021/02/18/2021-0218/" class="article-date">
-  <time datetime="2021-02-18T14:17:04.000Z" itemprop="datePublished">2021-02-18</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%89%93%E5%8D%A1/">打卡</a>
-  </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  有东西被加密了, 请输入密码查看. 
-      <a class="article-more-link" href="/2021/02/18/2021-0218/"
-        >阅读更多...</a
-      >
-       
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%89%93%E5%8D%A1/" rel="tag">打卡</a></li></ul>
-
     </footer>
   </div>
 
