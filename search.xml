@@ -1,181 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>图表数据展示</title>
-    <url>/2021/02/03/Echart/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>画一些简单地图表，<a id="more"></a>移动端横向滚动条没加,实时的数据展示，数据处理，还得想，另外，e-chart我觉得不行，不友好</p>
-
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>ECharts</title>
-    <!-- 引入 echarts.js -->
-    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
-</head>
-<body>
-    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="mainX" style="width: 600px;height:400px;"></div>
-    <div id="mainY" style="width: 600px;height:400px;"></div>
-    <script type="text/javascript">
-        // 基于准备好的dom，初始化echarts实例
-        var myChart1 = echarts.init(document.getElementById('mainX'));
-        
-        var myChart2 = echarts.init(document.getElementById('mainY'));
-
-        // 指定图表的配置项和数据
-        var option1 = {
-            title: {
-                text: 'ECharts 示例'
-            },
-            tooltip: {},
-            legend: {
-                data:['销量']
-            },
-            xAxis: {
-                data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
-            },
-            yAxis: {},
-                     
-
-            series: [{
-                name: '销量',
-                type: 'bar',
-                center: ['10%'],
-                data: [5, 20, 36, 10, 10, 20]
-            }],
-
-                 
-         
-        };
-
-        var option2 = {
-            series : [
-            {
-                name: '访问来源',
-                type: 'pie',
-                radius: '55%',
-                center: ['30%', '50%'],
-                data:[
-                    {value:235, name:'视频广告'},
-                    {value:274, name:'联盟广告'},
-                    {value:310, name:'邮件营销'},
-                    {value:335, name:'直接访问'},
-                    {value:400, name:'搜索引擎'}
-                    ]
-                }
-            ]
-        };
-
-        // 使用刚指定的配置项和数据显示图表。
-        myChart1.setOption(option1); 
-        myChart2.setOption(option2);
-    </script>
-</body>
-</html>
-
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>echart</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Oracle基础</title>
-    <url>/2021/02/03/Oracle-base/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>sql我最熟悉的就是select from order by left join..</p>
-<p><a href="https://www.w3cschool.cn/oraclejc/oraclejc-xzfk2qv3.html">https://www.w3cschool.cn/oraclejc/oraclejc-xzfk2qv3.html</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>sql</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SAA_Vocabulary</title>
-    <url>/2021/02/02/SAA-Vocabulary/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>behind 在…后面<br>request 请求<br>patterns 模式<br>unpredictable 不可预测的<br>per second 每秒<a id="more"></a><br>be persisted in a backend database 被保留在一个数据库中<br>currently 目前<br>query 查询<br>combination 组合<br>a managed storage solution 一个托管的存储方案<br>high-performance 高性能的<br>concurrent access to files 并发访问文件<br>deliver 提供<br>recommend 建议<br>establish 建立<br>multi-tier 多层网络架构，多层架构<br>scaling 缩放，衡量<br>Availability Zone 可用区<br>infrastructure 基础架构<br>across of<br>application load balancer(ALB) 应用负载平衡器<br>internal 内部的<br>browser-based 基于浏览器</p>
-]]></content>
-      <categories>
-        <category>外语</category>
-      </categories>
-      <tags>
-        <tag>英语</tag>
-        <tag>aws</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>动词变形</title>
-    <url>/2021/01/27/Verb/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://ftp.bmp.ovh/imgs/2021/01/2543382840435fd8.png"></p>
-]]></content>
-      <categories>
-        <category>外语</category>
-      </categories>
-      <tags>
-        <tag>日语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>immigration</title>
-    <url>/2021/02/04/immigration/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="cd66964ae68fd1fb6c51e17aaaf077a395ca0eeff86eb84281fe33b32d2692c8">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019495eaa3af917530efb9bd4ade0dae85252e2d677cd441d5ba8a6a676a31f90d0ef7c1563877de2a8f4565e82fd01703fc2d8114bfd418c8cc65b9a9c5af1da181873d5393ec511c7915a9af38091c6bff578262785db351fb36e060c5314497776eee5335479fce662550c0141db8d2d6cda8ebf72696bfe38c60c56cec7b11089e4bf102d072c8d294c569499fce480fd2b641116582ac630775b573e9cc108e20e4e8e6488a6a4287d7a7c3acedda5a3dae6ae24a8598f96fa9c07d4f886b3f3d8010cc7157252b8027dd0a7586295719df3cf6498885038d164be1a17913a2277614deb3a0e35761446c162aed91a9dc6560b162cc686ce918984f2e253bf314835dd37f1598f80bc2aec076c7289db2beb41248c5ca8b81bcc1889526c7b11070c0f438adefcf172692480e04376ee55c7da3e9a1a824b565300d00d95b07822a979f5d1d1230ef4823aa2571463b7263b4adf72bab6f26f5bde8fce4dbc45d30329ec10e6662ea8fa0b6df683bdfeedfa664b44c4c602c85f6d7a292a8f4a74d867650d5dd3235e0d0d113d7e53e3dda25aae69cfcb501de514ff4273f68063d2ab6636241483564cb2fc8bc7de8585bbc2eb497fadfab05e04435b1b404efec8f4de8c5eed8137135323633969decb9586791702e39ceea611d30b79a07769ddda8ae0f501f23dc86f63416cc5dc2a930822b0a0936e87b0f3ec35ac908341b72349cec4def85315ded11dd2d393f9f88f476b555ba616f7afb52ac510b08ac6f4957bbdb7656ef85d5ea40159e70000dbcc43e6761ff724380fd83810c98e9412443d965132caa835a36524e1c1ac0b2b9c74b977ac1dbd2c9478732d4dc50bdba0b8f3d37b31d65fde6ae83445e7daccc26ad206833adb2a6afe747ec70551dd3e6bca2de10f1d02567361762b756cdc5b93dcf35c77697e3c75cdf0a4dde9161c6b11dd4188f107e87325b49ffb1463fd71f18b484cdc827651087b20d16936ca74f69e5821e4ddb822315eb02bb1940df16861094c7846df8ac6db26ad55ba8a0b470adfef96569e12f0acd20166d219da77c039d54042d21eebaba5d30afe03e180801f0d96ded1e11a774e82d5c1e56b3d6254a5b0a5a61d598d40168bc6567d361388066ebdf5398714b3c348a5c19ed4f392d038ebe8300d8c78fc2ea6eadbc94a8836ce0c0f9524e0d4f2189e72e0650824a241ccf970aa9c02cb29e5eb7d6b159809f8e461a3dfdda80f4f0c33689fbd6c2b07695acdabc475ec5d62fa26868cdf5778e483f6d93ebba038a7a9c3295fe69b6450733abcf503aceb469435878c6ac981cda30b4da61404fac7b39a182461433dac95e46469fb36677cc1e1b35145bf14b002097b65793493ec0f025ae7b872bd97aed66818a693b62cb75b49481c96ffd1edefc6318aacc4ce15474220717057e3f68028a1e4e7a6d3e2b1632889e03d51f08ec972908c8d296ded764522d30a14ebe64371f2c5a8adf053305093499058ea54acbc258cd478802964a104536a7c03ab3f21c4808ad8dbfb3fcce824c95f0fbebd31726c9b14d49f4fabe245e65eb4f7a091d1c8d8db92358a73a74a43518317dedb49a4e661343ba36ba9dbfc082134a2334b53862c4cfb346c72b6359919b5b69592149a66299f8c4b453191d4a0ba65e2c16e7ea002d0b91f4d99a5be8f633b2b828912b98ef5f78794e250abc103429bcdd3ace1a5707e1bd6771a5fd289860a119fc705250a057bd2f040f306e10fb42f9b03c63b9fe57dfc8057e8b4864c49553d8a15d807ac3f610999e0ef93281bae560abca2586c286ea6bc9bf8c7e76293139c36ea453fdc77d06368e140a09db604c7eead6d18ad77af5180e8f818b585bc5035696ca2eacf3703f124b35fa7cb7d7b6dd63ed308a40b05d5476a1d7372c36374b86a8d01ebf2fd461a58296955219b225925c44e7fe85456aa9d3439c013149d5b8b5c5f5a8a991be124270b97998f54fe4e4c15df2859368cd0fa6a91c57f18ed5a4defeebc55ae0fd8b569bd94c0c4b233615c60c683281250920aacf4ad7eac0a69211b0c114f2a91a6553b4119a65b838aaf66731c9c9c4e232e89f99cdfd17ce4d2979bee2f97cb7e749de56a0a1946b05743de66a4da98781858ed6680afbd2dc9aadaf10af0ca58a85cb61efa01794caac6b46dee2ec9478889ccad576de282512d64b022403f76e9a4257594b05e16ad80611ed5e73b898a9d66f5b9f65dff457661006e42739d8df8bc2450bfd27957d89bdd32758e62b0141d007361803372d26f0fb6e80b21fccf381ecc1d976fe8635d8cdb206d87729c20f4ee99e376e152485e5f017a2753b28ed1e8adf42aa8374423574953ebb885a163eeaf96432d6ad56cf4ddc3f9264dc56a33c48a279b40a8dc8e64fb4c1d069597a20d04588b9205d3020c3f50809238b2e41e30ec828478d11dbe7a0a3f35f67fa65f244f00d1722019d5a987d4ec39090a701386f399409d94f0708c345693a2dcfe709563d526be970c509d28689b1808025faaf1f06ad470c3f2d5b57da68c0220a2986ad8f5c56dcefc8b96724d52f7231cc1e4d4cab5def6bbdb0d21b2a8bfb12ee085e206268883687c99332d2f3b589e9706c4eded4143335190a4505e311e8b369d92c2332a50e5a67f46813bfcac167a4870537e3425b5a9e94f9c1c44df66037ee5c6bb15f9012aa9a27d9c501520badda7b86c742af69b1afe474210529f1b70c6557b716898ea30c71b8643fe9bebc45f27d08c0686fdf47c5799f51474e6372cf8b4861c709d2fd3b784d764334f22a283efc10bce3654d4bba2dc848903422290d0d39bf7ec95774715416669e994ce8f0224354e1dea124d4eb12df25f7659ebda07902c30a61785987ae7cc54bc720ea16cf5660c2e3dda75471475f3dddc329a1d916ca219a7740008c7576874ffa781116dcad20f51ad1b49cf02f6b47a8367c60cef3ce345b1ead93a33bd05e82b0e7ce7dff5993d6fcb15ae5e59d257d285dc8fa572916a064e93388c3a50fc7d2104534c5be44179b22ef6b45612f61d81f6e74f14e6c43279ba2f58324e855bb1d59db7ff34398e367278476b23211db2037c75b40372a3067ff1872a9054160021bfb86ca0fee11f1def29e6e05e93bfb2d56fc03ed408ff926cd6fbead260ef758e0add89744d2d988a8e56b58d319162f568e50400bf49331b17700dd0e7935d8def6c6016f49d74d0e6293bb115474a88310fe5c174db1a4d97a669b188729116ce0b81882ed40bf1ad3972f37b0611cdb96362b87308f8480db42412a6acc5a284bc88d0c321cbd07305dd5167ea9c37c01c69e859172c26eed83797255d89acbc1f737c40e06328e4d6c7b0019e853c8b7e585fe476c7aaf518c8d1a12e9d1a52123a99bcd0cc85d2a923f36b15d26cd6e7744eaec2a498cf42b2abfb763e4d1dd90e44f949e27afb6a6ab720ee45d1577e2af03e379b5507989e456549ac0187f76ddb2734720529de1170793c2b59e19c5b0631fc38809e4ad28f463327934cec80519e23e952d3dd5ebfcd29f49f29d2b680dc2e9c4748f3c8922d834274d6aeb89c2cdc8d788f6603f678353142bafdc2e2ddacf5416fdbefcfb85a029319892b247a32ba1d94ef34ebf76fae56e524fdcd03e6f8fbd382163d87df7d3cda71d39e0d103deb28e634cd95fe93d9cb82f19390f5dd00cc7c22981b551d50f7598eefb29e87a56ebf8a4d7444fb95e7554dea24fb170793b08817d73f4bb79033e5ee1cbbf0606eb661f249b20a88d81b00a32ee9f51f896622343b4ab31120cf95a1890435a8648ce178613fc82f2d0b0c652d3bb07cf0a7078290e4c91b49f8a32fd2cdacdf0a62607bde10ca031f3fe358feae929f62316d819d8a1328919e8d3a09d114cb2a70a72518c33368af1e49dcac7f3d6aad89920514ae705ffc60ff9e01415e2c1202523b9145939ae25b123bdf4a3458844504576789d8e9f8ed90f20c130d334cd991160d473a3895f4cdb5c464c62f17fb22326b43ab11830ef8fd835a1a6f16126d62c05ca70689bc4c2bbdb1c985fdd9438109405f73aac9d0f689ac33ad5403b556db7dfc41c904f75369bb7d239e5e3fd892ae3479f46f0ec8517d20a151215c331633246288be4d1b849fa69ba1d8301de2171ecdfbed2df3797c8940ebc97942354642f7003269f63a5897ce31a6eaf44a17768a05d4df9b795a1dfdcd87a83dc4f5e5c6612f04a6a60c04e46d6f3a48294fefb050308427da136b7748601225bf694e85f9ce136a0d0ac1a7fa282017a8201336c6196f7cf25e33313809c10d7ca5e7c3ef5b587692b55d9f2f3132cf1d201d0d3dedc7446444040a99c0e18a53b1c6cdebe11b68b2b0a048480c46e7bfead27c6f8a5992a006649310822740e77156261fca5cdc5b87f7da5c3455822953da2cfb8066f5693d60bad67ecb02fff70e69fc7233</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-  </entry>
-  <entry>
-    <title>学习英语的一大动力？</title>
-    <url>/2021/02/13/learning/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="e5671d1524961b328736362ab4a35acf43a650dc45c64f891461e0c863615907">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc33750190f3307e62178a74b3a1bb920b02f7d04c341ba2d150e0cdfe8a075f9c69a4fb3c0af4b63a753edd101618a4df8c24e7705542f265833c43d0bb70218d68a0f8b03a93ae90b38136c9daa9b5116ebdceb4886c39c68926f738466370720d994772776b90042c57ee54d68bfd76b3983cd38700d4fdf655176b32f05a7d946436ec378c397a67d31a61746e369b9d0d2af5c0a14d0186e28b5fc14e3b8f5a12a6c01a39c5f045159a5f31b496f0b13687d15f69fb8ede83d103993930e5d8ff4c62c11988d1a4e6bdf5cade2714b0b3e391344f019c6c02a3292330a0f55f3bb6139d72a1d73f2a253eabef664cf6d3f6b786b03a5facf9c15ae73faf88fe2fed3e727750c86857d296c553d874122e9d56989ce46f5448ec81fd7f71c8c4430f13beb1ba69e78d8095eba448af346917d6f4e7e1f36f241a9dcda51a43f83e5c499d4450d48d01a918d9e988cef64f33dd01c233906122ff696bb2c4a5bd779be484b8d379bb0973591f2184646e13dd88422281bf0f0a1aff6f3798c0577b7490b5dae36b67d56473556d57a053c867f6366af92cce81259d5660b1731cf371d2e86c6cb90c61ada448e13e6cef3e2a8afbfd2b8d8430b299d0252e987d5b7362f9e1daa50b7e2ad79aaf271b7ae88c03764256aed0ba2c055afc5168e0e59d6cccae890e1b3e7dce4b532f425c4859cf528c52c93c91ef0e56d007b182f2a6fcc527f41fb59c2d786a5061f9e960749390fae0956c8479fb46e396aa5c142d51fb4b3704029e785561a661ec32497591d7b32a1f47d4fe633c9b208d53e095476b40672a67fea9835f6889aaf05dd93f34cdedeab026e176cc93022ca82d82e94a0e13e2697cd8946919523e2fb5730f4aecf95b02c2f759308bde75b7be356638ba7a8862a010b6154f3b8bf0a32fd32670ec64c9ff98f47275a21e11f4aa97283d6fba392a834d57819abd19578472e80a4a67f0bbad71ec8235c896e0422</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>英语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>java基础</title>
-    <url>/2021/02/03/java-base/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>java基础：<a href="https://www.cnblogs.com/adamjwh/p/8868588.html">https://www.cnblogs.com/adamjwh/p/8868588.html</a></p>
-<p>java复盘：<a href="https://how2j.cn/stage/25.html">https://how2j.cn/stage/25.html</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>new_way_to_build_a_website</title>
-    <url>/2021/02/12/new-way-to-build-a-website/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>很惊喜！</p>
-<p>刚刚我发现了一个新的建立免费博客的方法，非常简单，不需要任何编程知识，只需要注册一下就行，只不过因为是美国的一家公司(substack),如果在大陆，需要翻墙使用。</p>
-<p>我刚注册的域名：hakusaii.substack.com</p>
-]]></content>
-  </entry>
-  <entry>
     <title>写在前面</title>
     <url>/2021/01/26/statement/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这个博客网站很简单，使用hexo框架、ayer免费开源主题，模仿大佬建站的。只要了解一丢丢前端、git、markdown知识任何人都能轻松建站。主要是用来鼓励自己学习、记录自己生活用的。</p>
@@ -186,87 +11,240 @@
 ]]></content>
   </entry>
   <entry>
-    <title>自我介绍</title>
-    <url>/2020/01/16/self_introduction/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="ec8d3ece3a08d740459d9c2d19b24f8af4f44af70a0dac0fae86cabae4cb4caa">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc33750194dcf1a6c4b27db81cce1bb58fe004696072eb97da91ad2f7a9cc2d86cdb7c0a3fdeccad918abdd1701d6bac84ba2a0230e5371068071c7244b149fc640ffdfba3dd686a93d5c33f91fff59b2afe8f1ebf2070d07cf84c4870f668c841d2a1041cdfff8c47cb8ae53c2ef202d0a33fd3451b2f1e3c384e6e21a7241413921104cad2272424e99ed19df87f47b6ab0dad6e6b4b96db24c79950827a1f9db0446e96a7762a61233786337713209a6958535bb4b73fd2fe0a24882187185dd29592bc86c916a736fa4208c1792a889274f77e6196edd11f39d438d37c414e92238471b395e6d63ab474e549276dfdf151d48cdc79593f7295ac55a55c9c7e197cbe98f37fec826e2333f26dce830046b4c80c0f82fb1fc8f49535639a02f7952e3bc19ca105e6422e0a95ea04b606acb2b31ce282e6ae6b89109b28b4601c9ddb47e4af2fc79044b1509ae03c09a82fe900d662abdcddc05b1a24218ff3e35d41274667e381a384c4deaa7613901de24178400159a069b5bb4cb8e6dcdadcbb60f6f2782a2446a08f1e54270615384a5fdead79bdffce205941077e929f60cd0b8a11660d9418b97a97370677fe30976b7543a3dc2955b41c889939d44c86667a513cfe9a52182a5fc73eb2e92f183e925049e6baf00099e9eb7050e938c1059c190b03f8090f94f341c8e65638eb51b26c923ccdf7df38ea7817b41352b13f58970</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <title>もっと優秀になったら、どうするかいいかなあ？</title>
+    <url>/2021/06/01/20210601/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>小时候看jk罗琳的演讲，让我认定了想象力的重要性。</p>
+<p>但是这也慢慢养成了我的坏习惯。好高骛远，喜欢天马行空的幻想，却不脚踏实地的做事。喜欢杂乱无章的瞎想，却不立足现实，走一步算一步。所以吃了很多很多亏。</p>
+<p>而且我容易得意忘形，就是容易跳。喜欢显露自己知道的，也就是俗话说的，半桶水喜欢出来晃。不懂得隐藏自己，慢慢发育，所以吃了很多亏，人心太复杂，所以，我没有机会继续发育，没有机会做想做的事情，过自己想要过得生活。</p>
+<p>学习，我看大河剧里的岩崎弥太郎赚钱就是从研究学问开始。于我最现实的挣钱方法，就是在工作上多学习，多锤炼，研究aws，争取能在云计算方面，能在公司里担任专家。为了提高自己在市场上的议价权，不仅是新技术的尽量快速掌握、传统前后端技术一定程度的掌握(由于我做对日，传统技术很难竞争过别人)，日语英语等外语也相当重要，因为我要去日本，而且还要研究aws，就等于人生的高低完全与日语英语绑定了，花再长时间都要跳过这个坎，这也是我唯一能走得路了。我不想碌碌无为的留在中国过完一生，我想往上走。至少要能在东京立足。</p>
+<p>从明天开始，无论是在公司还是在任何人多的地方。闭嘴,做事。猥琐发育，逃出去，建立自己的窝，安心的过自己想过的生活，做更多想做的事。</p>
+<p>立足身边能做的小事，快速思考和练习。</p>
+<p>1.每天玩lol控制在2把，慢慢戒掉。</p>
+<p>2.下次与日本朋友通话，尽量把草稿写长一点，没有话题寻找话题，这样就能多学一点</p>
+<p>在公司一定要闭嘴做事。坚决猥琐，绝对不显能，适当的装傻能获得更好的人缘，虽然能力增长是我目前的主要任务，但是长远来看，维护和经营不断扩宽的关系网更为重要。像织田信长一样情商低，只会招来围殴。但是，在人少的事情，关键人物面前可以找机会露一手，这需要不断的学习，不断的等待，坚持与忍耐。要像德川家康一样，忍常人所不能忍，力图赢下关键战役，前期输再多也要挺住。</p>
+<p>因为我的各方面条件很差，一直失败很正常。心态要好，多活两年。而且，学习，不可贪多，既然认定了日语，aws，做对日去日本，那么所有的学习都是在这一片范围内。我的人生与这个圈子也绑定了。</p>
+<p>由于学习时间有限，我又贪玩，喜欢玩电脑，手机，懒。如何在有限的学习时间里，加强效率，确立适合自己的方法，坚持住是关键。而且一旦过分关注一样东西的学习，比方说每天为了考日语证书刷题，那么aws和英语的学习就容易落下来，不容易形成连续有效率的学习。</p>
+<p>选了一条很难的路，只能熬时间了。</p>
+<p>学海无涯苦作舟 书山有路勤为径</p>
+<p>以前没学好的，只能一点一点慢慢学。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>日语和英语</title>
+    <url>/2021/05/24/20210524/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>日语，由于我大概率能去日本工作,不需要太担心。继续学就行了。</p>
+<p>可是英语就难了，上海，香港等大城市里的人从小就有先天优势。我没钱，高考没考好，很难拿到去美国的签证。我这一辈子可能没有能力和机会在美国等国本地学了。</p>
+<p>不过精通英语是必须的，英语作为世界通用语，学好它是通往西方的必备技能。</p>
+<p>我最想掌握的是美式英语。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>单体测试注意点</title>
+    <url>/2021/05/19/20210519/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最近在做java项目的单体测试。想小小总结一下。</p>
+<p>通过测试书，结合内设，外设，用工具生成一些バリデーション代码，或者用自动化生成测试代码的工具生成代码。</p>
+<p>基本上都是一个case一个case写。一个case测一个点，最大值，最小值，桁限制什么的。</p>
+<p>读source的能力，大概理解代码的意图。controler，dto，service，api的调用过程。</p>
+<p>Junit单元测试</p>
+<p>对日因为有测试书，自我发挥的空间很小，所以只能在速度和准确率上体现工作能力。</p>
+<p>经验多了，做多了，原来不会的地方也会了，理解也加深了。实际参加项目，获得的经验也是学习成长的一个必要过程。</p>
+<p>更加贴近商业项目，就不只是技术上会不会做的问题，还要注重人与人之间的交往。</p>
+<p>心态放平和。忍耐，克服自己得意忘形，骄傲自大的缺点。谦虚，谨慎，一步一步踏实的继续精进，学习。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>抱有目的性的分配时间，来学习和锻炼，增加工资和未来的发展可能性</title>
+    <url>/2021/05/16/20210516/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>学了，然后用不上，然后忘记了，那么还要学吗？<br>喜欢，然后经过深思熟虑，又不喜欢了，彻底放弃。那么还要喜欢吗？<br>每一次设立目标，每一次都达不成，每一次都懒惰。那么还需要目标吗？<br>好想再掌握一些知识、再尝试一些、再做点东西啊！<br>「精神的に向上心のないものは、馬鹿だ」</p>
+<p>我要去日本，工资超过2万元。要学的东西太多了。</p>
+<p>n1是必须要考的</p>
+<p>aws必须要加强的</p>
+<p>英语也是要加强的</p>
+<p>本职java和前端等传统技术也是要学的</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>云计算基础00</title>
+    <url>/2021/05/06/20210506/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>云技术操作的核心技术是虚拟化，虚拟化允许你将单个物理服务器的硬件资源划分为更小的单元。因此，该物理服务器可以承载多个虚拟机，这些虚拟机运行各自完整的操作系统，每个操作系统都有自己的内存、存储器和网络接入。</p>
+<p>虚拟化的灵活性使得几秒钟内提供一个虚拟服务器成为可能，可以精确地按照项目所需要的时间运行和关闭。释放的资源可立即用于其他工作负载。你可控制使用密度从而从硬件中获取最大的价值，并且可轻松地生成实验性和沙箱化(重定向隔离)的环境。</p>
+<h2 id="云计算通俗的理解"><a href="#云计算通俗的理解" class="headerlink" title="云计算通俗的理解"></a>云计算通俗的理解</h2><p>像水、电、煤一样使用你的IT资源，什么是IT资源，你在构建你的网站，应用，还有你要做的任何的一些Web的APP，你手机上的APP所需要的那些基础设施。<br>那这些基础设施，就是你需要的的计算、存储、网络资源，这些统称为IT资源。<br>那么云计算就是给你交付IT资源的一种新的模式。那它是应对于传统的交付模式，传统的交付模式是在你的自建的数据中心里面或者是在机房里面托管你的计算资源，那现在你就是通过互联网来取得你的IT资源。而且很重要的一点就是，是按照你的使用量来付费的，所以关键词就在这儿了，</p>
+<ul>
+<li>按需使用 </li>
+<li>高弹性 </li>
+<li>超大规模</li>
+</ul>
+<p>那对于你原来使用IT资源的时候，就是在自己的数据中心里面，然后你有自己的机器。然后呢，你就要自己去建，对于使用云计算呢，当你用的时候，这些机器就在那儿了，当你不用的时候它就不在那儿了。所以它就像你们家的水、电、煤一样。你把水龙头打开，那你的水就出来了。你把水龙头关掉，那你的资源就停止使用。也不会产生费用了。</p>
+]]></content>
       <tags>
-        <tag>作为测试加密</tag>
+        <tag>aws</tag>
       </tags>
   </entry>
   <entry>
-    <title>単語メモ</title>
-    <url>/2021/02/04/tanngomemo/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>四半期:よんはんき<br>１Q～４Q<br>等分：とうぶん<br>1.稼働日：かどうび<br>2.実働日：じつどうび<br>3.営業日：えいぎょうび<a id="more"></a><br>処理日：しょりび<br>計上日：けいじょうび<br>満期日：まんきび  到期日<br>五日：いつか<br>4.休日：きゅうじつ<br>祭日：さいじつ 节日<br>土曜日：どようび<br>5.土日：土曜日と日曜日<br>6.省略：しょうりゃく<br>加味：掺加，加入<br>付け加える：つけくわえる<br>あいまって：相俟って  お互い（たがい）に影響する<br>7.原価：げんか   成本<br>仕入れ：しいれ  买进，购买，采购，采办<br>8.是正：ぜせい    订正，更正，矫正，纠正  改める：あらためる    直す：なおす<br>9.洗い出す：あらいだす    選び出す<br>割り出す：わりだす   算出，推论，推断<br>10.昇順：しょうじゅん<br>降順：こうじゅん<br>11.連番：通番<br>12.日毎：ひごと</p>
-<hr>
-<p>おきに<br>構わない：かまわない  構いません<br>繰り返す：くりかえす<br>差し支える：妨碍，障碍，有影响，不方便<br>差し支えない<br>ゼロサプレス（zero suppress）<br>暦日：れきじつ<br>一日：ついたち<br>二日：ふつか<br>三日：みっか<br>四日：よっか<br>五日：いつか<br>六日：むいか<br>七日：なのか<br>八日：ようか<br>九日：ここのか<br>十日：とおか<br>閏年：じゅんねん<br>ニューメリック：numeric<br>実在：じつざい  实际存在<br>月毎：つきごと<br>日数：にっすう<br>右詰め：みぎづめ<br>左詰め：ひだりづめ<br>アーキテクチャ：布置，格局，安排<br>責務：せきむ 职责<br>均質：きんしつ  均等，均匀性<br>求める：もとめる<br>多岐：たぎ 多方面，复杂<br>擬似：ぎじ 模拟，仿真<br>延々：えんえん 没完没了，喋喋不休，接连不断<br>極力：きょくりょく </p>
+    <title>关于提高技术、外语，强身健体的想法</title>
+    <url>/2021/05/02/20210502-1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>无论技术还是外语，知识点太多了，学了一定会忘。</p>
+<p>参考网上的985学霸，坚持练习。多看，多实践，直到将抽象的知识固化成自己容易理解的东西。就像建立反射一样，一看到这个东西，立刻秒懂，这就是练习的作用。</p>
+<p>技术，码不停蹄。</p>
+<p>外语，经常听读。</p>
+<p>不论是技术还是外语，学了一定会忘，但是下次你想起来，一定会反应更快。</p>
+<p>技术，直接搞项目学。任何技术，有机会，一定要搞项目学。没机会，也要创造机会，搞项目。再不济，就只能多看官网与solution了。</p>
+<p>この世の中に、有很多反人类的东西，很难改善。可是如果是自己日积月累，千锤百炼出来的真才实学，那就是真牛逼那就是真的屌。先立身再出世，世道残酷，只能真刀实枪干了啊。</p>
 ]]></content>
-      <categories>
-        <category>外语</category>
-      </categories>
-      <tags>
-        <tag>日语</tag>
-        <tag>对日开发</tag>
-      </tags>
   </entry>
   <entry>
-    <title>影子跟读法</title>
-    <url>/2020/01/21/shadowing/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>外文学习，语感培养很重要。</p>
-<p>推荐一个方法：</p>
-<p>Shadowing (シャドーイング，影子跟读法)：像【影子】一样跟在后面尽量模仿其发音</p>
-<p>刚开始，可以用课本跟读。然后慢慢脱离书本。</p>
-<p>日文跟读课本推荐：<br>【超特急说日语】（台湾大新书局）</p>
+    <title>再来无锡工作，整理最近的感悟</title>
+    <url>/2021/05/02/20210502/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>工作地址：无锡国家软件园</p>
+<p>忧虑点：<br>1.外卖不干净，没味道，我很烦恼。(外部因素:环境)</p>
+<p>2.实力配不上自己的野心。对生活和人生进程感到不满。(内在因素:个人理想太好高骛远天马行空，想的太多，做的太少)</p>
+<p>3.无锡与日本东京环境差距太大，我有很强的失落感。如果没有疫情，我应该已经顺利在日本开始新生活了吧。(外部因素:天灾)</p>
+<p>期待点：<br>1.考过日语2级证书</p>
+<p>2.考过saa日文(以现有的中文证书，在中国找aws的工作属于天方夜谭，要求非常高，年薪有三四十万，但是我技术，经验都不够啊。学历起步211，md我普通一本差一段QAQ)</p>
+<p>3.拾起英语，考托业。(多少分没关系，主要是有个学习的目标。我曾经想过考雅思，发现因为用不上，根本没心思学，遂放弃。)</p>
+<p>4.利用新学的aws，做一些比博客更高端的软件，提升自己的技术。</p>
+<p>小时候，我一直误以为自己有想象力，觉得自己日后是块料，然而毕业进入社会这几年，备受打击与磨难。我现在经常质疑自己，我能变得更加优秀吗？我能成为这样那样的人吗？我能逼着自己违背本性突破自己发展吗？为什么要做那些不切实际的梦？</p>
+<p>我原先的职业计划是进入游戏行业，做出有意思的游戏，赚钱发财。后来发现加班太严重，梦想幻灭。由于没有特别想做的事情，一度回老家等死，从那个时候开始，不，在我实习加班走回出租屋思考人生开始，我就对中国社会产生不满，为什么生活会这么累？为什么在资本与权力面前我会显得如此渺小？为什么劳动法不限制加班？等等等等类似的疑问。我很佩服那些大牛，但是我的学历能力很难达到他们那样的水平。我明白，机会是他们的，获利也是他们的，跟我没关系。</p>
+<p>从离开杭州那一刻起，我就不想做房奴，我想让自己的人生更有价值。我不知道过什么样的生活才更有意义，但绝对不是做房奴。国家的坑我不填。以此为契机，我对中国的国家制度，社会现状等都产生了自己的“偏见”。</p>
+<p>然后我开始寻找新的梦想。</p>
+<p>在大学的时候我就瞎逛知乎，了解过一些去新西兰，加拿大，澳洲，英国，美国，日本等的程序员。自然而然的我就想到了ccp一直恶意宣传的资本主义国家。</p>
+<p>在网上充分调查之后，我决心移民日本。然后就碰上了疫情，又打乱了我的人生计划。。迟迟去不了日本，待在国内，备受煎熬啊。</p>
+<p>经过这次疫情我发现，日本等发达国家再好，只是对本国人好，跟我这种外国难民没关系。</p>
+<p>为了去日本，我已经亏了1万多了。</p>
+<p>“终究只是一个凡人”，大学一位朋友常说这句话。我印象很深。</p>
+<p>我的理解是这样的：想以凡人之躯比肩神明，最后证明自己终究只是个凡人。。</p>
+<p>我就是这样的人吧，心比天高，命如纸薄。可是我能接受这样的自己，有很多想做的事情，却没有能力做到。努力追求过很多事情，却最终放弃。</p>
+<p>虽然我输得很惨，以后还会继续输，但是我争取过啊，我为此尽力过，这就是活着，这就是我的人生。如果我什么都不争取，看着机会从我身边溜走，没有任何经历，人生不就显得太无聊了吗。。不畏惧失败，因为我只是一颗白菜。。输了不就输了，只要没死，我就还能站起来，，，继续输。。哈哈哈哈</p>
+<p>我要用一生证明这句话，我就是一个凡人，所以我取名白菜，一个平凡卑微的蔬菜。说到底，我就是一个自卑的人，我能接受自己的自卑，我能接受自己的各种不足。以后去日本有机会，把名字改成白菜吧。。哈哈哈</p>
 ]]></content>
-      <categories>
-        <category>外语</category>
-      </categories>
   </entry>
   <entry>
-    <title>C#基础</title>
-    <url>/2021/02/03/CSharp_base/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>大学弄的，套路早忘了：文档：C#基础知识点整理.note<br>链接：<a href="http://note.youdao.com/noteshare?id=7648e3ea942c33b488c68c170754a4a9&amp;sub=B8D00CCF33DC4D059DAE9B01DD7A52D1">http://note.youdao.com/noteshare?id=7648e3ea942c33b488c68c170754a4a9&amp;sub=B8D00CCF33DC4D059DAE9B01DD7A52D1</a></p>
-<p>菜鸟教程：<a href="https://www.runoob.com/csharp">https://www.runoob.com/csharp</a></p>
+    <title>archive归档页面的Bug</title>
+    <url>/2021/03/14/archiveBug/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>首页没问题，但是在archive归档页面出现了bug。发现是get404，archive页面下的get路径不是项目主题的默认路径了，而是一个新的路径,我在后台找到这个路径，新加一个js文件夹，复制taketori.js,taketori.css放进去就行了。</p>
+<p><img src="https://ftp.bmp.ovh/imgs/2021/03/76b758480b1c4d79.png"><br><img src="https://ftp.bmp.ovh/imgs/2021/03/1b80d12fc900554a.png"><br><img src="https://ftp.bmp.ovh/imgs/2021/03/36218d2326818eaf.png"><br><img src="https://ftp.bmp.ovh/imgs/2021/03/5d9ec247903193e8.png"></p>
 ]]></content>
       <categories>
         <category>技术</category>
       </categories>
       <tags>
-        <tag>C#</tag>
+        <tag>bug</tag>
       </tags>
   </entry>
   <entry>
-    <title>杨中科大佬英语学习网站，屌丝必备神器！</title>
-    <url>/2021/02/13/eglish-learning-site/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>纯免费：<a href="https://www.youzack.com/">https://www.youzack.com/</a></p>
-<p>差点把这个给忘了。。我就想听读新概念英语和AWS，里面还有TOEIC，IELTS，TOEFL等，虽然有“每日英语听力”这个给力的app(收费)，但是对俺来说，那个太花里胡哨了，我受不了那种风格，我就喜欢极简的，简单粗暴！</p>
+    <title>新增竖版功能（为了背小说，写日语日记）</title>
+    <url>/2021/03/14/Vertical-Plate/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>为什么我要做竖版功能？</p>
+<p>原因：今天在知乎上搜【日语学习过程中日本外教到底有多重要？】，发现有位大佬学习日语的经历非常励志。他刚开始去日本的时候，日语只学了标日初级上，基本啥都不会。因为日语不好，工作很痛苦。于是，他给自己订了一个计划:</p>
+<p>早晨5点起床大声朗读课文,并背下所有教材中的例句;</p>
+<p>白天上班过程中尽量多找日本人交流,大胆开口说日语;</p>
+<p>晚上下班回来,7点到10点啃日文教材或小说,请记住不是看是啃,就是搞懂每个句子的语法,每个单词的意思不懂的查字典或记下来第二天问日本人;</p>
+<p>10点到12点看电视练习听力.看的过程中一定要聚精会神注意听他的表现手法和发音,有必要时做点笔记,比如记下发音再去查字典<br>.<br>他从不给自己找借口头懒.不仅工作上的交流基本没问题就是电视也基本都能看懂.在会议上能比较流利的发表自己的看法,也能写出教好的业务报告.</p>
+<p>我觉得他的经历非常有参考价值，学习日语的方法写得也非常好。我的听说读写，就写完全没有锻炼，所以我也想会写。之前有朋友建议我用博客写日语日记，奈何我水平太菜，先从研读日文小说开始吧，日本小说，超让我感动！！由于日文小说是从右往左竖排写得，所以我必须得解决竖着排版的问题。</p>
+<p>日语学习过程中日本外教到底有多重要？ - 言吉外国语的回答 - 知乎<br><a href="https://www.zhihu.com/question/38841412/answer/125171737">https://www.zhihu.com/question/38841412/answer/125171737</a><br>需求：</p>
+<p>解决过程记录。<br>1.寻找竖版解决方案，看了以下文章，决定使用竹取（taketori），它是一个静态js文件。涅槃（nehan）也行，下下来发现太复杂，遂弃用。<br><a href="https://kaix.in/0000/vertical-writing-mode/">https://kaix.in/0000/vertical-writing-mode/</a></p>
+<p>2.导入到hexo中，放入到对应主题的source目录下。发现我的ayer主题下style文件格式是styl（Stylus 是一个CSS的预处理框架），而竹取的style格式是css，所以浏览器搜索，在线自动转换成styl格式，发现其中有4个样式报错，selector expectedcss(css-selectorexpected)，怎么想语法都没错，最后发现是vscode没装styl插件，下了个插件，就不报错了。<br><a href="https://wxnacy.com/2017/12/12/hexo-cust-js/">https://wxnacy.com/2017/12/12/hexo-cust-js/</a></p>
+<p>3.在项目路径下，安装npm install stylus -g<br><a href="https://blog.csdn.net/zc639143029/article/details/72630087?utm_source=blogxgwz1">https://blog.csdn.net/zc639143029/article/details/72630087?utm_source=blogxgwz1</a></p>
+<p>4.导入项目后发现css无法加载，后来仔细扫了一遍taketori.js这个文件，发现它是直接引用方法导入同级的css，于是我把taketori.css和taketori.js放在一起就加载出来了。taketori.js正常使用，竖版问题也就解决了。</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>日语学习过程中日本外教到底有多重要？ - 言吉外国语的回答 - 知乎(文章写得太好,我决定放到博客上，激励自己好好学。)</title>
+    <url>/2021/03/14/jajpStudyIdea/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>外教不是那么重要，重要还是靠自己，下面分享个人学习日语的方法，希望能帮到大家<br>学日语并不难,难是难在你有没有信心学好日语,有没有恒心学好日语.如果三天打鱼两天晒网的话,我劝你还是趁早死心,在语言世界里没有任何的捷径,有的只是艰辛和不懈的努力.</p>
+<p>我自认为自己在学语言方面很有天赋,大三时就很轻松地过了英语六级.大学毕业后进了厦门一家很有实力的日资企业,又很幸运被公司选派到日本来学习.</p>
+<p>在这之前根本一点都不懂日语.只是在来日本前学了初级日语第一册来了日本以后才体会到那种什么都听不懂无法交流的痛苦.业务上当然就进展很慢.那个时候反而激起了我的斗志,我发誓要把日语学的比日本人还要好.</p>
+<h2 id="我给自己订了一个计划"><a href="#我给自己订了一个计划" class="headerlink" title="我给自己订了一个计划:"></a>我给自己订了一个计划:</h2><ul>
+<li><p>早晨5点起床大声朗读课文,并背下所有教材中的例句;</p>
+</li>
+<li><p>白天上班过程中尽量多找日本人交流,大胆开口说日语;</p>
+</li>
+<li><p>晚上下班回来,7点到10点啃日文教材或小说,请记住不是看是啃,就是搞懂每个句子的语法,每个单词的意思不懂的查字典或记下来第二天问日本人;</p>
+</li>
+<li><p>10点到12点看电视练习听力.看的过程中一定要聚精会神注意听他的表现手法和发音,有必要时做点笔记,比如记下发音再去查字典.</p>
+</li>
+</ul>
+<p>就这样我几乎陷入疯狂的境界每天都坚持不懈,从不给自己找借口头懒.半年下来日语水平简直突飞猛进.不仅工作上的交流基本没问题就是电视也基本都能看懂.在会议上能比较流利的发表自己的看法,也能写出教好的业务报告.</p>
+<p>在日本人睁大眼睛对我说信じられない时,我只是笑笑,有谁会知道这个背后的艰辛.</p>
+<p>现在我仍然每天不懈的坚持着,只为实现自己的诺言把日语学的比日本人还好.</p>
+<p>我个人认为在听,说,读,写中说应该是最难的</p>
+<p>接下来是听,写,读.现在看日文小说99%能看懂,但是请千万记住看懂不等于你懂因为你还不会用,你还不会说.你会用时你会说时还不等于你会.因为你还不会象母语那样随心所欲地使用.</p>
+<p>所以说学日语要一个一个层次来,决不能操之过急,更不要得意忘形.看懂离会还有十万八千里呢.另外我想说学日语当然是为了多掌握一门外语多一份竞争力,但我认为更重要的是通过学习日语来了解这个民族的文化,风俗,这比什么都重要.</p>
+<p>了解日本为什么会发展那么快,了解他的国民性为什么那么令世人讨厌,又为什么不得不佩服他的工作精神.这些我想才是学日语的根本.</p>
+<p>当然这只是个人愚见,总之希望我的这点意见能对大家学习日语有帮助. 关键是要有信心和恒心. 虽然是老套点但也不失是真理,让我们共同努力!</p>
+<p>首先,我想说自学当然比正规的上课,由老师来教来的困难些.但既然是没办法找老师教,又想学日语,那只有自学了.</p>
+<p>说实话自学绝对可以把日语学的很好,只要你有信心和恒心. 其实做任何事都一样,这是成功的必要条件. 有了上面的条件接下来就开始学习了.</p>
+<p>首先要找好的自学教材,最好是正规日语教学用的教材,因为这样的教材往往比较系统. 很遗憾,我自己本身当初来日本比较急并没带什么教材过来,也不清楚哪些教材比较好.我所知道的就是「中日交流标本身当初来日本比较急并没带什么教材过来,也不清楚哪些教材比较好.我所知道的就是「中日交流标准日本语」,分初级和中级.这套书真的很不错,语法很全面.我精研这套书以后,感觉在以后的自学道路上打了一个很好的基础.强烈推荐!</p>
+<p>但这里我想说怎么学这本书,这套教材我粗看了三遍,精读五遍,最后在把他背起来.真正做到里面的各种用法都能随手拈来.</p>
+<p>或许有人会认为在一套书上花这么多时间不是太浪费了吗?这样想就大错特错了.要学语言精读一本书比泛读十本书来的有效的多.</p>
+<p>如果要扩大知识面那就去泛读了,当然精度和泛读都必不可少.</p>
+<p>在初学阶段最好多花点时间在精读上面.到现在我读日文小说有时一个晚上才看4,5页.不是我看不懂.实在是那些句子还有表现手法太妙了.每一句都读几遍再默写下来, 第二天一早又去大声朗读.这种学习效果真的太妙了! 写起文章来也比较正统,不会成中国式的日语.</p>
+<p>学语言一定要说出来.我当初刚来日本时,自以为学了点日语,跟日本人讲话时心理明明想好了怎么说,可说出来却错误百出搞的人家一头雾水.语言这东西要真的说出来才是你的东西,心里想的和说的完全是两回事.所以目前早读成了自学必修课了.</p>
+<p>我觉的在国内的朋友一个有利的条件就是可以买到大量的参考书.这个很关键.由于是自学,不懂的东西只有靠阅读参考书来解决了. 我很后悔当初没有买大量的参考书过来.建议朋友们多买些参考书来看.</p>
+<p>另外想说在听力方面,要想听比较正式的日语最好是新闻之类的,这类都比较规范.用的大都是敬体.要想听日常的生活方面,就去看日剧.这类比较随意,语言简单轻松.</p>
+<p>建议初学者最好先学敬体,不会敬体等于你不会日文.不要以为日剧里面才是真正的日文,里面也有好多垃圾.</p>
+<p>另外想说说听力.听一盒磁带最好做到每个单词都听懂,反复听,直到听懂为止.一开始不要一味追求高难度,也不要一味追求量多.搞懂一盒再听下一盒, 一步一步循序渐进.这个很关键.</p>
+<h2 id="日语学习大忌"><a href="#日语学习大忌" class="headerlink" title="日语学习大忌"></a>日语学习大忌</h2><ul>
+<li><p>第一，过分讲究方法和技巧，而不愿意下真功夫。语言的运用是一种技能，而这种技能不是靠技巧能获得的。太讲究方法和技巧会被其占用很多的时间和精力，而对学习的内容本身投入较少的时间和精力，因此反而会影响学习的效果。</p>
+</li>
+<li><p>第二，过分将就速度和效率，不愿花时间经常重复复习学过的内容。语言运用是一种技能，技能只能靠熟能生巧，要不断重复才会熟练，只有熟练了才会形成一种不加思索的技能。</p>
+</li>
+<li><p>第三，三天打鱼两天晒网，没有恒心，不能长期坚持学习。技能的额数联要有一个过程。在这个过程中会遇到各种困难，但不能向困难低头，要坚持不懈的反复学习，持之以恒。</p>
+</li>
+<li><p>第四，不重视听力训练。语言是有声的，我们对语言的感受首先是语言的声音作用于我们的大脑。如果不练习听力，只是默默的阅读和背单词，其结果是不仅听不懂别人讲外语，而且阅读水平也难以提高。</p>
+</li>
+<li><p>第五，只学而不用。语言的实践性很强，如果只学不用，就永远也学不好。我们学语言的目的就是为了应用，要学会在用中学习，这样才能提高兴趣，达到好的学习效果</p>
+</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>悪魔</title>
+    <url>/2021/03/14/novel-test/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>   
+    <div class="tategaki">
+        <span style="display:block;text-indent:2em;">
+        その湖は、北の国にあった。広さはそれほどでもないが、たいへん深かった。しかし、いまは冬で、厚く氷がはっていた。
+        </span>
+    </div>
+<a href="#" id="toggle">表示切り替え</a>
+<script type="text/javascript" src="js/taketori.js" charset="UTF-8"></script>
+<script type="text/javascript">
+var taketori = (new Taketori()).set({fontFamily:'sans-serif'}).element('div.tategaki').toVertical(); 
+taketori.document.element('toggle').addEventListener('click',function (e) {
+	taketori.toggleAll();
+	taketori.document.stopPropagation(e);
+	taketori.document.preventDefault(e);
+	return false;
+});
+
+</script>
+</body>
+</html>
+
+
 ]]></content>
       <tags>
-        <tag>英语</tag>
+        <tag>小説</tag>
+        <tag>星新一</tag>
       </tags>
   </entry>
   <entry>
-    <title>分享有用的专业东西，还是有人看的</title>
-    <url>/2021/02/17/csdnsuccessdemo/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在大学时，我曾在csdn上写过一篇简单的教学博客，今天突然发现有了7千多的访问量，<a id="more"></a>说明分享有用的正确的专业知识还是有人看的。</p>
-<p><img src="https://ftp.bmp.ovh/imgs/2021/02/f0deb7ed1602f7b8.png"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>2021-02-18打卡</title>
-    <url>/2021/02/18/2021-0218/</url>
+    <title>不能去日本的日子</title>
+    <url>/2021/03/03/2021-0303article/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="acfd98a8aa88221ab44b74ac4738769cef81197543e17aca881c22745569ede2">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019995a62b9ced86390e6c36249af4047396c299b116e3f81a447a6640885f5efd48aecbb6db50d2a5b54576a9130d1625f8338bda2418de438c2e01d4859c08e9cf67a143594a048447e9fc340d023b94371e76ea49c0e267d5b1c641c55c10d2ccb0ac272ef595d7be47dee62c74779580b95b9d2a5106253fdf337388ff7dc7907b45cc516a9d1bdc33f9f8800f6b74ef1883f24a3b394c47863755f06618951f365743a8875ddc4da588407558ad03d82a3b362a2b5f0a93720d98005e0727964f048119b638ae7a7a4cfc1d98f5792c9a14fefd275e5a07b215ea18476a514</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="d95b0a1b1f41d7f94deb47b8d65bde2e7153c095cac8a45625bfe4588060e3fc">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc33750196873b0681d0a056c97e82a590297d30db7547fbda13908d4ff3bff845bc1f0a987c967692bf5acf8761bfffdeb3a15de90a0d150ea51b599ebf24ce100571f623df65309e5dc1bcbcd99d673da5147d61c3d66ee3b8b7d221c8c783c55dc24d043a17dc5ae0b6bf76a97fb3c19e5ee9665a94446064149dacb1620fa7ccb0ef091383ccba20aa32c4105fe310e833edd8b2f27cd54124f1d315fe3662cb4da6fb1dc4fcbefc0175a2ed974a3e77d5df5b2d97b5134ebe35ebe8282e6a6bd15bedec87bd94eb857d8867547f432a8e772b6d8cbe5ed03e361c92c38f60448d8a1006988c32f13eda47ee2897bb3e4260c08529fcff676e895e01db051b0e86b4b172d2283a2537012e97d66583d5314746a3d4ec41c0c38f2490e2537071420a510b8d0fa71c97cd3666acf39ad9ea340b7935b6140a138b3c3a0a85c30c017460fc1e5788c23ebe8d6c039b3287f72fc8b15a0c864b28f7df2612f5bf03b3a03e0f2bfe2a59e9cee06685d28f290baf9fea5b654ac62ad76ad0490223e9d6f6cfc677ea0faaa5d41eed2f55736c1ed6d2116f277c87af26af21f4f16f3082b37c08b7c9d8db2f8528e2b02839863b779ddb73af7943c5d77076ef9992749a97327cf9604a312c2154e4a7591a08b929c98cebb223f067f3c81778b1b40fa709a00d368cc4218a0cb04af64773343912cc20e329f9785fa9ca160907b59e5f61e2583ec3e7f4e6e42ea0dc6e335273628c1b499ed74bcd39d8e7942ccd19ffa963c6f66a686e68470913d07e40fd30607943ddb92ea3edfcd00fb3b0392f30318b6cfc1a92aa2a3b8cc5842518e4d6bc4f90a534381d08c44f00e2135e3c6849f61392bc8e529de309a81bf708b4259ee410318351bc3ea28606009696c16b51718bb0b603156429837773347b03744bbac8dfac9238bc3e38492b2f7a39a66feccd00b4462b1c9b5d8bd3cc9d7098c0df7a4532b92d6eb0166339ab0f4b8de29daa2beaae30d385f73c130248edb71bb8dd0c042af733d7d8073b169d6cedd748dd57963729cba0c565058e4c2dfe6e552730771092ec51933e7b47c6d84460c0e1fb349aea3589c8816f69c5f827b5dafd9746a3c1aceaeb5e068f4f30e557f43fbe4d553f21d441bc618f7ddcb8732fb147036665b86d79f85938cdd5366b0584c2b1b9cdc6b7d45e46eb2a125622a837b27f92aa4cbeb1de57a3925cd72e714ba7d783d256a9eaee79521ae3a71e8355b17835c56a83ac3c12a3b18ac2c06bd4b475a723ff145c8177977128ab01fad56609bad39011907d2978e50af190d23396d1d3af110b1888ad8d057cce81494d4f8329bbdb16d2aeda10745a3858a9db5ee4c1253b35c1e4700abb4566d21ce5a747239c2d1cc0c96095925f868deaab5ed909f7d1e7c3b6e072bd044516f391b146133220b6b956db440130c6d326e707cfe36801be14d6361d35ad4bcfb701011545e7366f35cb4f114c8bb073ae113afa84e12f61257d8d4bee95ec893252c5e85272dc160a8db4f89cc09b33fd5fc6b2935f5de1c3249f7bc68af7f99e6edcf31a714a3acecffd5e24d8fb380484de6368b8b7e0507aeb1a8b9d5fa81bf5c390840397a6346ba687d9ebdd2a0736aabec87ff76c8edab014ceab24e49ca5b4f9b99794b62137d3d482f858c769e8191bf0ebfa8915ee9dd69741860d672f95c376217f6167eab111f09fc40697a30f71262723e0f01bcc8fcd765cf09ee7b3fce1215915833745765210bfcaccc7066db740ef1a70d4515abff921d8c09d892c2ebc6a37d4df7dfc0cf0822c9fc91ac515e2a13e1d6d8b4f492dc8f0cf379deca6eb3e6109d30af7a5cde9491a141c88811620d37ea8cee85eb748f458502a7dc2b7f206aee7009de504e58079d1ed2e33cd160016aa6e76444193741ecb55a42890dcb09642b6d9b1cd59be2</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
@@ -277,139 +255,10 @@
   </div>
 </div>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>打卡</category>
-      </categories>
-      <tags>
-        <tag>打卡</tag>
-      </tags>
   </entry>
   <entry>
-    <title>转载一篇关于家庭教育的文章--奥巴马的母亲：白人出身却被骗婚，养大俩混血儿，还拿下博士学位</title>
-    <url>/2021/02/19/education/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>凌晨4点钟，一个黑人小男孩被妈妈从睡梦中喊醒，他揉着惺松的睡眼，不情愿地小声嘟哝着：“又要学英语啊”。话虽这么说，但他还是迅速穿衣服，在书桌前规规矩矩坐好。</p>
-<p>这个小黑孩是美国前总统奥巴马，顺着他的童年视角，我们会惊异地发现，小黑孩的妈妈长着一张美丽的白人面孔，她正亲昵地抚摸着儿子的头顶，佯装生气地说：“你以为我教你很容易吗？”</p>
-<p><strong>奥巴马深深怀念自己的妈妈，她叫安邓纳姆，是一位人生经历比电影还要传奇的女性。</strong></p>
-<p><img src="https://ftp.bmp.ovh/imgs/2021/02/e61a10fc8ab4cb3b.jpg"><a id="more"></a></p>
-<h2 id="1、勇敢追爱的傻姑娘"><a href="#1、勇敢追爱的傻姑娘" class="headerlink" title="1、勇敢追爱的傻姑娘"></a>1、勇敢追爱的傻姑娘</h2><p>1942年，安邓纳姆出生在美国堪萨斯州，一个高颜值高智商高收入的白人家庭。</p>
-<p>安的母亲，也就是奥巴马的外婆玛德琳出身高贵，有着极强的进取心与出色的工作能力，当时社会的女性大都过着相夫教子的家庭主妇生活，玛德琳却去夏威夷银行担任秘书，后来升职为副总裁，这是当时第一位女性副总裁。</p>
-<p>外公斯坦利毕业于名校，是个出色的商人，相貌英俊，为人体贴。妻子玛德琳怀孕时，斯坦利非常希望是个男孩，安出生后，他虽然有些微失落，但还是给了女儿全部的爱，他们没有再要第二个孩子。</p>
-<p><strong>在这样的家庭氛围里，安无忧无虑地长大，她生活中的每一天都是阳光灿烂的，以至于她不能识别什么叫欺骗。</strong></p>
-<p><img src="https://ftp.bmp.ovh/imgs/2021/02/6e99328ea829dd91.jpg"></p>
-<p>1960年，安在夏威夷大学就读，不满18岁的女大学生，有着白晳的皮肤与明亮的双眼，单纯而又美丽，追求她的小伙子排成队，但安的目光，却被一个来自肯尼亚乡下的黑小伙吸引了。</p>
-<p>毫无疑问，这就是奥巴马的生父老奥巴马，一个风度翩翩的情场浪子。老奥巴马是农场主的儿子，他的父亲，也就是奥巴马总统的爷爷也是个花心大少，娶过三任妻子，老奥巴马是二太太的儿子。</p>
-<p>也许受生父影响，老奥巴马对爱情对婚姻有着玩世不恭的态度。来到夏威夷大学时，他已经24岁，结过一次婚还有孩子，但这些往事，他通通没有告诉学校里那些崇拜他喜欢他的妹子们，比如安。</p>
-<p>那是种族歧视非常严重的年代，但有着黝黑皮肤的老奥巴马充满魅力。他绝顶聪明，门门功课拔尖，又极富有幽默感，他皮肤虽黑，但牙齿很白，笑起来像嵌在巧克力中的粒粒珍珠，这些都足以让一个情窦初开的少女着迷。</p>
-<p><img src="https://ftp.bmp.ovh/imgs/2021/02/354c7bad07267c40.jpg"></p>
-<p><strong>安陷入热恋，父母越阻止她越不顾一切。1961年2月，相识不过数月的安在毛伊岛嫁给了心爱的情郎，这时候，小奥巴马已在她肚子里。</strong></p>
-<h2 id="2、事业孩子两手抓"><a href="#2、事业孩子两手抓" class="headerlink" title="2、事业孩子两手抓"></a>2、事业孩子两手抓</h2><p>因为结婚怀孕，年轻的安不得不中断了学业，暴怒的父母拒绝再给她提供生活费，而丈夫老奥巴马一点不体谅新婚妻子的困难，他两手插在裤兜里，无所谓地说：“休学生孩子是你自己的选择，你要想生就自己带，我是要去哈佛大学念书的。”</p>
-<p>养育孩子的艰辛，安可以忍受。丈夫去哈佛读经济学博士，她也愿意支持。从出生后的奥巴马继承了父亲的名字看，安当时非常爱老奥巴马，但让她崩溃的是，丈夫欺骗了她，他在老家有老婆有孩子，却一直刻意隐瞒。</p>
-<p>被欺骗的真相揭开，安气得浑身颤抖，这个眼里揉不了沙子的女人，当即提出了离婚。</p>
-<p><img src="https://ftp.bmp.ovh/imgs/2021/02/bb3ad0ff46b0be2b.jpg"></p>
-<p>1964年，奥巴马成了单亲家庭的孩子，生父老奥巴马远走他乡后，又娶了一任妻子还生了两个儿子，<strong>他只在奥巴马10岁那年回来看过儿子一次，奥巴马的成长生涯，只有妈妈在陪伴。</strong></p>
-<p>安是一个倔强且坚强的女性，尽管她当时穷到只能依靠领取政府的救济食品券过活，她也乐观地抚养儿子，竭力给他一个健康快乐的童年。</p>
-<p>曾经说过狠话的斯坦利夫妇心疼女儿的遭遇，把这个黑人小外孙接回自己家中照顾。安才得以重返校园继续学业，后来她认识了罗洛·苏洛托，一个来自印度尼西亚的留学生。23岁的安再一次闪婚，并为第二任丈夫生下一个活泼可爱的女儿玛雅。</p>
-<p><img src="https://ftp.bmp.ovh/imgs/2021/02/c63a2e6fb7cdf969.jpg"></p>
-<p>新家位处郊区，生活简朴，但在安的细心打理下，处处洋溢着温馨。安非常重视子女的教育，凌晨4点喊奥巴马起来读书，并不是偶然的心血来潮，而是她始终坚持的事，母子俩从四点学到七点，然后安去工作，奥巴马去学校上课。</p>
-<p><strong>奥巴马和妹妹读的是雅加达国际学校，学费昂贵，因为安在教育上最舍得投资。在安的培养下，奥巴马成为美国历史上第一任黑人总统，而妹妹玛雅也是名校的高材生。</strong></p>
-<p>安自己也十分优秀，婚后一直做着人类学调查研究。安的第二次婚姻持续了15年。经历两次失败婚姻，安并没有失去对生活的热情与人生的追求，她又回到夏威夷大学深造，并写下有1000多页的论文，顺利拿到博士学位。</p>
-<h2 id="3、奥巴马母亲的过人品质"><a href="#3、奥巴马母亲的过人品质" class="headerlink" title="3、奥巴马母亲的过人品质"></a>3、奥巴马母亲的过人品质</h2><p>安是一个什么样的女人？她是印尼经济的研究专家，当过美国国际开发署的顾问，参加过联合国世界妇女大会。从个人成就来说，安是一个成功女性。而她的身上，更有着很多过人的品质。</p>
-<p>她结过两次婚，有两个混血孩子。对待爱情，她全身心投入，专注而热烈，但感到失望时，又会迅速果断地结束，决不拖泥带水。</p>
-<p><img src="https://ftp.bmp.ovh/imgs/2021/02/686af645e18fbf6f.jpg"></p>
-<p>她走访过印尼各处的偏僻的乡村做研究，带着幼小的奥巴马一起，对一身汗臭的铁匠与纺织工们做访谈，这种社会实践，给了奥巴马丰富的童年体验。</p>
-<p><strong>看奥巴马的成长照片，每一张他笑得十分开怀。外公外婆和妈妈给了他一个良好的家庭环境，尽管缺失了父爱，但他心中充满温暖的阳光。</strong></p>
-<p>很多人在婚后成了怨偶，甚至在孩子面前毫不顾忌地辱骂、诋毁另一半，离婚后更不用说，一盆盆脏水兜头倒下。殊不知这些恶毒的语言，都是刺向孩子心中一根根钢针。父母感情再破裂，或者有一方确实于德有亏，但都是孩子血脉相连的亲人，在他幼小的心灵里，眷恋远大于怨恨。</p>
-<p>老奥巴马欺骗了安的感情，离婚后拍拍屁股就走了。但安从未在儿子面前说过他一句不是，包括安的父母，也从未在外孙面前责怪过这个让他们气愤的前女婿，相反，他们还会有意地夸奖老奥巴马聪明有抱负，以维护奥巴马心中爸爸的形象。</p>
-<p><img src="https://ftp.bmp.ovh/imgs/2021/02/96fc0be5eab1e690.jpg"></p>
-<p>奥巴马10岁那年，老奥巴马因车祸受伤返乡休养，忽然想到看看这个阔别多年的亲生儿子。奥巴马心中激动又紧张，因为他对现实中爸爸的模样是完全陌生的。会面那天，安握着儿子的手，微笑着鼓励他：“去吧！”奥巴马扑向爸爸的怀抱，快乐地大笑起来。</p>
-<p>那次欢聚后，老奥巴马又消失了，直到后来意外去世。奥巴马再未见过爸爸，但这张珍贵的父子照片，一直被他细心珍藏，放在他那本纪念父亲的书的扉页。</p>
-<p><img src="https://ftp.bmp.ovh/imgs/2021/02/95bd3411601c7583.png"></p>
-<p>安不仅不说老奥巴马的坏话，她什么人的坏话都不说，如果孩子们说话刻薄，安一定会阻止，让他们去学着换位思考。</p>
-<p><strong>奥巴马这样评价自己的妈妈：“她是我所知道的最仁慈、拥有最高尚灵魂的人，我身上最好的东西都要归功于她。”</strong></p>
-<p>在教育孩子的问题上，安值得天下所有的妈妈学习。她教他们勇敢执着，也教他们谦和优雅。她是奥巴马坚强的后盾，在妈妈欣赏赞许的目光中，走出了美国历史上第一位黑人总统。</p>
-<p>1995年11月，53岁的安患子宫癌去世，她这一生并不长，但如此的精彩。她嫁过非洲男人，也嫁过亚洲男人，享受过炽热的爱情，又清醒地离开。她的人格是独立的，留给孩子的，更是永远用之不尽的财富。</p>
-<p>注：本文部分图片来自网络，且无法核实版权归属，不为商业用途，如有侵犯，敬请作者与我们联系</p>
-<p>作者：玲珑心</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>2021-02-19打卡</title>
-    <url>/2021/02/19/2021-0219/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="98738ad95aa3d7c4a0e48e82af0452210c5e56443cacf32a2d94bd31e4808d5f">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019e8bc3718d479cfefa4e8dad81ea5300df5144928957c57eb624c83aa2cdf0f1daa3d7eccb69f90c643e28c00454c02564e7b09976896bb96da9a78b555f049040f5d05792b2ae810942df9fa723c9c4ff8374f444e2045a55afdf843da9a28c46e2b22db0b436c3cdda9acb003ca007a027a90e9a00bb181c54294c5b54c68ee09a3835e4dd8bd6ecf235621fb0555edb0ae75553514ea8c8d639be02f0a320f59445653f61e8bb79206ebca02b9741c306cb4baf406fb9dc039e52078ffae900f32e1d0e9389f65026ab149e44c5a5d33f74ff6908d22b7b7b7b52cf1c8d09b7fbda123fe78e6b89dec642d5b5d798d621a6b68d2ea63fa1007b1753f7b3c8cb1d075279608d74f5da2f423b378089d28cef60db98738b569d8e4fb6868babc9f1c15af72b44a4411755dcefca207b96b3b56dd7c03e6a5b1a709a1fd2db921de32f18ba40451aedfc4d7fb4991d7918adaf1fba9af201378aff459810ffb9002a408b568fddf047658e13ce130745a5855fe8ed9ad8ffc10f14ecd4e0ff063f32de73bdb1789ed6b52e13b0d19c8bf240397c248ed7d22e24ec5328aef8d27004a0ac460c593c838471469699e662b2d0b45d666577dfda9147995e68b15309f7c03d09f967f5014767e3cfaf0f4fcde17c6409f6bf8d525909ff4a546a6e03ffb22d140edc26f0609bd5950d8441a7c0a4b0ab5c1e0e17559afe3803e0b2959a92359cb9f0044984dc1ce63276e1a77e76274b4231db9d0802bc9d5e40891b3324465a070fe824cbd034a20f4db26927cf789c1d29fdd30adc53548eda5893d1d31baf3fa69f53cbb989b2279909f6f43c2035e2a3b8c6d4c62222368c234e7c69ed5fb1d23dfe6520e611ea881aaf95315179e561cb8a85e6daee60f24a26b9a945db034f9d2f6e53ae715be646a85a4d677c30690cea4d2899d89bd9becdc43aa60d9e015249f2241a1e6c7b6b2bd60164e61dfe0729b857461e2ef77507804b7ac0f641f087ca74c61dca0c8df35c8b64c7d28a834547d477a026639a5c2876e3c7a3d2c789c191440ba31983431b1215b7c65f0fec09d8adfcf9540320e1eb82485c71a617d4edde33fe3b5634dad296cdf61f646b9b4a7cae4f67e038a796fee8a6448ad016bdf27bb39be7d176fbe45f5a7ae0f90bea46da7388a0677cd9a282fcfc45c1a52cddd5ea268d25a4306486d0cbe0e8166ab2ff835233271dbb0f6b263958e21903993f7f795daaa2ad8e2ac41301da12d555b6596f654884f561a33f2743804ada2846a6066506233373a185764d726e8abad4506722556ef945455033d2227fcb1317ad5113f15c94983765e557f34c5c3fd9abc15cd72a382e616c8eec16fa7b0a488c2aa985710409283c55944175a7520ccb66cb65ba7212fb8ac929f54d23ea29fea724bcbac430d4c62a71c6d866f5bd637f768f72b6cea8cc8ed9202bad647533bba005fe121eb7721dc8e3cbe12f0f3a5e72b5156d920e84b56e2800facad86604f5400c2f32afa06b9f1e8947efc18051bd352b4e493580362866538863cb47ef5ba7e9c1aa9ee52dff6494ed48537bcf1b6916c3c70742ba455d570b103cb113b260f26771e0ff43b9da43addbc08066d820599a003a5d08b4a92087b969fb0362016897f04c27396421b1ef95a4e521d0a85cfa1557eadd217b2c2a3590612432217f22a305dea3ff7155f6465a779b8d7b26992057cf6de379226fa5517867afa5e0b3bbdcc0dfe800b501b3dff16c7eb0433c897337cf64bdaf958b448c12a6e427ae81f3d82358211726fb93fac26a91de91f4fbaa567ab63f6ddd5b1e72c68d2f44963041cec0fd38556c58abdcf6d4d6c26f871c85f13a3db653f56807265c5c690b83434519dc768e5ff0b375022d24bd4dec6d83fab3980ab038deb9728ecd3e134f35ce40ea4968bf9a27d485d5f47b6bf3bcbb626ab62c7510854077f3e31386073b83feba4cc0092a6fe371e6e7654c27322961d6a166c4df0195b740480b5997d53869fdc03229ab905a929a83ea95bfc756df668cfcbbf7071d9b56a51342f72a9a60a678bba7191608ec395872af0bff7130976c2c127b7ea1ab7fb66992bd706c4f5351e490f9846fbed4d57e5f8abc8f6058e7f7affa152f3ba82b67004f0f60551122668b41a7868574de04d5d03670d2060ec81ec02032a5e374285c6c1897f8d836be8db1f5a765f7c473fba07b5882505f14f37163ceadfd6d683f0975b764934a911fb4ebcd229aff8f835350a67c679d5dc7c0e240b09f13c21ee41dcadd84de7b134b25bd5302d6ed656f78b49e02ba8bd5eb89a982f562e5b6cbb1944f697a3f50174ba32b6db540261bd4c20b49c6fbf546f51cfe4cd5b10083c0899fe5df7faf9d248fff71afa2d348ec94b36468d7c14cc0594e6581fdc17db3e241cb0615f4bf31a9583a3f15b21dd980c4b736be9e27dcd62bdc3d06e7198299754ef241c49d0752e8634f8d07a8788aa14b1ea66633eabd86abf3d96a39b9173d039b27b10837387fc4a8baf957bb26a56822d939c5850f615c15278a5b5ef7f7e3025bcba68e358c4d63e7f48253cecb1c55fd79cbb14aef771ef1c9cf15fbbb429819e168aff2a91d573c8f7f638d282c93e265fcaa5615ce9f982f1b72b7ba8b79b54f00e15286cfc903529fd0f7d6262fe6ffe79886d11cc48ebe6cf9d1c3adf35eb0dba9fab931003c153a2be42e581d40ffed5c9e4d65e82df37ba68ac85eb0b140c4e60ad3ad10b2c3b7fecd7122b328b16db7564d5a6e208635aad0535fbfdf6e160598612e80e6ebc13e1e0b14fcca1859dd376bd07642e1225b9ee65f75482bfd8aa2caf2ac5dec4335cb018879e2d023c03974688daed0540a875e859ff0e86dbf625167f983754ed940a4624061ec73bcd8b56f809d04b354e1163e041bd588992f10e22066f094b6eef6cf348acb69f41665f220a2ef3939e64de6b05341c3f0b8cec7f55eff18679c1f672551c8d44c2493e05b322829cee13dfe7b1437e3388b793a4e2df2794febd436b2027a71b49b00a6b5234e9ddf1315b9dbff99adda5d4e484aa0ba928a5dbd074e6afb36305eeab93a1a51775342309d997160d7b73081f508395111b209a34284d913825abba04a15a19a38c81c6813eab9326a56afccf806217d1b446950fe90dc551e276a1d3f63c22fd963c57167d642cf2f55b5f0867c6d9f9e66cfafb6e7ddb207ad2582cfbb8ad00a0f0bb43fe0b8bf1bd272ce74ca134d974b53b69a41b35794e3e470037eeaf176626ca9e77e649c444d3776891dfbe38bcc29da9a973575818866f4110c7f87749aed8ca407b6ba80eac5e51454d945272b99392765a293048a446b435e10c04b62c8e6202ceeb97fe314b196a45887f42652545e23d6d359833b279620006a10d37283a810a77e8a465a1b5b1c785acfbb8807ead5bbffe7252773a267782ee2ce2883c23a68acd4e846f1b318495ae86c1727aad5a522c37599fdd567844bf770794fe84af7efd8593a6f3970ae22ed8e5c3787137c805b8edb664b48f6e6a38363c8ec812489074bd272317ada8b1dca51a8667adcf60e20bf913d143b337fe8d2fd1b97b83b71e2e91e259a6721957c6c5b54c4704de75e0b85b0c1529570ddc1e564cb787dabe9ff044ea08efa9df8bd8bad755e45084deaa38584a31c2127d79ebcc23157e90408c7a954bdc8c2bb23da2d1bd5510c9fdde5d27c897882ebe56f66c7f68ac6c3f10c88af9e7fc3c6526d0d120af1c12906436def1ba00eb32d6ce3440e27ce3b0a75d335cb1159cf82b7489e9bd0901d6e2313486ba4dc7dea479ca624867038efa3738e6e0aa51773224320af885b10efca111af6c4905847157fc7a62034cc74980</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>打卡</category>
-      </categories>
-      <tags>
-        <tag>打卡</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>转载一篇学习软文--别急着要结果，先好好的去努力</title>
-    <url>/2021/02/20/Study/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://ftp.bmp.ovh/imgs/2021/02/52999af2f25a5117.jpg"></p>
-<p>有个读者大学学的是非语言专业，他说自己对日语特别感兴趣，一心想学习日语并且考证，但不知道怎么学，他问我是怎么学的？有没有报班？</p>
-<p>我简单地说了一下我学习日语的过程，帮他分析了一下报班和不报班的利弊，然后让他自己决定是否要报班。他又问我，那报面授班的话该去哪里报啊。因为我和他不在同一个城市，我的日语老师推荐给他也没用，所以我告诉他可以找本校学姐、学长帮忙或者在网络上查找。</p>
-<p>他说自己不认识学姐学长们，也不知道该怎么在网络上查找，也怕在网络上查找的不靠谱。</p>
-<p>我又给他出主意，让他去他们学校的外语系问问，一般外语系学习日语的同学多。</p>
-<p>随后我给他发了一个加油的表情，并且嘱咐他一定要好好学，坚持下去，因为学习语言是一个长期的过程，他说放心吧，一定会好好学的。<a id="more"></a></p>
-<p><img src="https://ftp.bmp.ovh/imgs/2021/02/51367b014fad59d7.jpg"></p>
-<p>几个月过去后，见他发朋友圈说要接下来要好好读课外书，配图是一个努力奔跑的年轻人。点赞后，我顺带问了句：“日语学得怎么样了”？</p>
-<p>他发过来一个沮丧的表情，说是找老师太麻烦，所以自己一直也没有学日语，末了，不忘强调自己真的很想学日语。</p>
-<p><strong>且这句自己真的很想学日语和当时问我问题时的语气一样坚定，当初也是因为他的这份坚定，我尽己之力回答了他所有的问题，接下来该他自己努力了，他却放弃了。</strong></p>
-<p>想学日语却因为找老师麻烦而放弃，那当时一个问题一个问题的问别人，不麻烦吗？</p>
-<p><strong>怕麻烦只是为自己的懒惰找的一个冠冕堂皇的理由，真正想做的事情，无论过程如何艰辛，也都会全力以赴。</strong></p>
-<p>学习日语只能成为他一个遥遥无期的梦想，可这个世界最廉价的就是梦想了，想跳舞、想游泳、想学日语、想环游世界……</p>
-<p><strong>想得太多而懒得开始，成功永远留给了那些勤奋的人。</strong></p>
-<p><img src="https://ftp.bmp.ovh/imgs/2021/02/49287761101afe56.jpg"></p>
-<p>经常听到身边的人抱怨，自己没做好某件事是因为没有别人的运气，遇不到大咖，没有人指点，<strong>可是我们的努力真的配得上大咖的指点吗？</strong></p>
-<p>在学生会时，我部长说过一句话：“一定要少问”，当时有点不解，明明从小老师就告诉我们，要善于向别人请教，部长怎么能让我们少问呢。</p>
-<p>后来慢慢地理解了我部长的话，<strong>善于向别人请教没错，但我们遇到的大多数问题只要稍微努力一下都可以自己解决。</strong></p>
-<p><strong>在自己努力过后问题还是没有解决，再请教别人收获的可能不止问题的答案本身。</strong></p>
-<p><strong>大多数时候我们遇到的很多问题自己都能解决，但就是有人不愿去思考，不愿去实践，总想着问别人，宁愿去麻烦别人自己也懒得思考。</strong></p>
-<p>很喜欢一句话“<strong>你多学一样本事，就少说一句求人的话。</strong>”多思考一下、多努力一下，就可以少问别人几个问题。</p>
-<p><strong>很多时候做某件事情最大的困难不是自己不了解的问题太多，而是太懒。</strong></p>
-<p><strong>越是优秀的人越不太喜欢麻烦别人，他们都是靠着自己的努力一步步摸索前进的道路。</strong></p>
-<p><img src="https://ftp.bmp.ovh/imgs/2021/02/1b1f541bb48042f4.jpg"></p>
-<p>《超级阿嬷的信》中有一段话：“<strong>如果不知道自己想要干什么，就先工作。只要工作，就可以得到米、酱、酱油、朋友和信任。可以一边工作，一边寻找真正想干的事，千万不要游手好闲</strong>”。</p>
-<p>你不知道你喜欢什么？你不知道该怎么学习？你不知道要不要报班？……很多问题在你开始努力后，会慢慢得到答案，<strong>所以别急着要答案，先去努力！</strong></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>2021-0220打卡</title>
-    <url>/2021/02/20/2021-0220/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="8cc471d307cdd05069d6eea1763913c7b231ae5d03441b3abd203ed8d0d148ef">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019bef02ab33fcfd57872c7f60d78f308ab65e60e54590b74202f9cb62ab65d64ad06383c9a61f9c40b6a26a6c23ff0f33b5b00fee51ae449495c59784a69d7015f27bb11f9421684a8c21254ff57dfa71884cd103b5e766e7e7b325d4d84443880a54df34a490fccad1a3017745b86c3d20aa8827577830c17eb161f51d62d69cb490dedd94ffdc5b17f6a1f5b376c4fc58f5eff87634ae1f661b4e403a325a9beb2c0b8e44b58c96f7b263c4396cd25e6b44e6520a55aad262c0b890ac50d1fcfee0ce62027f81041fbb5f25d1f06dd4277feaab161e2d5d5812da65a96eb0b08c891ba748cfc7d0d8ba1ff1d3ee6f950c3229f8b8a0ec14e2cb2e60b0b7cd2b582524f1dd98e4d242c61d7fb6442259e57cc562805b1d3c94804fa95451c03c025e7421d9514b9c9e1bd7303ab27460fb0e98f1423ebc2038a40f83a034277529b8bb4b6685f3a2b767feb838871f1c628dc2e18f6a7e2d4d0a57d720edbf5a53dc32718140d2fd55776edfef189cb2de7fdd55f2b561c34d04ff5b2a49b443b192354b2225c5884cd5b7d8093742d71459ac5e5b74c5c9916a1a3df008dd23de95ce16a3bd4b0a30bf3bcebce7ebbc03bd3a524fe95e224a2e4815e212c38a4e8bd390c1c05af9d7863961ddd835878840c7ff5d28eb484ac39964e2076344767c41ea9218b18b94f1ff8a412f06d494c3dcb5cdc6b601728d2d45140b38f2865a193394fe1b4b184dc6062067db1e247eda2c16250fcb3c1c17cc2575852cd7716cf79304195b3c7bbe9293f429a421c72b8b96407dfa6628d80b57a54cc0252fb05f63f762add788233c6f4875dfbf29322cbdec179c0855451237255e9e99a798a12349d045b3fe3395f9547f0869a28b5c743276fbe75cf34a5d4a360408c36cfa1959e0eb174e65912b91aa7e87812b0fb837166a8aa7eb292c1748ebe69ad7cccd0c3c38a994a4e7795f4f387de8713c32d0aef01c9d94ef1859e944aadbd92c39bfe8fc323629c9b3ced1237d01c9e14d04bddf66ce72961685e802a187ff341f5138fb38cdd8b2085834d60ce2208b186c579dd89832385a3ac617b6f2093c537c967ce73bf0d9f4dec0c8a3f3c04de31890bb5c1926dee79c6b0710e9d1a5d4710edef73ae6eec301295bf2a61c05bc26a3705872a216b761fe366b49cb5d5fcbdc67645ec69657c789958a6563493909b4b24d0816a43235a30f912f16054bc350abec54bb38999a2d0532172b7f144d1af0de2418f3c2e1a642f4561e1dd5a3720130caa4df2db0ddb06c9ee998c86fc47e40456deee6349b8ed4c2e8623087a61e326211d0ae0af637774f18b99f710e8ec2c8b40bf4bade4948c7d5c6e9dbf9ac6804697de6c19e33a57a1d885097b992e7018272733e765bbd7d2a88d882eb0d0a50faa48597dab2e1aa84c488da314bc514b423de935628de0664d71f9097b1e0d442dc0a7c76d09635dded4c68178950741b45bfe2225a248523bf04bdee1ce009e0ba9181039b205a584d55978a79d202d12113534fbdc323321c8ba5a7f1668fd953a88f308d1f14d07e236a23dd1d4fe8663d267e61d89cf405fa7ddaf1988771852ab9a6de8d65bd1bacb986817651949b69307f3cc15ed4f59e8b4d220b8b671c3c81128f53b929681e9e63883190d740074ac847bc95cbfccd983abc5a4d22226b2d2bd2953890c767edf3a6d9ab2662e0a35924d5e746a090f45586ba5f7d3fe52989a9bea6683e4d429744f5596fe660c580b08f26760ba40115e29580b2214c83a5033bbc72294a5bb238bac2de86eb3fdf7f3f84204cb816589f902d99b80c734da9cab656348cf6d3330e59cce0bd587ab8ef8da1da698bb9fa509ad3b5508af8b79</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>打卡</category>
-      </categories>
-      <tags>
-        <tag>打卡</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2021-0221打卡</title>
-    <url>/2021/02/21/2021-0221/</url>
+    <title>2021-0302and0303</title>
+    <url>/2021/03/03/2021-0302and0303/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
 <html>
 <head>
@@ -420,10 +269,118 @@
 </head>
 <body>
     <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="mainX2021-0221" style="min-width: 100px;height:400px;"></div>
+    <div id="2021-0302and0303" style="min-width: 100px;height:400px;"></div>
     <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例        
-        var myChart1 = echarts.init(document.getElementById('mainX2021-0221'));
+        var myChart1 = echarts.init(document.getElementById('2021-0302and0303'));
+
+        var option1 = {
+            tooltip: {
+            trigger: 'item',           
+            },
+            series : [
+            {
+                name: '完成与否',
+                type: 'pie',
+                selectedMode: 'single',
+                radius: '40%',
+                center: ['48%', '50%'],
+                labelLine: {
+                    lineStyle: {
+                    color: '#235894'
+                    }
+                },
+                label: {
+                    fontSize: 18,
+                    color: '#235894',
+                },
+                data:[
+                    {value:1, name:'shadowing',itemStyle:{color:'#00dd00',borderColor:'#235894'}},
+                    {value:1.001, name:'标日课本',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1, name:'anki单词',itemStyle:{color:'#00dd00',borderColor:'#235894'}},
+                    {value:1.001, name:'n2真题',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'SAA题',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'新概念',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
+                    {value:1.001, name:'式样书',itemStyle:{color:'#dd0000',borderColor:'#235894'}}
+                    ]
+                }
+            ],
+            
+            formatter: function (params) {
+                if(params.data.value==1.001)
+	                return '未完成'
+                else
+                    return '完成'
+            }
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart1.setOption(option1); 
+    </script>
+</body>
+</html>
+
+
+<font color="#00dd00">
+超特级说日语，Unit1-Unit8(中上级整本)<br></font>
+<font color="#dd0000">
+标日初中级，一天复习4单元<br>
+<font color="#00dd00">
+anki 标日初级上册单词全扫完<br></font>
+n2真题，两天看一卷（不做只看，听）<br>
+SAA题库，一天100题纯背不实操扫过就行<br>
+youzack新概念英语从2开始听读，一天一篇<br>
+对日开发日语和式样书单词总结</font>
+
+<p>中上级一下子难不少，初级我至少能听懂70%以上，并且能复述出来，个别音调实在说不出来，很别扭，但是还是能懂，中上级我至多能听懂10%吧，能复述出来的句子就几句吧，太快了，太口语化，太随意了。</p>
+]]></content>
+      <categories>
+        <category>打卡</category>
+      </categories>
+      <tags>
+        <tag>打卡</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网站被google收录了!</title>
+    <url>/2021/03/01/2021030recording/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>俺做的网站被google收录成功了，(百度不管它了，应该也成功了)好开心！</p>
+<p>发文记录一下！==！</p>
+<p><img src="https://ftp.bmp.ovh/imgs/2021/03/400db2d26e34d595.jpg"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>20210301bug</title>
+    <url>/2021/03/01/20210301bug/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>突然连不上github，吓我一跳</p>
+<p>报了这个错Failed to connect to github.com port 443:connection timed out</p>
+<p>解决方案：先把子切换到全局，然后再取消全局代理，最后hexo d(多试几遍)</p>
+<p>解决链接:<a href="https://blog.csdn.net/Hodors/article/details/103226958">https://blog.csdn.net/Hodors/article/details/103226958</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>bug</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2021-0224to0301懒人外语听读心得</title>
+    <url>/2021/03/01/2021-0224to0301/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="2021-0224to0301" style="min-width: 100px;height:400px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例        
+        var myChart1 = echarts.init(document.getElementById('2021-0224to0301'));
 
         var option1 = {
             tooltip: {
@@ -458,7 +415,6 @@
             ],
             
             formatter: function (params) {
-                console.log(params.data.value);
                 if(params.data.value==1.001)
 	                return '未完成'
                 else
@@ -474,67 +430,27 @@
 
 
 <font color="#00dd00">
-超特级说日语，Unit4,5</font><br>
-<font color="#dd0000">标日初中级，一天复习4单元<br>
+超特级说日语，Unit1-Unit5(初级整本)<br></font>
+<font color="#dd0000">
+标日初中级，一天复习4单元<br>
 anki 标日，红宝书单词卡 最快速度扫过<br>
 n2真题，两天看一卷（不做只看，听）<br>
 SAA题库，一天100题纯背不实操扫过就行<br>
 youzack新概念英语从2开始听读，一天一篇<br>
 对日开发日语和式样书单词总结</font>
+
+<p>刚开始听得时候非常排斥日语的音调，就一小节，两小节的反复听，很烦!</p>
+<p>可是听了很长很长时间之后，因为很熟悉很熟悉了，就觉得速度、音调也还行了，不是特别快了，偶尔个别没听懂，不影响理解意思了。</p>
+<p>然后一个单元一个单元的听，最后一本一本的听，我发现我不懂的点就那么几个，绝大部分都能听得懂，前提是要不停的听读，否则过几天又忘了。</p>
+<p>其实中文意思你也记住了，就像脑子里不停地做连线题一样，先出外语句子，你自己连中文意思。</p>
+<p>我学的方法似乎跟学技术一样，先是基础小知识点，一点一点的来回记、练习。而且我过段时间肯定会忘，所以学习习惯一定得好，<font color="#dd0000">必须做出笔记出来，</font>然后不停的记、练习。再之后，就可以一个模块一个模块的记、练习了。我长期学习的坏习惯就是总是挑简单的知识点学，学的不系统，而切过段时间总是忘了。</p>
+<p>最后就是整个框架，整个项目的看了，我还没这水平。主要是很多细节问题，我分析不出来，理解的不透彻。有的逻辑和bug，形成原因很复杂，弄透彻太费劲了，这可能就是经验、智商阻碍，技术能力不够的原因。</p>
 ]]></content>
       <categories>
         <category>打卡</category>
       </categories>
       <tags>
         <tag>打卡</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>reason_for_study</title>
-    <url>/2021/02/22/reason-for-study/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="f757ce21ed31d5584d084ab6029097d44cb714245f6850a43125e81637503639">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019b836ac572598484d38288c88b6acb9679a939872a21fc90d42514ee5ad5485c70f3897ec41cc6adf11cca33279975b5a09ce51f3cdb878acbfa21cc22fa2072c9e5e48ae772e1f5a3416583dee1b44793696acfd9c711f9df251a0c7aec0f036508d267951ebf0da9337c843fb6c586ddf14344a44d57d6ecc94f036324749938c6ec3ed9eb783b081e99af87586898951ffaac7f13988104fb9b11c5dd98075a2c9dc05248d19e9e4866cfe00741dd58574e5c4e2277ea69998cc0618dd2a18c7682846563039276a0f41e72a8014c1defe69e1bae45261ef48a997980eeecda01a5b966cca4fc550336eb12176f5e17047940d7177d709549d5f20ca07ef6e</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-  </entry>
-  <entry>
-    <title>关于前端基础</title>
-    <url>/2021/02/22/frontBase/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="html-概念：html-head-body-等"><a href="#html-概念：html-head-body-等" class="headerlink" title="html 概念：html head body 等"></a>html 概念：html head body 等</h2><p>1标签：是Hyper Text Markup Language 超文本标记语言 的缩写</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;p&gt; 这是一个开始标签</span><br><span class="line">&lt;&#x2F;p&gt; 这是一个结束标签</span><br><span class="line">&lt;p&gt; Hello World &lt;&#x2F;p&gt; 标签之间的文本叫做内容</span><br></pre></td></tr></table></figure>
-<p>2元素:指的是从开始标签到结束标签之间所有的代码<br>比如</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;HelloWord&lt;&#x2F;p&gt;</span><br></pre></td></tr></table></figure>
-<p>3属性:<br>属性用来修饰标签的<br>比如要设置一个标题居中</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;h1 align&#x3D;&quot;center&quot;&gt;居中标题&lt;&#x2F;h1&gt;</span><br></pre></td></tr></table></figure>
-<p>写在开始标签里的 align=”center” 就叫属性<br>align 是属性名<br>center 是属性值<br>属性值应该使用双引号括起来</p>
-<h2 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h2><p>选择器主要分3种<br>元素选择器<br>id选择器<br>类选择器</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">p&#123;</span><br><span class="line">  color:red;</span><br><span class="line">&#125;</span><br><span class="line">&lt;&#x2F;style&gt;</span><br><span class="line"> </span><br><span class="line">&lt;p&gt;p元素&lt;&#x2F;p&gt;</span><br><span class="line"></span><br><span class="line">&lt;style&gt;</span><br><span class="line">p&#123;</span><br><span class="line">  color:red;</span><br><span class="line">&#125;</span><br><span class="line">#p1&#123;</span><br><span class="line">  color:blue;</span><br><span class="line">&#125;</span><br><span class="line">#p2&#123;</span><br><span class="line">  color:green;</span><br><span class="line">&#125;</span><br><span class="line">&lt;&#x2F;style&gt;</span><br><span class="line"> </span><br><span class="line">&lt;p&gt;没有id的p&lt;&#x2F;p&gt;</span><br><span class="line">&lt;p id&#x3D;&quot;p1&quot;&gt;id&#x3D;p1的p&lt;&#x2F;p&gt;</span><br><span class="line">&lt;p id&#x3D;&quot;p2&quot;&gt;id&#x3D;p2的p&lt;&#x2F;p&gt;</span><br><span class="line"></span><br><span class="line">&lt;style&gt;</span><br><span class="line">.pre&#123;</span><br><span class="line">  color:blue;</span><br><span class="line">&#125;</span><br><span class="line">.after&#123;</span><br><span class="line">  color:green;</span><br><span class="line">&#125;</span><br><span class="line">&lt;&#x2F;style&gt;</span><br><span class="line"> </span><br><span class="line">&lt;p class&#x3D;&quot;pre&quot;&gt;前3个&lt;&#x2F;p&gt;</span><br><span class="line">&lt;p class&#x3D;&quot;pre&quot;&gt;前3个&lt;&#x2F;p&gt;</span><br><span class="line">&lt;p class&#x3D;&quot;pre&quot;&gt;前3个&lt;&#x2F;p&gt;</span><br><span class="line"> </span><br><span class="line">&lt;p class&#x3D;&quot;after&quot;&gt;后3个&lt;&#x2F;p&gt;</span><br><span class="line">&lt;p class&#x3D;&quot;after&quot;&gt;后3个&lt;&#x2F;p&gt;</span><br><span class="line">&lt;p class&#x3D;&quot;after&quot;&gt;后3个&lt;&#x2F;p&gt;</span><br></pre></td></tr></table></figure>
-<h2 id="js"><a href="#js" class="headerlink" title="js"></a>js</h2><p>内容太多，不可能全懂，操作dom元素的一种语言</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">  document.write(&quot;Hello Javascript&quot;);</span><br><span class="line">&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
-<h2 id="jq"><a href="#jq" class="headerlink" title="jq"></a>jq</h2><p>对js进行封装，更简洁。$.<br>以下是我</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;**</span><br><span class="line"> * jquery_Spectrum_colorpicker</span><br><span class="line"> *</span><br><span class="line"> * @author hakusaii</span><br><span class="line"> *&#x2F;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 插件封装</span><br><span class="line">(function ($) &#123;</span><br><span class="line">    &#x2F;&#x2F; What does the Spectrum_colorpicker do?</span><br><span class="line">    $.fn.Spectrum_colorpicker &#x3D; function (options) &#123;</span><br><span class="line"></span><br><span class="line">        if (!this.length) &#123;</span><br><span class="line">            return this;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        var opts &#x3D; $.extend(true, &#123;&#125;, $.fn.Spectrum_colorpicker.defaults, options);</span><br><span class="line"></span><br><span class="line">        this.each(function () &#123;</span><br><span class="line">            $(this).css(&quot;margin&quot;, &quot;0px&quot;);</span><br><span class="line">            var btn1 &#x3D; $(&#39;&lt;button style&#x3D;&quot;background-color: #000;color: green;width: 46.67px;word-break:break-all;margin-right: 4.3px;&quot;&gt;预置&lt;&#x2F;button&gt;&#39;);</span><br><span class="line">            var btn2 &#x3D; $(&#39;&lt;button style&#x3D;&quot;background-color: #000;color: green;width: 46.67px;word-break:break-all;margin-right: 4.3px;&quot;&gt;颜色&lt;&#x2F;button&gt;&#39;);</span><br><span class="line">            var btn3 &#x3D; $(&#39;&lt;button style&#x3D;&quot;background-color: #000;color: green;width: 46.67px;word-break:break-all;margin-right: 4.3px;&quot;&gt;预置&lt;&#x2F;button&gt;&#39;);</span><br><span class="line">            var btn4 &#x3D; $(&#39;&lt;button style&#x3D;&quot;background-color: #000;color: green;width: 46.67px;word-break:break-all;&quot;&gt;图象&lt;&#x2F;button&gt;&#39;);</span><br><span class="line"></span><br><span class="line">            &#x2F;&#x2F;定义全局对象，避免在方法里定义dom元素再用id获取</span><br><span class="line">            var global &#x3D; $(this);</span><br><span class="line">            </span><br><span class="line">            var span_R &#x3D; $(&quot;&lt;span&gt;R&lt;&#x2F;span&gt;&quot;);</span><br><span class="line">            var input_R &#x3D; $(&quot;&lt;input style&#x3D;&#39;width:30px&#39;&#x2F;&gt;&quot;);</span><br><span class="line">            var span_G &#x3D; $(&quot;&lt;span&gt;G&lt;&#x2F;span&gt;&quot;);</span><br><span class="line">            var input_G &#x3D; $(&quot;&lt;input style&#x3D;&#39;width:30px&#39;&#x2F;&gt;&quot;);</span><br><span class="line">            var span_B &#x3D; $(&quot;&lt;span&gt;B&lt;&#x2F;span&gt;&quot;);</span><br><span class="line">            var input_B &#x3D; $(&quot;&lt;input style&#x3D;&#39;width:30px&#39;&#x2F;&gt;&quot;);</span><br><span class="line">            var span_A &#x3D; $(&quot;&lt;span&gt;A&lt;&#x2F;span&gt;&quot;);</span><br><span class="line">            var input_A &#x3D; $(&quot;&lt;input style&#x3D;&#39;width:30px&#39;&#x2F;&gt;&quot;); </span><br><span class="line">            </span><br><span class="line">            &#x2F;&#x2F;只创一个dom元素:div</span><br><span class="line">            var input &#x3D; $(&quot;&lt;input type&#x3D;&#39;text&#39;&#x2F;&gt;&quot;);</span><br><span class="line">            var div &#x3D; $(&quot;&lt;div&gt;&lt;&#x2F;div&gt;&quot;).append(input);</span><br><span class="line"></span><br><span class="line">            $(this).append(btn1, btn2, btn3, btn4);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">            btn1.click(function () &#123;</span><br><span class="line">                $.destroy();    &#x2F;&#x2F;创建前销毁上个创建的残余节点与节点中的jq插件               			</span><br><span class="line">                global.append(div);</span><br><span class="line">                input.spectrum(&#123;   &#x2F;&#x2F;在input载体处启用jq插件</span><br><span class="line">                    &#x2F;&#x2F;containerClassName: &quot;&quot;,&#x2F;&#x2F;引用类选择器,可以改变颜色选择器面板的样式</span><br><span class="line">                    &#x2F;&#x2F;replacerClassName: &quot;myclass_font&quot;,&#x2F;&#x2F;引用类选择器,可以改变颜色选择器的样式</span><br><span class="line">                    clickoutFiresChange: false, &#x2F;&#x2F;外部单击不触发change,默认为true,必须禁，否则change会多次触发，取值有问题</span><br><span class="line">                    disabled: false,</span><br><span class="line">                    containerClassName: &#39;awesome&#39;,</span><br><span class="line">                    flat: true,</span><br><span class="line">                    showPaletteOnly: true,     &#x2F;&#x2F;显示初始单个色块</span><br><span class="line">                    showPalette: false,         &#x2F;&#x2F;以调色板色块方式方式显示</span><br><span class="line">                    hideAfterPaletteSelect: true,   &#x2F;&#x2F;选择色块后隐藏 				</span><br><span class="line">                    color: opts.btn1_color,       &#x2F;&#x2F;此处设置初值</span><br><span class="line">                    palette: [</span><br><span class="line">                        [&#39;black&#39;, &#39;white&#39;, &#39;blanchedalmond&#39;,</span><br><span class="line">                            &#39;rgb(255, 128, 0);&#39;, &#39;hsv 100 70 50&#39;, &#39;red&#39;, &#39;yellow&#39;, &#39;green&#39;,],</span><br><span class="line">                        [&#39;blue&#39;, &#39;violet&#39;],</span><br><span class="line">                    ],</span><br><span class="line">                    change: $.get_color.bind(this) &#x2F;&#x2F;此处绑定取值方法</span><br><span class="line">                &#125;);</span><br><span class="line">            &#125;)</span><br><span class="line"></span><br><span class="line">            btn2.click(function () &#123;</span><br><span class="line">                $.destroy();</span><br><span class="line">                global.append(div);</span><br><span class="line">                input.spectrum(&#123;</span><br><span class="line">                    disabled: false,</span><br><span class="line">                    clickoutFiresChange: false,</span><br><span class="line">                    containerClassName: &#39;font_color&#39;,</span><br><span class="line">                    flat: true,</span><br><span class="line">                    showPaletteOnly: true,  &#x2F;&#x2F;展示单个色块</span><br><span class="line">                    showPalette: true,</span><br><span class="line">                    hideAfterPaletteSelect: true,</span><br><span class="line">                    color: opts.btn2_color,</span><br><span class="line">                    palette: [  &#x2F;&#x2F;调色板色块</span><br><span class="line">                        [&quot;#000&quot;, &quot;#444&quot;, &quot;#666&quot;, &quot;#999&quot;, &quot;#ccc&quot;, &quot;#eee&quot;, &quot;#f3f3f3&quot;, &quot;#fff&quot;],</span><br><span class="line">                        [&quot;#f00&quot;, &quot;#f90&quot;, &quot;#ff0&quot;, &quot;#0f0&quot;, &quot;#0ff&quot;, &quot;#00f&quot;, &quot;#90f&quot;, &quot;#f0f&quot;],</span><br><span class="line">                        [&quot;#f4cccc&quot;, &quot;#fce5cd&quot;, &quot;#fff2cc&quot;, &quot;#d9ead3&quot;, &quot;#d0e0e3&quot;, &quot;#cfe2f3&quot;, &quot;#d9d2e9&quot;, &quot;#ead1dc&quot;],</span><br><span class="line">                        [&quot;#ea9999&quot;, &quot;#f9cb9c&quot;, &quot;#ffe599&quot;, &quot;#b6d7a8&quot;, &quot;#a2c4c9&quot;, &quot;#9fc5e8&quot;, &quot;#b4a7d6&quot;, &quot;#d5a6bd&quot;],</span><br><span class="line">                        [&quot;#e06666&quot;, &quot;#f6b26b&quot;, &quot;#ffd966&quot;, &quot;#93c47d&quot;, &quot;#76a5af&quot;, &quot;#6fa8dc&quot;, &quot;#8e7cc3&quot;, &quot;#c27ba0&quot;],</span><br><span class="line">                        [&quot;#c00&quot;, &quot;#e69138&quot;, &quot;#f1c232&quot;, &quot;#6aa84f&quot;, &quot;#45818e&quot;, &quot;#3d85c6&quot;, &quot;#674ea7&quot;, &quot;#a64d79&quot;],</span><br><span class="line">                        [&quot;#900&quot;, &quot;#b45f06&quot;, &quot;#bf9000&quot;, &quot;#38761d&quot;, &quot;#134f5c&quot;, &quot;#0b5394&quot;, &quot;#351c75&quot;, &quot;#741b47&quot;],</span><br><span class="line">                        [&quot;#600&quot;, &quot;#783f04&quot;, &quot;#7f6000&quot;, &quot;#274e13&quot;, &quot;#0c343d&quot;, &quot;#073763&quot;, &quot;#20124d&quot;, &quot;#4c1130&quot;]</span><br><span class="line">                    ],</span><br><span class="line">                    change: $.get_color.bind(this)</span><br><span class="line">                &#125;);</span><br><span class="line">            &#125;)</span><br><span class="line"></span><br><span class="line">            btn3.click(function () &#123;</span><br><span class="line">                $.destroy();         </span><br><span class="line">                global.append(div);</span><br><span class="line">                input.spectrum(&#123;</span><br><span class="line">                    showPalette: false,&#x2F;&#x2F;不显示色块</span><br><span class="line">                    disabled: false,&#x2F;&#x2F;禁用选择器(初始块),可以在面板上直接画字与input框</span><br><span class="line">                    clickoutFiresChange: false,</span><br><span class="line">                    containerClassName: &#39;font_gradual_color&#39;,</span><br><span class="line">                    flat: true,</span><br><span class="line">                    showButtons: true, &#x2F;&#x2F;显示choose按钮</span><br><span class="line">                    color: opts.btn3_color,</span><br><span class="line">                    showAlpha: true,   &#x2F;&#x2F;显示透明度条</span><br><span class="line">                    chooseText: &quot;选择&quot;,&#x2F;&#x2F;选择按钮,按钮文字</span><br><span class="line">                    cancelText: &quot;&quot;,</span><br><span class="line">                    &#x2F;&#x2F;showInput: true,   &#x2F;&#x2F;插件自带rgba值显示与输入</span><br><span class="line">                    preferredFormat: &quot;rgb&quot;,	   &#x2F;&#x2F;以rgba格式显示颜色值						</span><br><span class="line">                    move: $.get_move_color.bind(this),</span><br><span class="line">                    change: $.get_color.bind(this)</span><br><span class="line">                &#125;);</span><br><span class="line"></span><br><span class="line">                $temp &#x3D; input.spectrum(&quot;get&quot;); &#x2F;&#x2F;获取颜色值</span><br><span class="line"></span><br><span class="line">                input_R.val(Math.round($temp._r));</span><br><span class="line">                input_G.val(Math.round($temp._g));</span><br><span class="line">                input_B.val(Math.round($temp._b));</span><br><span class="line">                input_A.val($temp._a);</span><br><span class="line"></span><br><span class="line">                &#x2F;&#x2F;在面板上画字与input</span><br><span class="line">                $(&quot;.sp-picker-container&quot;).append(span_R, input_R, span_G, input_G, span_B, input_B, span_A, input_A);</span><br><span class="line"></span><br><span class="line">                &#x2F;&#x2F;在选择按钮上加点击事件</span><br><span class="line">                $(&quot;.sp-choose&quot;).click(function () &#123;</span><br><span class="line">                    input.spectrum(&quot;set&quot;, &quot;rgba&quot; + &quot;(&quot; + input_R.val() + &quot;,&quot; + input_G.val() + &quot;,&quot; + input_B.val() + &quot;,&quot; + input_A.val() + &quot;)&quot;);</span><br><span class="line">                &#125;)</span><br><span class="line">            &#125;)</span><br><span class="line"></span><br><span class="line">            $.get_color &#x3D; function (e) &#123;</span><br><span class="line">                console.log(&quot;rgb(&quot; + Math.round(e._r) + &quot;,&quot; + Math.round(e._g) + &quot;,&quot; + Math.round(e._b) + &quot;,&quot; + e._a + &quot;)&quot;);  &#x2F;&#x2F;整数范围四舍五入</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            $.get_move_color &#x3D; function (e) &#123;</span><br><span class="line">                input_R.val(Math.round(e._r));</span><br><span class="line">                input_G.val(Math.round(e._g));</span><br><span class="line">                input_B.val(Math.round(e._b));</span><br><span class="line">                input_A.val(e._a);</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            $.destroy &#x3D; function () &#123;  &#x2F;&#x2F;插件销毁</span><br><span class="line">                input.spectrum(&quot;destroy&quot;);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line"></span><br><span class="line">        return this;</span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F; default options</span><br><span class="line">    $.fn.Spectrum_colorpicker.defaults &#x3D; &#123;</span><br><span class="line">        btn1_color: &quot;black&quot;,</span><br><span class="line">        btn2_color: &quot;yellow&quot;,</span><br><span class="line">        btn3_color: &quot;red&quot;</span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">&#125;)(jQuery);</span><br></pre></td></tr></table></figure>
-
-<h2 id="json"><a href="#json" class="headerlink" title="json"></a>json</h2><p>JSON JavaScript 对象表示法（JavaScript Object Notation） 是一种存储数据的方式。<br>就理解成键值对就行了</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line"> </span><br><span class="line">var heros&#x3D;</span><br><span class="line">[</span><br><span class="line">    &#123;&quot;name&quot;:&quot;盖伦&quot;,&quot;hp&quot;:616&#125;,</span><br><span class="line">    &#123;&quot;name&quot;:&quot;提莫&quot;,&quot;hp&quot;:313&#125;,</span><br><span class="line">    &#123;&quot;name&quot;:&quot;死歌&quot;,&quot;hp&quot;:432&#125;,</span><br><span class="line">    &#123;&quot;name&quot;:&quot;火女&quot;,&quot;hp&quot;:389&#125;</span><br><span class="line">]</span><br><span class="line"> </span><br><span class="line">document.write(&quot;JSON数组大小&quot;+heros.length);</span><br><span class="line"> </span><br><span class="line">&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
-<h2 id="svg"><a href="#svg" class="headerlink" title="svg"></a>svg</h2><p>矢量画图，调调参数就行了，没啥就是烦</p>
-<h2 id="angular"><a href="#angular" class="headerlink" title="angular"></a>angular</h2><p>这东西很大只，懂一点点的皮毛而已。。</p>
-<h2 id="vue"><a href="#vue" class="headerlink" title="vue"></a>vue</h2><p>比jq使用更加精简的前端框架，据说和微信小程序类似，很强</p>
-<h2 id="ajax"><a href="#ajax" class="headerlink" title="ajax"></a>ajax</h2><p>通过AJAX Asynchronous JavaScript And XML 实现异步刷新</p>
-<h2 id="nodejs"><a href="#nodejs" class="headerlink" title="nodejs"></a>nodejs</h2><p>npm 管理前端NPM是随同NodeJS一起安装的包管理工具，能解决NodeJS代码部署上的很多问题<br>理解成装包的就行了</p>
-<h2 id="再续"><a href="#再续" class="headerlink" title="再续"></a>再续</h2>]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
       </tags>
   </entry>
   <entry>
@@ -639,8 +555,56 @@ youzack新概念英语从2开始听读，一天一篇<br>
       </tags>
   </entry>
   <entry>
-    <title>2021-0224to0301懒人外语听读心得</title>
-    <url>/2021/03/01/2021-0224to0301/</url>
+    <title>关于前端基础</title>
+    <url>/2021/02/22/frontBase/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="html-概念：html-head-body-等"><a href="#html-概念：html-head-body-等" class="headerlink" title="html 概念：html head body 等"></a>html 概念：html head body 等</h2><p>1标签：是Hyper Text Markup Language 超文本标记语言 的缩写</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;p&gt; 这是一个开始标签</span><br><span class="line">&lt;&#x2F;p&gt; 这是一个结束标签</span><br><span class="line">&lt;p&gt; Hello World &lt;&#x2F;p&gt; 标签之间的文本叫做内容</span><br></pre></td></tr></table></figure>
+<p>2元素:指的是从开始标签到结束标签之间所有的代码<br>比如</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;HelloWord&lt;&#x2F;p&gt;</span><br></pre></td></tr></table></figure>
+<p>3属性:<br>属性用来修饰标签的<br>比如要设置一个标题居中</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;h1 align&#x3D;&quot;center&quot;&gt;居中标题&lt;&#x2F;h1&gt;</span><br></pre></td></tr></table></figure>
+<p>写在开始标签里的 align=”center” 就叫属性<br>align 是属性名<br>center 是属性值<br>属性值应该使用双引号括起来</p>
+<h2 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h2><p>选择器主要分3种<br>元素选择器<br>id选择器<br>类选择器</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">p&#123;</span><br><span class="line">  color:red;</span><br><span class="line">&#125;</span><br><span class="line">&lt;&#x2F;style&gt;</span><br><span class="line"> </span><br><span class="line">&lt;p&gt;p元素&lt;&#x2F;p&gt;</span><br><span class="line"></span><br><span class="line">&lt;style&gt;</span><br><span class="line">p&#123;</span><br><span class="line">  color:red;</span><br><span class="line">&#125;</span><br><span class="line">#p1&#123;</span><br><span class="line">  color:blue;</span><br><span class="line">&#125;</span><br><span class="line">#p2&#123;</span><br><span class="line">  color:green;</span><br><span class="line">&#125;</span><br><span class="line">&lt;&#x2F;style&gt;</span><br><span class="line"> </span><br><span class="line">&lt;p&gt;没有id的p&lt;&#x2F;p&gt;</span><br><span class="line">&lt;p id&#x3D;&quot;p1&quot;&gt;id&#x3D;p1的p&lt;&#x2F;p&gt;</span><br><span class="line">&lt;p id&#x3D;&quot;p2&quot;&gt;id&#x3D;p2的p&lt;&#x2F;p&gt;</span><br><span class="line"></span><br><span class="line">&lt;style&gt;</span><br><span class="line">.pre&#123;</span><br><span class="line">  color:blue;</span><br><span class="line">&#125;</span><br><span class="line">.after&#123;</span><br><span class="line">  color:green;</span><br><span class="line">&#125;</span><br><span class="line">&lt;&#x2F;style&gt;</span><br><span class="line"> </span><br><span class="line">&lt;p class&#x3D;&quot;pre&quot;&gt;前3个&lt;&#x2F;p&gt;</span><br><span class="line">&lt;p class&#x3D;&quot;pre&quot;&gt;前3个&lt;&#x2F;p&gt;</span><br><span class="line">&lt;p class&#x3D;&quot;pre&quot;&gt;前3个&lt;&#x2F;p&gt;</span><br><span class="line"> </span><br><span class="line">&lt;p class&#x3D;&quot;after&quot;&gt;后3个&lt;&#x2F;p&gt;</span><br><span class="line">&lt;p class&#x3D;&quot;after&quot;&gt;后3个&lt;&#x2F;p&gt;</span><br><span class="line">&lt;p class&#x3D;&quot;after&quot;&gt;后3个&lt;&#x2F;p&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="js"><a href="#js" class="headerlink" title="js"></a>js</h2><p>内容太多，不可能全懂，操作dom元素的一种语言</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">  document.write(&quot;Hello Javascript&quot;);</span><br><span class="line">&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="jq"><a href="#jq" class="headerlink" title="jq"></a>jq</h2><p>对js进行封装，更简洁。$.<br>以下是我</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;**</span><br><span class="line"> * jquery_Spectrum_colorpicker</span><br><span class="line"> *</span><br><span class="line"> * @author hakusaii</span><br><span class="line"> *&#x2F;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 插件封装</span><br><span class="line">(function ($) &#123;</span><br><span class="line">    &#x2F;&#x2F; What does the Spectrum_colorpicker do?</span><br><span class="line">    $.fn.Spectrum_colorpicker &#x3D; function (options) &#123;</span><br><span class="line"></span><br><span class="line">        if (!this.length) &#123;</span><br><span class="line">            return this;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        var opts &#x3D; $.extend(true, &#123;&#125;, $.fn.Spectrum_colorpicker.defaults, options);</span><br><span class="line"></span><br><span class="line">        this.each(function () &#123;</span><br><span class="line">            $(this).css(&quot;margin&quot;, &quot;0px&quot;);</span><br><span class="line">            var btn1 &#x3D; $(&#39;&lt;button style&#x3D;&quot;background-color: #000;color: green;width: 46.67px;word-break:break-all;margin-right: 4.3px;&quot;&gt;预置&lt;&#x2F;button&gt;&#39;);</span><br><span class="line">            var btn2 &#x3D; $(&#39;&lt;button style&#x3D;&quot;background-color: #000;color: green;width: 46.67px;word-break:break-all;margin-right: 4.3px;&quot;&gt;颜色&lt;&#x2F;button&gt;&#39;);</span><br><span class="line">            var btn3 &#x3D; $(&#39;&lt;button style&#x3D;&quot;background-color: #000;color: green;width: 46.67px;word-break:break-all;margin-right: 4.3px;&quot;&gt;预置&lt;&#x2F;button&gt;&#39;);</span><br><span class="line">            var btn4 &#x3D; $(&#39;&lt;button style&#x3D;&quot;background-color: #000;color: green;width: 46.67px;word-break:break-all;&quot;&gt;图象&lt;&#x2F;button&gt;&#39;);</span><br><span class="line"></span><br><span class="line">            &#x2F;&#x2F;定义全局对象，避免在方法里定义dom元素再用id获取</span><br><span class="line">            var global &#x3D; $(this);</span><br><span class="line">            </span><br><span class="line">            var span_R &#x3D; $(&quot;&lt;span&gt;R&lt;&#x2F;span&gt;&quot;);</span><br><span class="line">            var input_R &#x3D; $(&quot;&lt;input style&#x3D;&#39;width:30px&#39;&#x2F;&gt;&quot;);</span><br><span class="line">            var span_G &#x3D; $(&quot;&lt;span&gt;G&lt;&#x2F;span&gt;&quot;);</span><br><span class="line">            var input_G &#x3D; $(&quot;&lt;input style&#x3D;&#39;width:30px&#39;&#x2F;&gt;&quot;);</span><br><span class="line">            var span_B &#x3D; $(&quot;&lt;span&gt;B&lt;&#x2F;span&gt;&quot;);</span><br><span class="line">            var input_B &#x3D; $(&quot;&lt;input style&#x3D;&#39;width:30px&#39;&#x2F;&gt;&quot;);</span><br><span class="line">            var span_A &#x3D; $(&quot;&lt;span&gt;A&lt;&#x2F;span&gt;&quot;);</span><br><span class="line">            var input_A &#x3D; $(&quot;&lt;input style&#x3D;&#39;width:30px&#39;&#x2F;&gt;&quot;); </span><br><span class="line">            </span><br><span class="line">            &#x2F;&#x2F;只创一个dom元素:div</span><br><span class="line">            var input &#x3D; $(&quot;&lt;input type&#x3D;&#39;text&#39;&#x2F;&gt;&quot;);</span><br><span class="line">            var div &#x3D; $(&quot;&lt;div&gt;&lt;&#x2F;div&gt;&quot;).append(input);</span><br><span class="line"></span><br><span class="line">            $(this).append(btn1, btn2, btn3, btn4);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">            btn1.click(function () &#123;</span><br><span class="line">                $.destroy();    &#x2F;&#x2F;创建前销毁上个创建的残余节点与节点中的jq插件               			</span><br><span class="line">                global.append(div);</span><br><span class="line">                input.spectrum(&#123;   &#x2F;&#x2F;在input载体处启用jq插件</span><br><span class="line">                    &#x2F;&#x2F;containerClassName: &quot;&quot;,&#x2F;&#x2F;引用类选择器,可以改变颜色选择器面板的样式</span><br><span class="line">                    &#x2F;&#x2F;replacerClassName: &quot;myclass_font&quot;,&#x2F;&#x2F;引用类选择器,可以改变颜色选择器的样式</span><br><span class="line">                    clickoutFiresChange: false, &#x2F;&#x2F;外部单击不触发change,默认为true,必须禁，否则change会多次触发，取值有问题</span><br><span class="line">                    disabled: false,</span><br><span class="line">                    containerClassName: &#39;awesome&#39;,</span><br><span class="line">                    flat: true,</span><br><span class="line">                    showPaletteOnly: true,     &#x2F;&#x2F;显示初始单个色块</span><br><span class="line">                    showPalette: false,         &#x2F;&#x2F;以调色板色块方式方式显示</span><br><span class="line">                    hideAfterPaletteSelect: true,   &#x2F;&#x2F;选择色块后隐藏 				</span><br><span class="line">                    color: opts.btn1_color,       &#x2F;&#x2F;此处设置初值</span><br><span class="line">                    palette: [</span><br><span class="line">                        [&#39;black&#39;, &#39;white&#39;, &#39;blanchedalmond&#39;,</span><br><span class="line">                            &#39;rgb(255, 128, 0);&#39;, &#39;hsv 100 70 50&#39;, &#39;red&#39;, &#39;yellow&#39;, &#39;green&#39;,],</span><br><span class="line">                        [&#39;blue&#39;, &#39;violet&#39;],</span><br><span class="line">                    ],</span><br><span class="line">                    change: $.get_color.bind(this) &#x2F;&#x2F;此处绑定取值方法</span><br><span class="line">                &#125;);</span><br><span class="line">            &#125;)</span><br><span class="line"></span><br><span class="line">            btn2.click(function () &#123;</span><br><span class="line">                $.destroy();</span><br><span class="line">                global.append(div);</span><br><span class="line">                input.spectrum(&#123;</span><br><span class="line">                    disabled: false,</span><br><span class="line">                    clickoutFiresChange: false,</span><br><span class="line">                    containerClassName: &#39;font_color&#39;,</span><br><span class="line">                    flat: true,</span><br><span class="line">                    showPaletteOnly: true,  &#x2F;&#x2F;展示单个色块</span><br><span class="line">                    showPalette: true,</span><br><span class="line">                    hideAfterPaletteSelect: true,</span><br><span class="line">                    color: opts.btn2_color,</span><br><span class="line">                    palette: [  &#x2F;&#x2F;调色板色块</span><br><span class="line">                        [&quot;#000&quot;, &quot;#444&quot;, &quot;#666&quot;, &quot;#999&quot;, &quot;#ccc&quot;, &quot;#eee&quot;, &quot;#f3f3f3&quot;, &quot;#fff&quot;],</span><br><span class="line">                        [&quot;#f00&quot;, &quot;#f90&quot;, &quot;#ff0&quot;, &quot;#0f0&quot;, &quot;#0ff&quot;, &quot;#00f&quot;, &quot;#90f&quot;, &quot;#f0f&quot;],</span><br><span class="line">                        [&quot;#f4cccc&quot;, &quot;#fce5cd&quot;, &quot;#fff2cc&quot;, &quot;#d9ead3&quot;, &quot;#d0e0e3&quot;, &quot;#cfe2f3&quot;, &quot;#d9d2e9&quot;, &quot;#ead1dc&quot;],</span><br><span class="line">                        [&quot;#ea9999&quot;, &quot;#f9cb9c&quot;, &quot;#ffe599&quot;, &quot;#b6d7a8&quot;, &quot;#a2c4c9&quot;, &quot;#9fc5e8&quot;, &quot;#b4a7d6&quot;, &quot;#d5a6bd&quot;],</span><br><span class="line">                        [&quot;#e06666&quot;, &quot;#f6b26b&quot;, &quot;#ffd966&quot;, &quot;#93c47d&quot;, &quot;#76a5af&quot;, &quot;#6fa8dc&quot;, &quot;#8e7cc3&quot;, &quot;#c27ba0&quot;],</span><br><span class="line">                        [&quot;#c00&quot;, &quot;#e69138&quot;, &quot;#f1c232&quot;, &quot;#6aa84f&quot;, &quot;#45818e&quot;, &quot;#3d85c6&quot;, &quot;#674ea7&quot;, &quot;#a64d79&quot;],</span><br><span class="line">                        [&quot;#900&quot;, &quot;#b45f06&quot;, &quot;#bf9000&quot;, &quot;#38761d&quot;, &quot;#134f5c&quot;, &quot;#0b5394&quot;, &quot;#351c75&quot;, &quot;#741b47&quot;],</span><br><span class="line">                        [&quot;#600&quot;, &quot;#783f04&quot;, &quot;#7f6000&quot;, &quot;#274e13&quot;, &quot;#0c343d&quot;, &quot;#073763&quot;, &quot;#20124d&quot;, &quot;#4c1130&quot;]</span><br><span class="line">                    ],</span><br><span class="line">                    change: $.get_color.bind(this)</span><br><span class="line">                &#125;);</span><br><span class="line">            &#125;)</span><br><span class="line"></span><br><span class="line">            btn3.click(function () &#123;</span><br><span class="line">                $.destroy();         </span><br><span class="line">                global.append(div);</span><br><span class="line">                input.spectrum(&#123;</span><br><span class="line">                    showPalette: false,&#x2F;&#x2F;不显示色块</span><br><span class="line">                    disabled: false,&#x2F;&#x2F;禁用选择器(初始块),可以在面板上直接画字与input框</span><br><span class="line">                    clickoutFiresChange: false,</span><br><span class="line">                    containerClassName: &#39;font_gradual_color&#39;,</span><br><span class="line">                    flat: true,</span><br><span class="line">                    showButtons: true, &#x2F;&#x2F;显示choose按钮</span><br><span class="line">                    color: opts.btn3_color,</span><br><span class="line">                    showAlpha: true,   &#x2F;&#x2F;显示透明度条</span><br><span class="line">                    chooseText: &quot;选择&quot;,&#x2F;&#x2F;选择按钮,按钮文字</span><br><span class="line">                    cancelText: &quot;&quot;,</span><br><span class="line">                    &#x2F;&#x2F;showInput: true,   &#x2F;&#x2F;插件自带rgba值显示与输入</span><br><span class="line">                    preferredFormat: &quot;rgb&quot;,	   &#x2F;&#x2F;以rgba格式显示颜色值						</span><br><span class="line">                    move: $.get_move_color.bind(this),</span><br><span class="line">                    change: $.get_color.bind(this)</span><br><span class="line">                &#125;);</span><br><span class="line"></span><br><span class="line">                $temp &#x3D; input.spectrum(&quot;get&quot;); &#x2F;&#x2F;获取颜色值</span><br><span class="line"></span><br><span class="line">                input_R.val(Math.round($temp._r));</span><br><span class="line">                input_G.val(Math.round($temp._g));</span><br><span class="line">                input_B.val(Math.round($temp._b));</span><br><span class="line">                input_A.val($temp._a);</span><br><span class="line"></span><br><span class="line">                &#x2F;&#x2F;在面板上画字与input</span><br><span class="line">                $(&quot;.sp-picker-container&quot;).append(span_R, input_R, span_G, input_G, span_B, input_B, span_A, input_A);</span><br><span class="line"></span><br><span class="line">                &#x2F;&#x2F;在选择按钮上加点击事件</span><br><span class="line">                $(&quot;.sp-choose&quot;).click(function () &#123;</span><br><span class="line">                    input.spectrum(&quot;set&quot;, &quot;rgba&quot; + &quot;(&quot; + input_R.val() + &quot;,&quot; + input_G.val() + &quot;,&quot; + input_B.val() + &quot;,&quot; + input_A.val() + &quot;)&quot;);</span><br><span class="line">                &#125;)</span><br><span class="line">            &#125;)</span><br><span class="line"></span><br><span class="line">            $.get_color &#x3D; function (e) &#123;</span><br><span class="line">                console.log(&quot;rgb(&quot; + Math.round(e._r) + &quot;,&quot; + Math.round(e._g) + &quot;,&quot; + Math.round(e._b) + &quot;,&quot; + e._a + &quot;)&quot;);  &#x2F;&#x2F;整数范围四舍五入</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            $.get_move_color &#x3D; function (e) &#123;</span><br><span class="line">                input_R.val(Math.round(e._r));</span><br><span class="line">                input_G.val(Math.round(e._g));</span><br><span class="line">                input_B.val(Math.round(e._b));</span><br><span class="line">                input_A.val(e._a);</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            $.destroy &#x3D; function () &#123;  &#x2F;&#x2F;插件销毁</span><br><span class="line">                input.spectrum(&quot;destroy&quot;);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line"></span><br><span class="line">        return this;</span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F; default options</span><br><span class="line">    $.fn.Spectrum_colorpicker.defaults &#x3D; &#123;</span><br><span class="line">        btn1_color: &quot;black&quot;,</span><br><span class="line">        btn2_color: &quot;yellow&quot;,</span><br><span class="line">        btn3_color: &quot;red&quot;</span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">&#125;)(jQuery);</span><br></pre></td></tr></table></figure>
+
+<h2 id="json"><a href="#json" class="headerlink" title="json"></a>json</h2><p>JSON JavaScript 对象表示法（JavaScript Object Notation） 是一种存储数据的方式。<br>就理解成键值对就行了</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line"> </span><br><span class="line">var heros&#x3D;</span><br><span class="line">[</span><br><span class="line">    &#123;&quot;name&quot;:&quot;盖伦&quot;,&quot;hp&quot;:616&#125;,</span><br><span class="line">    &#123;&quot;name&quot;:&quot;提莫&quot;,&quot;hp&quot;:313&#125;,</span><br><span class="line">    &#123;&quot;name&quot;:&quot;死歌&quot;,&quot;hp&quot;:432&#125;,</span><br><span class="line">    &#123;&quot;name&quot;:&quot;火女&quot;,&quot;hp&quot;:389&#125;</span><br><span class="line">]</span><br><span class="line"> </span><br><span class="line">document.write(&quot;JSON数组大小&quot;+heros.length);</span><br><span class="line"> </span><br><span class="line">&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="svg"><a href="#svg" class="headerlink" title="svg"></a>svg</h2><p>矢量画图，调调参数就行了，没啥就是烦</p>
+<h2 id="angular"><a href="#angular" class="headerlink" title="angular"></a>angular</h2><p>这东西很大只，懂一点点的皮毛而已。。</p>
+<h2 id="vue"><a href="#vue" class="headerlink" title="vue"></a>vue</h2><p>比jq使用更加精简的前端框架，据说和微信小程序类似，很强</p>
+<h2 id="ajax"><a href="#ajax" class="headerlink" title="ajax"></a>ajax</h2><p>通过AJAX Asynchronous JavaScript And XML 实现异步刷新</p>
+<h2 id="nodejs"><a href="#nodejs" class="headerlink" title="nodejs"></a>nodejs</h2><p>npm 管理前端NPM是随同NodeJS一起安装的包管理工具，能解决NodeJS代码部署上的很多问题<br>理解成装包的就行了</p>
+<h2 id="再续"><a href="#再续" class="headerlink" title="再续"></a>再续</h2>]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>reason_for_study</title>
+    <url>/2021/02/22/reason-for-study/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="f757ce21ed31d5584d084ab6029097d44cb714245f6850a43125e81637503639">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019b836ac572598484d38288c88b6acb9679a939872a21fc90d42514ee5ad5485c70f3897ec41cc6adf11cca33279975b5a09ce51f3cdb878acbfa21cc22fa2072c9e5e48ae772e1f5a3416583dee1b44793696acfd9c711f9df251a0c7aec0f036508d267951ebf0da9337c843fb6c586ddf14344a44d57d6ecc94f036324749938c6ec3ed9eb783b081e99af87586898951ffaac7f13988104fb9b11c5dd98075a2c9dc05248d19e9e4866cfe00741dd58574e5c4e2277ea69998cc0618dd2a18c7682846563039276a0f41e72a8014c1defe69e1bae45261ef48a997980eeecda01a5b966cca4fc550336eb12176f5e17047940d7177d709549d5f20ca07ef6e</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
+    <title>2021-0221打卡</title>
+    <url>/2021/02/21/2021-0221/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
 <html>
 <head>
@@ -651,10 +615,10 @@ youzack新概念英语从2开始听读，一天一篇<br>
 </head>
 <body>
     <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="2021-0224to0301" style="min-width: 100px;height:400px;"></div>
+    <div id="mainX2021-0221" style="min-width: 100px;height:400px;"></div>
     <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例        
-        var myChart1 = echarts.init(document.getElementById('2021-0224to0301'));
+        var myChart1 = echarts.init(document.getElementById('mainX2021-0221'));
 
         var option1 = {
             tooltip: {
@@ -689,6 +653,7 @@ youzack新概念英语从2开始听读，一天一篇<br>
             ],
             
             formatter: function (params) {
+                console.log(params.data.value);
                 if(params.data.value==1.001)
 	                return '未完成'
                 else
@@ -704,21 +669,13 @@ youzack新概念英语从2开始听读，一天一篇<br>
 
 
 <font color="#00dd00">
-超特级说日语，Unit1-Unit5(初级整本)<br></font>
-<font color="#dd0000">
-标日初中级，一天复习4单元<br>
+超特级说日语，Unit4,5</font><br>
+<font color="#dd0000">标日初中级，一天复习4单元<br>
 anki 标日，红宝书单词卡 最快速度扫过<br>
 n2真题，两天看一卷（不做只看，听）<br>
 SAA题库，一天100题纯背不实操扫过就行<br>
 youzack新概念英语从2开始听读，一天一篇<br>
 对日开发日语和式样书单词总结</font>
-
-<p>刚开始听得时候非常排斥日语的音调，就一小节，两小节的反复听，很烦!</p>
-<p>可是听了很长很长时间之后，因为很熟悉很熟悉了，就觉得速度、音调也还行了，不是特别快了，偶尔个别没听懂，不影响理解意思了。</p>
-<p>然后一个单元一个单元的听，最后一本一本的听，我发现我不懂的点就那么几个，绝大部分都能听得懂，前提是要不停的听读，否则过几天又忘了。</p>
-<p>其实中文意思你也记住了，就像脑子里不停地做连线题一样，先出外语句子，你自己连中文意思。</p>
-<p>我学的方法似乎跟学技术一样，先是基础小知识点，一点一点的来回记、练习。而且我过段时间肯定会忘，所以学习习惯一定得好，<font color="#dd0000">必须做出笔记出来，</font>然后不停的记、练习。再之后，就可以一个模块一个模块的记、练习了。我长期学习的坏习惯就是总是挑简单的知识点学，学的不系统，而切过段时间总是忘了。</p>
-<p>最后就是整个框架，整个项目的看了，我还没这水平。主要是很多细节问题，我分析不出来，理解的不透彻。有的逻辑和bug，形成原因很复杂，弄透彻太费劲了，这可能就是经验、智商阻碍，技术能力不够的原因。</p>
 ]]></content>
       <categories>
         <category>打卡</category>
@@ -728,118 +685,199 @@ youzack新概念英语从2开始听读，一天一篇<br>
       </tags>
   </entry>
   <entry>
-    <title>20210301bug</title>
-    <url>/2021/03/01/20210301bug/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>突然连不上github，吓我一跳</p>
-<p>报了这个错Failed to connect to github.com port 443:connection timed out</p>
-<p>解决方案：先把子切换到全局，然后再取消全局代理，最后hexo d(多试几遍)</p>
-<p>解决链接:<a href="https://blog.csdn.net/Hodors/article/details/103226958">https://blog.csdn.net/Hodors/article/details/103226958</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>bug</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>网站被google收录了!</title>
-    <url>/2021/03/01/2021030recording/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>俺做的网站被google收录成功了，(百度不管它了，应该也成功了)好开心！</p>
-<p>发文记录一下！==！</p>
-<p><img src="https://ftp.bmp.ovh/imgs/2021/03/400db2d26e34d595.jpg"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>2021-0302and0303</title>
-    <url>/2021/03/03/2021-0302and0303/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>ECharts</title>
-    <!-- 引入 echarts.js -->
-    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
-</head>
-<body>
-    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="2021-0302and0303" style="min-width: 100px;height:400px;"></div>
-    <script type="text/javascript">
-        // 基于准备好的dom，初始化echarts实例        
-        var myChart1 = echarts.init(document.getElementById('2021-0302and0303'));
-
-        var option1 = {
-            tooltip: {
-            trigger: 'item',           
-            },
-            series : [
-            {
-                name: '完成与否',
-                type: 'pie',
-                selectedMode: 'single',
-                radius: '40%',
-                center: ['48%', '50%'],
-                labelLine: {
-                    lineStyle: {
-                    color: '#235894'
-                    }
-                },
-                label: {
-                    fontSize: 18,
-                    color: '#235894',
-                },
-                data:[
-                    {value:1, name:'shadowing',itemStyle:{color:'#00dd00',borderColor:'#235894'}},
-                    {value:1.001, name:'标日课本',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1, name:'anki单词',itemStyle:{color:'#00dd00',borderColor:'#235894'}},
-                    {value:1.001, name:'n2真题',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'SAA题',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'新概念',itemStyle:{color:'#dd0000',borderColor:'#235894'}},
-                    {value:1.001, name:'式样书',itemStyle:{color:'#dd0000',borderColor:'#235894'}}
-                    ]
-                }
-            ],
-            
-            formatter: function (params) {
-                if(params.data.value==1.001)
-	                return '未完成'
-                else
-                    return '完成'
-            }
-        };
-
-        // 使用刚指定的配置项和数据显示图表。
-        myChart1.setOption(option1); 
-    </script>
-</body>
-</html>
-
-
-<font color="#00dd00">
-超特级说日语，Unit1-Unit8(中上级整本)<br></font>
-<font color="#dd0000">
-标日初中级，一天复习4单元<br>
-<font color="#00dd00">
-anki 标日初级上册单词全扫完<br></font>
-n2真题，两天看一卷（不做只看，听）<br>
-SAA题库，一天100题纯背不实操扫过就行<br>
-youzack新概念英语从2开始听读，一天一篇<br>
-对日开发日语和式样书单词总结</font>
-
-<p>中上级一下子难不少，初级我至少能听懂70%以上，并且能复述出来，个别音调实在说不出来，很别扭，但是还是能懂，中上级我至多能听懂10%吧，能复述出来的句子就几句吧，太快了，太口语化，太随意了。</p>
-]]></content>
-      <categories>
-        <category>打卡</category>
-      </categories>
-      <tags>
-        <tag>打卡</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>不能去日本的日子</title>
-    <url>/2021/03/03/2021-0303article/</url>
+    <title>2021-0220打卡</title>
+    <url>/2021/02/20/2021-0220/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="d95b0a1b1f41d7f94deb47b8d65bde2e7153c095cac8a45625bfe4588060e3fc">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc33750196873b0681d0a056c97e82a590297d30db7547fbda13908d4ff3bff845bc1f0a987c967692bf5acf8761bfffdeb3a15de90a0d150ea51b599ebf24ce100571f623df65309e5dc1bcbcd99d673da5147d61c3d66ee3b8b7d221c8c783c55dc24d043a17dc5ae0b6bf76a97fb3c19e5ee9665a94446064149dacb1620fa7ccb0ef091383ccba20aa32c4105fe310e833edd8b2f27cd54124f1d315fe3662cb4da6fb1dc4fcbefc0175a2ed974a3e77d5df5b2d97b5134ebe35ebe8282e6a6bd15bedec87bd94eb857d8867547f432a8e772b6d8cbe5ed03e361c92c38f60448d8a1006988c32f13eda47ee2897bb3e4260c08529fcff676e895e01db051b0e86b4b172d2283a2537012e97d66583d5314746a3d4ec41c0c38f2490e2537071420a510b8d0fa71c97cd3666acf39ad9ea340b7935b6140a138b3c3a0a85c30c017460fc1e5788c23ebe8d6c039b3287f72fc8b15a0c864b28f7df2612f5bf03b3a03e0f2bfe2a59e9cee06685d28f290baf9fea5b654ac62ad76ad0490223e9d6f6cfc677ea0faaa5d41eed2f55736c1ed6d2116f277c87af26af21f4f16f3082b37c08b7c9d8db2f8528e2b02839863b779ddb73af7943c5d77076ef9992749a97327cf9604a312c2154e4a7591a08b929c98cebb223f067f3c81778b1b40fa709a00d368cc4218a0cb04af64773343912cc20e329f9785fa9ca160907b59e5f61e2583ec3e7f4e6e42ea0dc6e335273628c1b499ed74bcd39d8e7942ccd19ffa963c6f66a686e68470913d07e40fd30607943ddb92ea3edfcd00fb3b0392f30318b6cfc1a92aa2a3b8cc5842518e4d6bc4f90a534381d08c44f00e2135e3c6849f61392bc8e529de309a81bf708b4259ee410318351bc3ea28606009696c16b51718bb0b603156429837773347b03744bbac8dfac9238bc3e38492b2f7a39a66feccd00b4462b1c9b5d8bd3cc9d7098c0df7a4532b92d6eb0166339ab0f4b8de29daa2beaae30d385f73c130248edb71bb8dd0c042af733d7d8073b169d6cedd748dd57963729cba0c565058e4c2dfe6e552730771092ec51933e7b47c6d84460c0e1fb349aea3589c8816f69c5f827b5dafd9746a3c1aceaeb5e068f4f30e557f43fbe4d553f21d441bc618f7ddcb8732fb147036665b86d79f85938cdd5366b0584c2b1b9cdc6b7d45e46eb2a125622a837b27f92aa4cbeb1de57a3925cd72e714ba7d783d256a9eaee79521ae3a71e8355b17835c56a83ac3c12a3b18ac2c06bd4b475a723ff145c8177977128ab01fad56609bad39011907d2978e50af190d23396d1d3af110b1888ad8d057cce81494d4f8329bbdb16d2aeda10745a3858a9db5ee4c1253b35c1e4700abb4566d21ce5a747239c2d1cc0c96095925f868deaab5ed909f7d1e7c3b6e072bd044516f391b146133220b6b956db440130c6d326e707cfe36801be14d6361d35ad4bcfb701011545e7366f35cb4f114c8bb073ae113afa84e12f61257d8d4bee95ec893252c5e85272dc160a8db4f89cc09b33fd5fc6b2935f5de1c3249f7bc68af7f99e6edcf31a714a3acecffd5e24d8fb380484de6368b8b7e0507aeb1a8b9d5fa81bf5c390840397a6346ba687d9ebdd2a0736aabec87ff76c8edab014ceab24e49ca5b4f9b99794b62137d3d482f858c769e8191bf0ebfa8915ee9dd69741860d672f95c376217f6167eab111f09fc40697a30f71262723e0f01bcc8fcd765cf09ee7b3fce1215915833745765210bfcaccc7066db740ef1a70d4515abff921d8c09d892c2ebc6a37d4df7dfc0cf0822c9fc91ac515e2a13e1d6d8b4f492dc8f0cf379deca6eb3e6109d30af7a5cde9491a141c88811620d37ea8cee85eb748f458502a7dc2b7f206aee7009de504e58079d1ed2e33cd160016aa6e76444193741ecb55a42890dcb09642b6d9b1cd59be2</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="8cc471d307cdd05069d6eea1763913c7b231ae5d03441b3abd203ed8d0d148ef">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019bef02ab33fcfd57872c7f60d78f308ab65e60e54590b74202f9cb62ab65d64ad06383c9a61f9c40b6a26a6c23ff0f33b5b00fee51ae449495c59784a69d7015f27bb11f9421684a8c21254ff57dfa71884cd103b5e766e7e7b325d4d84443880a54df34a490fccad1a3017745b86c3d20aa8827577830c17eb161f51d62d69cb490dedd94ffdc5b17f6a1f5b376c4fc58f5eff87634ae1f661b4e403a325a9beb2c0b8e44b58c96f7b263c4396cd25e6b44e6520a55aad262c0b890ac50d1fcfee0ce62027f81041fbb5f25d1f06dd4277feaab161e2d5d5812da65a96eb0b08c891ba748cfc7d0d8ba1ff1d3ee6f950c3229f8b8a0ec14e2cb2e60b0b7cd2b582524f1dd98e4d242c61d7fb6442259e57cc562805b1d3c94804fa95451c03c025e7421d9514b9c9e1bd7303ab27460fb0e98f1423ebc2038a40f83a034277529b8bb4b6685f3a2b767feb838871f1c628dc2e18f6a7e2d4d0a57d720edbf5a53dc32718140d2fd55776edfef189cb2de7fdd55f2b561c34d04ff5b2a49b443b192354b2225c5884cd5b7d8093742d71459ac5e5b74c5c9916a1a3df008dd23de95ce16a3bd4b0a30bf3bcebce7ebbc03bd3a524fe95e224a2e4815e212c38a4e8bd390c1c05af9d7863961ddd835878840c7ff5d28eb484ac39964e2076344767c41ea9218b18b94f1ff8a412f06d494c3dcb5cdc6b601728d2d45140b38f2865a193394fe1b4b184dc6062067db1e247eda2c16250fcb3c1c17cc2575852cd7716cf79304195b3c7bbe9293f429a421c72b8b96407dfa6628d80b57a54cc0252fb05f63f762add788233c6f4875dfbf29322cbdec179c0855451237255e9e99a798a12349d045b3fe3395f9547f0869a28b5c743276fbe75cf34a5d4a360408c36cfa1959e0eb174e65912b91aa7e87812b0fb837166a8aa7eb292c1748ebe69ad7cccd0c3c38a994a4e7795f4f387de8713c32d0aef01c9d94ef1859e944aadbd92c39bfe8fc323629c9b3ced1237d01c9e14d04bddf66ce72961685e802a187ff341f5138fb38cdd8b2085834d60ce2208b186c579dd89832385a3ac617b6f2093c537c967ce73bf0d9f4dec0c8a3f3c04de31890bb5c1926dee79c6b0710e9d1a5d4710edef73ae6eec301295bf2a61c05bc26a3705872a216b761fe366b49cb5d5fcbdc67645ec69657c789958a6563493909b4b24d0816a43235a30f912f16054bc350abec54bb38999a2d0532172b7f144d1af0de2418f3c2e1a642f4561e1dd5a3720130caa4df2db0ddb06c9ee998c86fc47e40456deee6349b8ed4c2e8623087a61e326211d0ae0af637774f18b99f710e8ec2c8b40bf4bade4948c7d5c6e9dbf9ac6804697de6c19e33a57a1d885097b992e7018272733e765bbd7d2a88d882eb0d0a50faa48597dab2e1aa84c488da314bc514b423de935628de0664d71f9097b1e0d442dc0a7c76d09635dded4c68178950741b45bfe2225a248523bf04bdee1ce009e0ba9181039b205a584d55978a79d202d12113534fbdc323321c8ba5a7f1668fd953a88f308d1f14d07e236a23dd1d4fe8663d267e61d89cf405fa7ddaf1988771852ab9a6de8d65bd1bacb986817651949b69307f3cc15ed4f59e8b4d220b8b671c3c81128f53b929681e9e63883190d740074ac847bc95cbfccd983abc5a4d22226b2d2bd2953890c767edf3a6d9ab2662e0a35924d5e746a090f45586ba5f7d3fe52989a9bea6683e4d429744f5596fe660c580b08f26760ba40115e29580b2214c83a5033bbc72294a5bb238bac2de86eb3fdf7f3f84204cb816589f902d99b80c734da9cab656348cf6d3330e59cce0bd587ab8ef8da1da698bb9fa509ad3b5508af8b79</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>打卡</category>
+      </categories>
+      <tags>
+        <tag>打卡</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>转载一篇学习软文--别急着要结果，先好好的去努力</title>
+    <url>/2021/02/20/Study/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://ftp.bmp.ovh/imgs/2021/02/52999af2f25a5117.jpg"></p>
+<p>有个读者大学学的是非语言专业，他说自己对日语特别感兴趣，一心想学习日语并且考证，但不知道怎么学，他问我是怎么学的？有没有报班？</p>
+<p>我简单地说了一下我学习日语的过程，帮他分析了一下报班和不报班的利弊，然后让他自己决定是否要报班。他又问我，那报面授班的话该去哪里报啊。因为我和他不在同一个城市，我的日语老师推荐给他也没用，所以我告诉他可以找本校学姐、学长帮忙或者在网络上查找。</p>
+<p>他说自己不认识学姐学长们，也不知道该怎么在网络上查找，也怕在网络上查找的不靠谱。</p>
+<p>我又给他出主意，让他去他们学校的外语系问问，一般外语系学习日语的同学多。</p>
+<p>随后我给他发了一个加油的表情，并且嘱咐他一定要好好学，坚持下去，因为学习语言是一个长期的过程，他说放心吧，一定会好好学的。<a id="more"></a></p>
+<p><img src="https://ftp.bmp.ovh/imgs/2021/02/51367b014fad59d7.jpg"></p>
+<p>几个月过去后，见他发朋友圈说要接下来要好好读课外书，配图是一个努力奔跑的年轻人。点赞后，我顺带问了句：“日语学得怎么样了”？</p>
+<p>他发过来一个沮丧的表情，说是找老师太麻烦，所以自己一直也没有学日语，末了，不忘强调自己真的很想学日语。</p>
+<p><strong>且这句自己真的很想学日语和当时问我问题时的语气一样坚定，当初也是因为他的这份坚定，我尽己之力回答了他所有的问题，接下来该他自己努力了，他却放弃了。</strong></p>
+<p>想学日语却因为找老师麻烦而放弃，那当时一个问题一个问题的问别人，不麻烦吗？</p>
+<p><strong>怕麻烦只是为自己的懒惰找的一个冠冕堂皇的理由，真正想做的事情，无论过程如何艰辛，也都会全力以赴。</strong></p>
+<p>学习日语只能成为他一个遥遥无期的梦想，可这个世界最廉价的就是梦想了，想跳舞、想游泳、想学日语、想环游世界……</p>
+<p><strong>想得太多而懒得开始，成功永远留给了那些勤奋的人。</strong></p>
+<p><img src="https://ftp.bmp.ovh/imgs/2021/02/49287761101afe56.jpg"></p>
+<p>经常听到身边的人抱怨，自己没做好某件事是因为没有别人的运气，遇不到大咖，没有人指点，<strong>可是我们的努力真的配得上大咖的指点吗？</strong></p>
+<p>在学生会时，我部长说过一句话：“一定要少问”，当时有点不解，明明从小老师就告诉我们，要善于向别人请教，部长怎么能让我们少问呢。</p>
+<p>后来慢慢地理解了我部长的话，<strong>善于向别人请教没错，但我们遇到的大多数问题只要稍微努力一下都可以自己解决。</strong></p>
+<p><strong>在自己努力过后问题还是没有解决，再请教别人收获的可能不止问题的答案本身。</strong></p>
+<p><strong>大多数时候我们遇到的很多问题自己都能解决，但就是有人不愿去思考，不愿去实践，总想着问别人，宁愿去麻烦别人自己也懒得思考。</strong></p>
+<p>很喜欢一句话“<strong>你多学一样本事，就少说一句求人的话。</strong>”多思考一下、多努力一下，就可以少问别人几个问题。</p>
+<p><strong>很多时候做某件事情最大的困难不是自己不了解的问题太多，而是太懒。</strong></p>
+<p><strong>越是优秀的人越不太喜欢麻烦别人，他们都是靠着自己的努力一步步摸索前进的道路。</strong></p>
+<p><img src="https://ftp.bmp.ovh/imgs/2021/02/1b1f541bb48042f4.jpg"></p>
+<p>《超级阿嬷的信》中有一段话：“<strong>如果不知道自己想要干什么，就先工作。只要工作，就可以得到米、酱、酱油、朋友和信任。可以一边工作，一边寻找真正想干的事，千万不要游手好闲</strong>”。</p>
+<p>你不知道你喜欢什么？你不知道该怎么学习？你不知道要不要报班？……很多问题在你开始努力后，会慢慢得到答案，<strong>所以别急着要答案，先去努力！</strong></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>2021-02-19打卡</title>
+    <url>/2021/02/19/2021-0219/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="98738ad95aa3d7c4a0e48e82af0452210c5e56443cacf32a2d94bd31e4808d5f">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019e8bc3718d479cfefa4e8dad81ea5300df5144928957c57eb624c83aa2cdf0f1daa3d7eccb69f90c643e28c00454c02564e7b09976896bb96da9a78b555f049040f5d05792b2ae810942df9fa723c9c4ff8374f444e2045a55afdf843da9a28c46e2b22db0b436c3cdda9acb003ca007a027a90e9a00bb181c54294c5b54c68ee09a3835e4dd8bd6ecf235621fb0555edb0ae75553514ea8c8d639be02f0a320f59445653f61e8bb79206ebca02b9741c306cb4baf406fb9dc039e52078ffae900f32e1d0e9389f65026ab149e44c5a5d33f74ff6908d22b7b7b7b52cf1c8d09b7fbda123fe78e6b89dec642d5b5d798d621a6b68d2ea63fa1007b1753f7b3c8cb1d075279608d74f5da2f423b378089d28cef60db98738b569d8e4fb6868babc9f1c15af72b44a4411755dcefca207b96b3b56dd7c03e6a5b1a709a1fd2db921de32f18ba40451aedfc4d7fb4991d7918adaf1fba9af201378aff459810ffb9002a408b568fddf047658e13ce130745a5855fe8ed9ad8ffc10f14ecd4e0ff063f32de73bdb1789ed6b52e13b0d19c8bf240397c248ed7d22e24ec5328aef8d27004a0ac460c593c838471469699e662b2d0b45d666577dfda9147995e68b15309f7c03d09f967f5014767e3cfaf0f4fcde17c6409f6bf8d525909ff4a546a6e03ffb22d140edc26f0609bd5950d8441a7c0a4b0ab5c1e0e17559afe3803e0b2959a92359cb9f0044984dc1ce63276e1a77e76274b4231db9d0802bc9d5e40891b3324465a070fe824cbd034a20f4db26927cf789c1d29fdd30adc53548eda5893d1d31baf3fa69f53cbb989b2279909f6f43c2035e2a3b8c6d4c62222368c234e7c69ed5fb1d23dfe6520e611ea881aaf95315179e561cb8a85e6daee60f24a26b9a945db034f9d2f6e53ae715be646a85a4d677c30690cea4d2899d89bd9becdc43aa60d9e015249f2241a1e6c7b6b2bd60164e61dfe0729b857461e2ef77507804b7ac0f641f087ca74c61dca0c8df35c8b64c7d28a834547d477a026639a5c2876e3c7a3d2c789c191440ba31983431b1215b7c65f0fec09d8adfcf9540320e1eb82485c71a617d4edde33fe3b5634dad296cdf61f646b9b4a7cae4f67e038a796fee8a6448ad016bdf27bb39be7d176fbe45f5a7ae0f90bea46da7388a0677cd9a282fcfc45c1a52cddd5ea268d25a4306486d0cbe0e8166ab2ff835233271dbb0f6b263958e21903993f7f795daaa2ad8e2ac41301da12d555b6596f654884f561a33f2743804ada2846a6066506233373a185764d726e8abad4506722556ef945455033d2227fcb1317ad5113f15c94983765e557f34c5c3fd9abc15cd72a382e616c8eec16fa7b0a488c2aa985710409283c55944175a7520ccb66cb65ba7212fb8ac929f54d23ea29fea724bcbac430d4c62a71c6d866f5bd637f768f72b6cea8cc8ed9202bad647533bba005fe121eb7721dc8e3cbe12f0f3a5e72b5156d920e84b56e2800facad86604f5400c2f32afa06b9f1e8947efc18051bd352b4e493580362866538863cb47ef5ba7e9c1aa9ee52dff6494ed48537bcf1b6916c3c70742ba455d570b103cb113b260f26771e0ff43b9da43addbc08066d820599a003a5d08b4a92087b969fb0362016897f04c27396421b1ef95a4e521d0a85cfa1557eadd217b2c2a3590612432217f22a305dea3ff7155f6465a779b8d7b26992057cf6de379226fa5517867afa5e0b3bbdcc0dfe800b501b3dff16c7eb0433c897337cf64bdaf958b448c12a6e427ae81f3d82358211726fb93fac26a91de91f4fbaa567ab63f6ddd5b1e72c68d2f44963041cec0fd38556c58abdcf6d4d6c26f871c85f13a3db653f56807265c5c690b83434519dc768e5ff0b375022d24bd4dec6d83fab3980ab038deb9728ecd3e134f35ce40ea4968bf9a27d485d5f47b6bf3bcbb626ab62c7510854077f3e31386073b83feba4cc0092a6fe371e6e7654c27322961d6a166c4df0195b740480b5997d53869fdc03229ab905a929a83ea95bfc756df668cfcbbf7071d9b56a51342f72a9a60a678bba7191608ec395872af0bff7130976c2c127b7ea1ab7fb66992bd706c4f5351e490f9846fbed4d57e5f8abc8f6058e7f7affa152f3ba82b67004f0f60551122668b41a7868574de04d5d03670d2060ec81ec02032a5e374285c6c1897f8d836be8db1f5a765f7c473fba07b5882505f14f37163ceadfd6d683f0975b764934a911fb4ebcd229aff8f835350a67c679d5dc7c0e240b09f13c21ee41dcadd84de7b134b25bd5302d6ed656f78b49e02ba8bd5eb89a982f562e5b6cbb1944f697a3f50174ba32b6db540261bd4c20b49c6fbf546f51cfe4cd5b10083c0899fe5df7faf9d248fff71afa2d348ec94b36468d7c14cc0594e6581fdc17db3e241cb0615f4bf31a9583a3f15b21dd980c4b736be9e27dcd62bdc3d06e7198299754ef241c49d0752e8634f8d07a8788aa14b1ea66633eabd86abf3d96a39b9173d039b27b10837387fc4a8baf957bb26a56822d939c5850f615c15278a5b5ef7f7e3025bcba68e358c4d63e7f48253cecb1c55fd79cbb14aef771ef1c9cf15fbbb429819e168aff2a91d573c8f7f638d282c93e265fcaa5615ce9f982f1b72b7ba8b79b54f00e15286cfc903529fd0f7d6262fe6ffe79886d11cc48ebe6cf9d1c3adf35eb0dba9fab931003c153a2be42e581d40ffed5c9e4d65e82df37ba68ac85eb0b140c4e60ad3ad10b2c3b7fecd7122b328b16db7564d5a6e208635aad0535fbfdf6e160598612e80e6ebc13e1e0b14fcca1859dd376bd07642e1225b9ee65f75482bfd8aa2caf2ac5dec4335cb018879e2d023c03974688daed0540a875e859ff0e86dbf625167f983754ed940a4624061ec73bcd8b56f809d04b354e1163e041bd588992f10e22066f094b6eef6cf348acb69f41665f220a2ef3939e64de6b05341c3f0b8cec7f55eff18679c1f672551c8d44c2493e05b322829cee13dfe7b1437e3388b793a4e2df2794febd436b2027a71b49b00a6b5234e9ddf1315b9dbff99adda5d4e484aa0ba928a5dbd074e6afb36305eeab93a1a51775342309d997160d7b73081f508395111b209a34284d913825abba04a15a19a38c81c6813eab9326a56afccf806217d1b446950fe90dc551e276a1d3f63c22fd963c57167d642cf2f55b5f0867c6d9f9e66cfafb6e7ddb207ad2582cfbb8ad00a0f0bb43fe0b8bf1bd272ce74ca134d974b53b69a41b35794e3e470037eeaf176626ca9e77e649c444d3776891dfbe38bcc29da9a973575818866f4110c7f87749aed8ca407b6ba80eac5e51454d945272b99392765a293048a446b435e10c04b62c8e6202ceeb97fe314b196a45887f42652545e23d6d359833b279620006a10d37283a810a77e8a465a1b5b1c785acfbb8807ead5bbffe7252773a267782ee2ce2883c23a68acd4e846f1b318495ae86c1727aad5a522c37599fdd567844bf770794fe84af7efd8593a6f3970ae22ed8e5c3787137c805b8edb664b48f6e6a38363c8ec812489074bd272317ada8b1dca51a8667adcf60e20bf913d143b337fe8d2fd1b97b83b71e2e91e259a6721957c6c5b54c4704de75e0b85b0c1529570ddc1e564cb787dabe9ff044ea08efa9df8bd8bad755e45084deaa38584a31c2127d79ebcc23157e90408c7a954bdc8c2bb23da2d1bd5510c9fdde5d27c897882ebe56f66c7f68ac6c3f10c88af9e7fc3c6526d0d120af1c12906436def1ba00eb32d6ce3440e27ce3b0a75d335cb1159cf82b7489e9bd0901d6e2313486ba4dc7dea479ca624867038efa3738e6e0aa51773224320af885b10efca111af6c4905847157fc7a62034cc74980</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>打卡</category>
+      </categories>
+      <tags>
+        <tag>打卡</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>转载一篇关于家庭教育的文章--奥巴马的母亲：白人出身却被骗婚，养大俩混血儿，还拿下博士学位</title>
+    <url>/2021/02/19/education/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>凌晨4点钟，一个黑人小男孩被妈妈从睡梦中喊醒，他揉着惺松的睡眼，不情愿地小声嘟哝着：“又要学英语啊”。话虽这么说，但他还是迅速穿衣服，在书桌前规规矩矩坐好。</p>
+<p>这个小黑孩是美国前总统奥巴马，顺着他的童年视角，我们会惊异地发现，小黑孩的妈妈长着一张美丽的白人面孔，她正亲昵地抚摸着儿子的头顶，佯装生气地说：“你以为我教你很容易吗？”</p>
+<p><strong>奥巴马深深怀念自己的妈妈，她叫安邓纳姆，是一位人生经历比电影还要传奇的女性。</strong></p>
+<p><img src="https://ftp.bmp.ovh/imgs/2021/02/e61a10fc8ab4cb3b.jpg"><a id="more"></a></p>
+<h2 id="1、勇敢追爱的傻姑娘"><a href="#1、勇敢追爱的傻姑娘" class="headerlink" title="1、勇敢追爱的傻姑娘"></a>1、勇敢追爱的傻姑娘</h2><p>1942年，安邓纳姆出生在美国堪萨斯州，一个高颜值高智商高收入的白人家庭。</p>
+<p>安的母亲，也就是奥巴马的外婆玛德琳出身高贵，有着极强的进取心与出色的工作能力，当时社会的女性大都过着相夫教子的家庭主妇生活，玛德琳却去夏威夷银行担任秘书，后来升职为副总裁，这是当时第一位女性副总裁。</p>
+<p>外公斯坦利毕业于名校，是个出色的商人，相貌英俊，为人体贴。妻子玛德琳怀孕时，斯坦利非常希望是个男孩，安出生后，他虽然有些微失落，但还是给了女儿全部的爱，他们没有再要第二个孩子。</p>
+<p><strong>在这样的家庭氛围里，安无忧无虑地长大，她生活中的每一天都是阳光灿烂的，以至于她不能识别什么叫欺骗。</strong></p>
+<p><img src="https://ftp.bmp.ovh/imgs/2021/02/6e99328ea829dd91.jpg"></p>
+<p>1960年，安在夏威夷大学就读，不满18岁的女大学生，有着白晳的皮肤与明亮的双眼，单纯而又美丽，追求她的小伙子排成队，但安的目光，却被一个来自肯尼亚乡下的黑小伙吸引了。</p>
+<p>毫无疑问，这就是奥巴马的生父老奥巴马，一个风度翩翩的情场浪子。老奥巴马是农场主的儿子，他的父亲，也就是奥巴马总统的爷爷也是个花心大少，娶过三任妻子，老奥巴马是二太太的儿子。</p>
+<p>也许受生父影响，老奥巴马对爱情对婚姻有着玩世不恭的态度。来到夏威夷大学时，他已经24岁，结过一次婚还有孩子，但这些往事，他通通没有告诉学校里那些崇拜他喜欢他的妹子们，比如安。</p>
+<p>那是种族歧视非常严重的年代，但有着黝黑皮肤的老奥巴马充满魅力。他绝顶聪明，门门功课拔尖，又极富有幽默感，他皮肤虽黑，但牙齿很白，笑起来像嵌在巧克力中的粒粒珍珠，这些都足以让一个情窦初开的少女着迷。</p>
+<p><img src="https://ftp.bmp.ovh/imgs/2021/02/354c7bad07267c40.jpg"></p>
+<p><strong>安陷入热恋，父母越阻止她越不顾一切。1961年2月，相识不过数月的安在毛伊岛嫁给了心爱的情郎，这时候，小奥巴马已在她肚子里。</strong></p>
+<h2 id="2、事业孩子两手抓"><a href="#2、事业孩子两手抓" class="headerlink" title="2、事业孩子两手抓"></a>2、事业孩子两手抓</h2><p>因为结婚怀孕，年轻的安不得不中断了学业，暴怒的父母拒绝再给她提供生活费，而丈夫老奥巴马一点不体谅新婚妻子的困难，他两手插在裤兜里，无所谓地说：“休学生孩子是你自己的选择，你要想生就自己带，我是要去哈佛大学念书的。”</p>
+<p>养育孩子的艰辛，安可以忍受。丈夫去哈佛读经济学博士，她也愿意支持。从出生后的奥巴马继承了父亲的名字看，安当时非常爱老奥巴马，但让她崩溃的是，丈夫欺骗了她，他在老家有老婆有孩子，却一直刻意隐瞒。</p>
+<p>被欺骗的真相揭开，安气得浑身颤抖，这个眼里揉不了沙子的女人，当即提出了离婚。</p>
+<p><img src="https://ftp.bmp.ovh/imgs/2021/02/bb3ad0ff46b0be2b.jpg"></p>
+<p>1964年，奥巴马成了单亲家庭的孩子，生父老奥巴马远走他乡后，又娶了一任妻子还生了两个儿子，<strong>他只在奥巴马10岁那年回来看过儿子一次，奥巴马的成长生涯，只有妈妈在陪伴。</strong></p>
+<p>安是一个倔强且坚强的女性，尽管她当时穷到只能依靠领取政府的救济食品券过活，她也乐观地抚养儿子，竭力给他一个健康快乐的童年。</p>
+<p>曾经说过狠话的斯坦利夫妇心疼女儿的遭遇，把这个黑人小外孙接回自己家中照顾。安才得以重返校园继续学业，后来她认识了罗洛·苏洛托，一个来自印度尼西亚的留学生。23岁的安再一次闪婚，并为第二任丈夫生下一个活泼可爱的女儿玛雅。</p>
+<p><img src="https://ftp.bmp.ovh/imgs/2021/02/c63a2e6fb7cdf969.jpg"></p>
+<p>新家位处郊区，生活简朴，但在安的细心打理下，处处洋溢着温馨。安非常重视子女的教育，凌晨4点喊奥巴马起来读书，并不是偶然的心血来潮，而是她始终坚持的事，母子俩从四点学到七点，然后安去工作，奥巴马去学校上课。</p>
+<p><strong>奥巴马和妹妹读的是雅加达国际学校，学费昂贵，因为安在教育上最舍得投资。在安的培养下，奥巴马成为美国历史上第一任黑人总统，而妹妹玛雅也是名校的高材生。</strong></p>
+<p>安自己也十分优秀，婚后一直做着人类学调查研究。安的第二次婚姻持续了15年。经历两次失败婚姻，安并没有失去对生活的热情与人生的追求，她又回到夏威夷大学深造，并写下有1000多页的论文，顺利拿到博士学位。</p>
+<h2 id="3、奥巴马母亲的过人品质"><a href="#3、奥巴马母亲的过人品质" class="headerlink" title="3、奥巴马母亲的过人品质"></a>3、奥巴马母亲的过人品质</h2><p>安是一个什么样的女人？她是印尼经济的研究专家，当过美国国际开发署的顾问，参加过联合国世界妇女大会。从个人成就来说，安是一个成功女性。而她的身上，更有着很多过人的品质。</p>
+<p>她结过两次婚，有两个混血孩子。对待爱情，她全身心投入，专注而热烈，但感到失望时，又会迅速果断地结束，决不拖泥带水。</p>
+<p><img src="https://ftp.bmp.ovh/imgs/2021/02/686af645e18fbf6f.jpg"></p>
+<p>她走访过印尼各处的偏僻的乡村做研究，带着幼小的奥巴马一起，对一身汗臭的铁匠与纺织工们做访谈，这种社会实践，给了奥巴马丰富的童年体验。</p>
+<p><strong>看奥巴马的成长照片，每一张他笑得十分开怀。外公外婆和妈妈给了他一个良好的家庭环境，尽管缺失了父爱，但他心中充满温暖的阳光。</strong></p>
+<p>很多人在婚后成了怨偶，甚至在孩子面前毫不顾忌地辱骂、诋毁另一半，离婚后更不用说，一盆盆脏水兜头倒下。殊不知这些恶毒的语言，都是刺向孩子心中一根根钢针。父母感情再破裂，或者有一方确实于德有亏，但都是孩子血脉相连的亲人，在他幼小的心灵里，眷恋远大于怨恨。</p>
+<p>老奥巴马欺骗了安的感情，离婚后拍拍屁股就走了。但安从未在儿子面前说过他一句不是，包括安的父母，也从未在外孙面前责怪过这个让他们气愤的前女婿，相反，他们还会有意地夸奖老奥巴马聪明有抱负，以维护奥巴马心中爸爸的形象。</p>
+<p><img src="https://ftp.bmp.ovh/imgs/2021/02/96fc0be5eab1e690.jpg"></p>
+<p>奥巴马10岁那年，老奥巴马因车祸受伤返乡休养，忽然想到看看这个阔别多年的亲生儿子。奥巴马心中激动又紧张，因为他对现实中爸爸的模样是完全陌生的。会面那天，安握着儿子的手，微笑着鼓励他：“去吧！”奥巴马扑向爸爸的怀抱，快乐地大笑起来。</p>
+<p>那次欢聚后，老奥巴马又消失了，直到后来意外去世。奥巴马再未见过爸爸，但这张珍贵的父子照片，一直被他细心珍藏，放在他那本纪念父亲的书的扉页。</p>
+<p><img src="https://ftp.bmp.ovh/imgs/2021/02/95bd3411601c7583.png"></p>
+<p>安不仅不说老奥巴马的坏话，她什么人的坏话都不说，如果孩子们说话刻薄，安一定会阻止，让他们去学着换位思考。</p>
+<p><strong>奥巴马这样评价自己的妈妈：“她是我所知道的最仁慈、拥有最高尚灵魂的人，我身上最好的东西都要归功于她。”</strong></p>
+<p>在教育孩子的问题上，安值得天下所有的妈妈学习。她教他们勇敢执着，也教他们谦和优雅。她是奥巴马坚强的后盾，在妈妈欣赏赞许的目光中，走出了美国历史上第一位黑人总统。</p>
+<p>1995年11月，53岁的安患子宫癌去世，她这一生并不长，但如此的精彩。她嫁过非洲男人，也嫁过亚洲男人，享受过炽热的爱情，又清醒地离开。她的人格是独立的，留给孩子的，更是永远用之不尽的财富。</p>
+<p>注：本文部分图片来自网络，且无法核实版权归属，不为商业用途，如有侵犯，敬请作者与我们联系</p>
+<p>作者：玲珑心</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>2021-02-18打卡</title>
+    <url>/2021/02/18/2021-0218/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="acfd98a8aa88221ab44b74ac4738769cef81197543e17aca881c22745569ede2">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019995a62b9ced86390e6c36249af4047396c299b116e3f81a447a6640885f5efd48aecbb6db50d2a5b54576a9130d1625f8338bda2418de438c2e01d4859c08e9cf67a143594a048447e9fc340d023b94371e76ea49c0e267d5b1c641c55c10d2ccb0ac272ef595d7be47dee62c74779580b95b9d2a5106253fdf337388ff7dc7907b45cc516a9d1bdc33f9f8800f6b74ef1883f24a3b394c47863755f06618951f365743a8875ddc4da588407558ad03d82a3b362a2b5f0a93720d98005e0727964f048119b638ae7a7a4cfc1d98f5792c9a14fefd275e5a07b215ea18476a514</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>打卡</category>
+      </categories>
+      <tags>
+        <tag>打卡</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>分享有用的专业东西，还是有人看的</title>
+    <url>/2021/02/17/csdnsuccessdemo/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在大学时，我曾在csdn上写过一篇简单的教学博客，今天突然发现有了7千多的访问量，<a id="more"></a>说明分享有用的正确的专业知识还是有人看的。</p>
+<p><img src="https://ftp.bmp.ovh/imgs/2021/02/f0deb7ed1602f7b8.png"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>杨中科大佬英语学习网站，屌丝必备神器！</title>
+    <url>/2021/02/13/eglish-learning-site/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>纯免费：<a href="https://www.youzack.com/">https://www.youzack.com/</a></p>
+<p>差点把这个给忘了。。我就想听读新概念英语和AWS，里面还有TOEIC，IELTS，TOEFL等，虽然有“每日英语听力”这个给力的app(收费)，但是对俺来说，那个太花里胡哨了，我受不了那种风格，我就喜欢极简的，简单粗暴！</p>
+]]></content>
+      <tags>
+        <tag>英语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>学习英语的一大动力？</title>
+    <url>/2021/02/13/learning/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="e5671d1524961b328736362ab4a35acf43a650dc45c64f891461e0c863615907">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc33750190f3307e62178a74b3a1bb920b02f7d04c341ba2d150e0cdfe8a075f9c69a4fb3c0af4b63a753edd101618a4df8c24e7705542f265833c43d0bb70218d68a0f8b03a93ae90b38136c9daa9b5116ebdceb4886c39c68926f738466370720d994772776b90042c57ee54d68bfd76b3983cd38700d4fdf655176b32f05a7d946436ec378c397a67d31a61746e369b9d0d2af5c0a14d0186e28b5fc14e3b8f5a12a6c01a39c5f045159a5f31b496f0b13687d15f69fb8ede83d103993930e5d8ff4c62c11988d1a4e6bdf5cade2714b0b3e391344f019c6c02a3292330a0f55f3bb6139d72a1d73f2a253eabef664cf6d3f6b786b03a5facf9c15ae73faf88fe2fed3e727750c86857d296c553d874122e9d56989ce46f5448ec81fd7f71c8c4430f13beb1ba69e78d8095eba448af346917d6f4e7e1f36f241a9dcda51a43f83e5c499d4450d48d01a918d9e988cef64f33dd01c233906122ff696bb2c4a5bd779be484b8d379bb0973591f2184646e13dd88422281bf0f0a1aff6f3798c0577b7490b5dae36b67d56473556d57a053c867f6366af92cce81259d5660b1731cf371d2e86c6cb90c61ada448e13e6cef3e2a8afbfd2b8d8430b299d0252e987d5b7362f9e1daa50b7e2ad79aaf271b7ae88c03764256aed0ba2c055afc5168e0e59d6cccae890e1b3e7dce4b532f425c4859cf528c52c93c91ef0e56d007b182f2a6fcc527f41fb59c2d786a5061f9e960749390fae0956c8479fb46e396aa5c142d51fb4b3704029e785561a661ec32497591d7b32a1f47d4fe633c9b208d53e095476b40672a67fea9835f6889aaf05dd93f34cdedeab026e176cc93022ca82d82e94a0e13e2697cd8946919523e2fb5730f4aecf95b02c2f759308bde75b7be356638ba7a8862a010b6154f3b8bf0a32fd32670ec64c9ff98f47275a21e11f4aa97283d6fba392a834d57819abd19578472e80a4a67f0bbad71ec8235c896e0422</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>英语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>new_way_to_build_a_website</title>
+    <url>/2021/02/12/new-way-to-build-a-website/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>很惊喜！</p>
+<p>刚刚我发现了一个新的建立免费博客的方法，非常简单，不需要任何编程知识，只需要注册一下就行，只不过因为是美国的一家公司(substack),如果在大陆，需要翻墙使用。</p>
+<p>我刚注册的域名：hakusaii.substack.com</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>immigration</title>
+    <url>/2021/02/04/immigration/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="cd66964ae68fd1fb6c51e17aaaf077a395ca0eeff86eb84281fe33b32d2692c8">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc3375019495eaa3af917530efb9bd4ade0dae85252e2d677cd441d5ba8a6a676a31f90d0ef7c1563877de2a8f4565e82fd01703fc2d8114bfd418c8cc65b9a9c5af1da181873d5393ec511c7915a9af38091c6bff578262785db351fb36e060c5314497776eee5335479fce662550c0141db8d2d6cda8ebf72696bfe38c60c56cec7b11089e4bf102d072c8d294c569499fce480fd2b641116582ac630775b573e9cc108e20e4e8e6488a6a4287d7a7c3acedda5a3dae6ae24a8598f96fa9c07d4f886b3f3d8010cc7157252b8027dd0a7586295719df3cf6498885038d164be1a17913a2277614deb3a0e35761446c162aed91a9dc6560b162cc686ce918984f2e253bf314835dd37f1598f80bc2aec076c7289db2beb41248c5ca8b81bcc1889526c7b11070c0f438adefcf172692480e04376ee55c7da3e9a1a824b565300d00d95b07822a979f5d1d1230ef4823aa2571463b7263b4adf72bab6f26f5bde8fce4dbc45d30329ec10e6662ea8fa0b6df683bdfeedfa664b44c4c602c85f6d7a292a8f4a74d867650d5dd3235e0d0d113d7e53e3dda25aae69cfcb501de514ff4273f68063d2ab6636241483564cb2fc8bc7de8585bbc2eb497fadfab05e04435b1b404efec8f4de8c5eed8137135323633969decb9586791702e39ceea611d30b79a07769ddda8ae0f501f23dc86f63416cc5dc2a930822b0a0936e87b0f3ec35ac908341b72349cec4def85315ded11dd2d393f9f88f476b555ba616f7afb52ac510b08ac6f4957bbdb7656ef85d5ea40159e70000dbcc43e6761ff724380fd83810c98e9412443d965132caa835a36524e1c1ac0b2b9c74b977ac1dbd2c9478732d4dc50bdba0b8f3d37b31d65fde6ae83445e7daccc26ad206833adb2a6afe747ec70551dd3e6bca2de10f1d02567361762b756cdc5b93dcf35c77697e3c75cdf0a4dde9161c6b11dd4188f107e87325b49ffb1463fd71f18b484cdc827651087b20d16936ca74f69e5821e4ddb822315eb02bb1940df16861094c7846df8ac6db26ad55ba8a0b470adfef96569e12f0acd20166d219da77c039d54042d21eebaba5d30afe03e180801f0d96ded1e11a774e82d5c1e56b3d6254a5b0a5a61d598d40168bc6567d361388066ebdf5398714b3c348a5c19ed4f392d038ebe8300d8c78fc2ea6eadbc94a8836ce0c0f9524e0d4f2189e72e0650824a241ccf970aa9c02cb29e5eb7d6b159809f8e461a3dfdda80f4f0c33689fbd6c2b07695acdabc475ec5d62fa26868cdf5778e483f6d93ebba038a7a9c3295fe69b6450733abcf503aceb469435878c6ac981cda30b4da61404fac7b39a182461433dac95e46469fb36677cc1e1b35145bf14b002097b65793493ec0f025ae7b872bd97aed66818a693b62cb75b49481c96ffd1edefc6318aacc4ce15474220717057e3f68028a1e4e7a6d3e2b1632889e03d51f08ec972908c8d296ded764522d30a14ebe64371f2c5a8adf053305093499058ea54acbc258cd478802964a104536a7c03ab3f21c4808ad8dbfb3fcce824c95f0fbebd31726c9b14d49f4fabe245e65eb4f7a091d1c8d8db92358a73a74a43518317dedb49a4e661343ba36ba9dbfc082134a2334b53862c4cfb346c72b6359919b5b69592149a66299f8c4b453191d4a0ba65e2c16e7ea002d0b91f4d99a5be8f633b2b828912b98ef5f78794e250abc103429bcdd3ace1a5707e1bd6771a5fd289860a119fc705250a057bd2f040f306e10fb42f9b03c63b9fe57dfc8057e8b4864c49553d8a15d807ac3f610999e0ef93281bae560abca2586c286ea6bc9bf8c7e76293139c36ea453fdc77d06368e140a09db604c7eead6d18ad77af5180e8f818b585bc5035696ca2eacf3703f124b35fa7cb7d7b6dd63ed308a40b05d5476a1d7372c36374b86a8d01ebf2fd461a58296955219b225925c44e7fe85456aa9d3439c013149d5b8b5c5f5a8a991be124270b97998f54fe4e4c15df2859368cd0fa6a91c57f18ed5a4defeebc55ae0fd8b569bd94c0c4b233615c60c683281250920aacf4ad7eac0a69211b0c114f2a91a6553b4119a65b838aaf66731c9c9c4e232e89f99cdfd17ce4d2979bee2f97cb7e749de56a0a1946b05743de66a4da98781858ed6680afbd2dc9aadaf10af0ca58a85cb61efa01794caac6b46dee2ec9478889ccad576de282512d64b022403f76e9a4257594b05e16ad80611ed5e73b898a9d66f5b9f65dff457661006e42739d8df8bc2450bfd27957d89bdd32758e62b0141d007361803372d26f0fb6e80b21fccf381ecc1d976fe8635d8cdb206d87729c20f4ee99e376e152485e5f017a2753b28ed1e8adf42aa8374423574953ebb885a163eeaf96432d6ad56cf4ddc3f9264dc56a33c48a279b40a8dc8e64fb4c1d069597a20d04588b9205d3020c3f50809238b2e41e30ec828478d11dbe7a0a3f35f67fa65f244f00d1722019d5a987d4ec39090a701386f399409d94f0708c345693a2dcfe709563d526be970c509d28689b1808025faaf1f06ad470c3f2d5b57da68c0220a2986ad8f5c56dcefc8b96724d52f7231cc1e4d4cab5def6bbdb0d21b2a8bfb12ee085e206268883687c99332d2f3b589e9706c4eded4143335190a4505e311e8b369d92c2332a50e5a67f46813bfcac167a4870537e3425b5a9e94f9c1c44df66037ee5c6bb15f9012aa9a27d9c501520badda7b86c742af69b1afe474210529f1b70c6557b716898ea30c71b8643fe9bebc45f27d08c0686fdf47c5799f51474e6372cf8b4861c709d2fd3b784d764334f22a283efc10bce3654d4bba2dc848903422290d0d39bf7ec95774715416669e994ce8f0224354e1dea124d4eb12df25f7659ebda07902c30a61785987ae7cc54bc720ea16cf5660c2e3dda75471475f3dddc329a1d916ca219a7740008c7576874ffa781116dcad20f51ad1b49cf02f6b47a8367c60cef3ce345b1ead93a33bd05e82b0e7ce7dff5993d6fcb15ae5e59d257d285dc8fa572916a064e93388c3a50fc7d2104534c5be44179b22ef6b45612f61d81f6e74f14e6c43279ba2f58324e855bb1d59db7ff34398e367278476b23211db2037c75b40372a3067ff1872a9054160021bfb86ca0fee11f1def29e6e05e93bfb2d56fc03ed408ff926cd6fbead260ef758e0add89744d2d988a8e56b58d319162f568e50400bf49331b17700dd0e7935d8def6c6016f49d74d0e6293bb115474a88310fe5c174db1a4d97a669b188729116ce0b81882ed40bf1ad3972f37b0611cdb96362b87308f8480db42412a6acc5a284bc88d0c321cbd07305dd5167ea9c37c01c69e859172c26eed83797255d89acbc1f737c40e06328e4d6c7b0019e853c8b7e585fe476c7aaf518c8d1a12e9d1a52123a99bcd0cc85d2a923f36b15d26cd6e7744eaec2a498cf42b2abfb763e4d1dd90e44f949e27afb6a6ab720ee45d1577e2af03e379b5507989e456549ac0187f76ddb2734720529de1170793c2b59e19c5b0631fc38809e4ad28f463327934cec80519e23e952d3dd5ebfcd29f49f29d2b680dc2e9c4748f3c8922d834274d6aeb89c2cdc8d788f6603f678353142bafdc2e2ddacf5416fdbefcfb85a029319892b247a32ba1d94ef34ebf76fae56e524fdcd03e6f8fbd382163d87df7d3cda71d39e0d103deb28e634cd95fe93d9cb82f19390f5dd00cc7c22981b551d50f7598eefb29e87a56ebf8a4d7444fb95e7554dea24fb170793b08817d73f4bb79033e5ee1cbbf0606eb661f249b20a88d81b00a32ee9f51f896622343b4ab31120cf95a1890435a8648ce178613fc82f2d0b0c652d3bb07cf0a7078290e4c91b49f8a32fd2cdacdf0a62607bde10ca031f3fe358feae929f62316d819d8a1328919e8d3a09d114cb2a70a72518c33368af1e49dcac7f3d6aad89920514ae705ffc60ff9e01415e2c1202523b9145939ae25b123bdf4a3458844504576789d8e9f8ed90f20c130d334cd991160d473a3895f4cdb5c464c62f17fb22326b43ab11830ef8fd835a1a6f16126d62c05ca70689bc4c2bbdb1c985fdd9438109405f73aac9d0f689ac33ad5403b556db7dfc41c904f75369bb7d239e5e3fd892ae3479f46f0ec8517d20a151215c331633246288be4d1b849fa69ba1d8301de2171ecdfbed2df3797c8940ebc97942354642f7003269f63a5897ce31a6eaf44a17768a05d4df9b795a1dfdcd87a83dc4f5e5c6612f04a6a60c04e46d6f3a48294fefb050308427da136b7748601225bf694e85f9ce136a0d0ac1a7fa282017a8201336c6196f7cf25e33313809c10d7ca5e7c3ef5b587692b55d9f2f3132cf1d201d0d3dedc7446444040a99c0e18a53b1c6cdebe11b68b2b0a048480c46e7bfead27c6f8a5992a006649310822740e77156261fca5cdc5b87f7da5c3455822953da2cfb8066f5693d60bad67ecb02fff70e69fc7233</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
@@ -852,214 +890,195 @@ youzack新概念英语从2开始听读，一天一篇<br>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
-    <title>悪魔</title>
-    <url>/2021/03/14/novel-test/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
+    <title>単語メモ</title>
+    <url>/2021/02/04/tanngomemo/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>四半期:よんはんき<br>１Q～４Q<br>等分：とうぶん<br>1.稼働日：かどうび<br>2.実働日：じつどうび<br>3.営業日：えいぎょうび<a id="more"></a><br>処理日：しょりび<br>計上日：けいじょうび<br>満期日：まんきび  到期日<br>五日：いつか<br>4.休日：きゅうじつ<br>祭日：さいじつ 节日<br>土曜日：どようび<br>5.土日：土曜日と日曜日<br>6.省略：しょうりゃく<br>加味：掺加，加入<br>付け加える：つけくわえる<br>あいまって：相俟って  お互い（たがい）に影響する<br>7.原価：げんか   成本<br>仕入れ：しいれ  买进，购买，采购，采办<br>8.是正：ぜせい    订正，更正，矫正，纠正  改める：あらためる    直す：なおす<br>9.洗い出す：あらいだす    選び出す<br>割り出す：わりだす   算出，推论，推断<br>10.昇順：しょうじゅん<br>降順：こうじゅん<br>11.連番：通番<br>12.日毎：ひごと</p>
+<hr>
+<p>おきに<br>構わない：かまわない  構いません<br>繰り返す：くりかえす<br>差し支える：妨碍，障碍，有影响，不方便<br>差し支えない<br>ゼロサプレス（zero suppress）<br>暦日：れきじつ<br>一日：ついたち<br>二日：ふつか<br>三日：みっか<br>四日：よっか<br>五日：いつか<br>六日：むいか<br>七日：なのか<br>八日：ようか<br>九日：ここのか<br>十日：とおか<br>閏年：じゅんねん<br>ニューメリック：numeric<br>実在：じつざい  实际存在<br>月毎：つきごと<br>日数：にっすう<br>右詰め：みぎづめ<br>左詰め：ひだりづめ<br>アーキテクチャ：布置，格局，安排<br>責務：せきむ 职责<br>均質：きんしつ  均等，均匀性<br>求める：もとめる<br>多岐：たぎ 多方面，复杂<br>擬似：ぎじ 模拟，仿真<br>延々：えんえん 没完没了，喋喋不休，接连不断<br>極力：きょくりょく </p>
+]]></content>
+      <categories>
+        <category>外语</category>
+      </categories>
+      <tags>
+        <tag>日语</tag>
+        <tag>对日开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>图表数据展示</title>
+    <url>/2021/02/03/Echart/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>画一些简单地图表，<a id="more"></a>移动端横向滚动条没加,实时的数据展示，数据处理，还得想，另外，e-chart我觉得不行，不友好</p>
+
 <html>
 <head>
     <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
 </head>
-<body>   
-    <div class="tategaki">
-        <span style="display:block;text-indent:2em;">
-        その湖は、北の国にあった。広さはそれほどでもないが、たいへん深かった。しかし、いまは冬で、厚く氷がはっていた。
-        </span>
-    </div>
-<a href="#" id="toggle">表示切り替え</a>
-<script type="text/javascript" src="js/taketori.js" charset="UTF-8"></script>
-<script type="text/javascript">
-var taketori = (new Taketori()).set({fontFamily:'sans-serif'}).element('div.tategaki').toVertical(); 
-taketori.document.element('toggle').addEventListener('click',function (e) {
-	taketori.toggleAll();
-	taketori.document.stopPropagation(e);
-	taketori.document.preventDefault(e);
-	return false;
-});
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="mainX" style="width: 600px;height:400px;"></div>
+    <div id="mainY" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart1 = echarts.init(document.getElementById('mainX'));
+        
+        var myChart2 = echarts.init(document.getElementById('mainY'));
 
-</script>
+        // 指定图表的配置项和数据
+        var option1 = {
+            title: {
+                text: 'ECharts 示例'
+            },
+            tooltip: {},
+            legend: {
+                data:['销量']
+            },
+            xAxis: {
+                data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
+            },
+            yAxis: {},
+                     
+
+            series: [{
+                name: '销量',
+                type: 'bar',
+                center: ['10%'],
+                data: [5, 20, 36, 10, 10, 20]
+            }],
+
+                 
+         
+        };
+
+        var option2 = {
+            series : [
+            {
+                name: '访问来源',
+                type: 'pie',
+                radius: '55%',
+                center: ['30%', '50%'],
+                data:[
+                    {value:235, name:'视频广告'},
+                    {value:274, name:'联盟广告'},
+                    {value:310, name:'邮件营销'},
+                    {value:335, name:'直接访问'},
+                    {value:400, name:'搜索引擎'}
+                    ]
+                }
+            ]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart1.setOption(option1); 
+        myChart2.setOption(option2);
+    </script>
 </body>
 </html>
 
-
-]]></content>
-      <tags>
-        <tag>小説</tag>
-        <tag>星新一</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>日语学习过程中日本外教到底有多重要？ - 言吉外国语的回答 - 知乎(文章写得太好,我决定放到博客上，激励自己好好学。)</title>
-    <url>/2021/03/14/jajpStudyIdea/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>外教不是那么重要，重要还是靠自己，下面分享个人学习日语的方法，希望能帮到大家<br>学日语并不难,难是难在你有没有信心学好日语,有没有恒心学好日语.如果三天打鱼两天晒网的话,我劝你还是趁早死心,在语言世界里没有任何的捷径,有的只是艰辛和不懈的努力.</p>
-<p>我自认为自己在学语言方面很有天赋,大三时就很轻松地过了英语六级.大学毕业后进了厦门一家很有实力的日资企业,又很幸运被公司选派到日本来学习.</p>
-<p>在这之前根本一点都不懂日语.只是在来日本前学了初级日语第一册来了日本以后才体会到那种什么都听不懂无法交流的痛苦.业务上当然就进展很慢.那个时候反而激起了我的斗志,我发誓要把日语学的比日本人还要好.</p>
-<h2 id="我给自己订了一个计划"><a href="#我给自己订了一个计划" class="headerlink" title="我给自己订了一个计划:"></a>我给自己订了一个计划:</h2><ul>
-<li><p>早晨5点起床大声朗读课文,并背下所有教材中的例句;</p>
-</li>
-<li><p>白天上班过程中尽量多找日本人交流,大胆开口说日语;</p>
-</li>
-<li><p>晚上下班回来,7点到10点啃日文教材或小说,请记住不是看是啃,就是搞懂每个句子的语法,每个单词的意思不懂的查字典或记下来第二天问日本人;</p>
-</li>
-<li><p>10点到12点看电视练习听力.看的过程中一定要聚精会神注意听他的表现手法和发音,有必要时做点笔记,比如记下发音再去查字典.</p>
-</li>
-</ul>
-<p>就这样我几乎陷入疯狂的境界每天都坚持不懈,从不给自己找借口头懒.半年下来日语水平简直突飞猛进.不仅工作上的交流基本没问题就是电视也基本都能看懂.在会议上能比较流利的发表自己的看法,也能写出教好的业务报告.</p>
-<p>在日本人睁大眼睛对我说信じられない时,我只是笑笑,有谁会知道这个背后的艰辛.</p>
-<p>现在我仍然每天不懈的坚持着,只为实现自己的诺言把日语学的比日本人还好.</p>
-<p>我个人认为在听,说,读,写中说应该是最难的</p>
-<p>接下来是听,写,读.现在看日文小说99%能看懂,但是请千万记住看懂不等于你懂因为你还不会用,你还不会说.你会用时你会说时还不等于你会.因为你还不会象母语那样随心所欲地使用.</p>
-<p>所以说学日语要一个一个层次来,决不能操之过急,更不要得意忘形.看懂离会还有十万八千里呢.另外我想说学日语当然是为了多掌握一门外语多一份竞争力,但我认为更重要的是通过学习日语来了解这个民族的文化,风俗,这比什么都重要.</p>
-<p>了解日本为什么会发展那么快,了解他的国民性为什么那么令世人讨厌,又为什么不得不佩服他的工作精神.这些我想才是学日语的根本.</p>
-<p>当然这只是个人愚见,总之希望我的这点意见能对大家学习日语有帮助. 关键是要有信心和恒心. 虽然是老套点但也不失是真理,让我们共同努力!</p>
-<p>首先,我想说自学当然比正规的上课,由老师来教来的困难些.但既然是没办法找老师教,又想学日语,那只有自学了.</p>
-<p>说实话自学绝对可以把日语学的很好,只要你有信心和恒心. 其实做任何事都一样,这是成功的必要条件. 有了上面的条件接下来就开始学习了.</p>
-<p>首先要找好的自学教材,最好是正规日语教学用的教材,因为这样的教材往往比较系统. 很遗憾,我自己本身当初来日本比较急并没带什么教材过来,也不清楚哪些教材比较好.我所知道的就是「中日交流标本身当初来日本比较急并没带什么教材过来,也不清楚哪些教材比较好.我所知道的就是「中日交流标准日本语」,分初级和中级.这套书真的很不错,语法很全面.我精研这套书以后,感觉在以后的自学道路上打了一个很好的基础.强烈推荐!</p>
-<p>但这里我想说怎么学这本书,这套教材我粗看了三遍,精读五遍,最后在把他背起来.真正做到里面的各种用法都能随手拈来.</p>
-<p>或许有人会认为在一套书上花这么多时间不是太浪费了吗?这样想就大错特错了.要学语言精读一本书比泛读十本书来的有效的多.</p>
-<p>如果要扩大知识面那就去泛读了,当然精度和泛读都必不可少.</p>
-<p>在初学阶段最好多花点时间在精读上面.到现在我读日文小说有时一个晚上才看4,5页.不是我看不懂.实在是那些句子还有表现手法太妙了.每一句都读几遍再默写下来, 第二天一早又去大声朗读.这种学习效果真的太妙了! 写起文章来也比较正统,不会成中国式的日语.</p>
-<p>学语言一定要说出来.我当初刚来日本时,自以为学了点日语,跟日本人讲话时心理明明想好了怎么说,可说出来却错误百出搞的人家一头雾水.语言这东西要真的说出来才是你的东西,心里想的和说的完全是两回事.所以目前早读成了自学必修课了.</p>
-<p>我觉的在国内的朋友一个有利的条件就是可以买到大量的参考书.这个很关键.由于是自学,不懂的东西只有靠阅读参考书来解决了. 我很后悔当初没有买大量的参考书过来.建议朋友们多买些参考书来看.</p>
-<p>另外想说在听力方面,要想听比较正式的日语最好是新闻之类的,这类都比较规范.用的大都是敬体.要想听日常的生活方面,就去看日剧.这类比较随意,语言简单轻松.</p>
-<p>建议初学者最好先学敬体,不会敬体等于你不会日文.不要以为日剧里面才是真正的日文,里面也有好多垃圾.</p>
-<p>另外想说说听力.听一盒磁带最好做到每个单词都听懂,反复听,直到听懂为止.一开始不要一味追求高难度,也不要一味追求量多.搞懂一盒再听下一盒, 一步一步循序渐进.这个很关键.</p>
-<h2 id="日语学习大忌"><a href="#日语学习大忌" class="headerlink" title="日语学习大忌"></a>日语学习大忌</h2><ul>
-<li><p>第一，过分讲究方法和技巧，而不愿意下真功夫。语言的运用是一种技能，而这种技能不是靠技巧能获得的。太讲究方法和技巧会被其占用很多的时间和精力，而对学习的内容本身投入较少的时间和精力，因此反而会影响学习的效果。</p>
-</li>
-<li><p>第二，过分将就速度和效率，不愿花时间经常重复复习学过的内容。语言运用是一种技能，技能只能靠熟能生巧，要不断重复才会熟练，只有熟练了才会形成一种不加思索的技能。</p>
-</li>
-<li><p>第三，三天打鱼两天晒网，没有恒心，不能长期坚持学习。技能的额数联要有一个过程。在这个过程中会遇到各种困难，但不能向困难低头，要坚持不懈的反复学习，持之以恒。</p>
-</li>
-<li><p>第四，不重视听力训练。语言是有声的，我们对语言的感受首先是语言的声音作用于我们的大脑。如果不练习听力，只是默默的阅读和背单词，其结果是不仅听不懂别人讲外语，而且阅读水平也难以提高。</p>
-</li>
-<li><p>第五，只学而不用。语言的实践性很强，如果只学不用，就永远也学不好。我们学语言的目的就是为了应用，要学会在用中学习，这样才能提高兴趣，达到好的学习效果</p>
-</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>新增竖版功能（为了背小说，写日语日记）</title>
-    <url>/2021/03/14/Vertical-Plate/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>为什么我要做竖版功能？</p>
-<p>原因：今天在知乎上搜【日语学习过程中日本外教到底有多重要？】，发现有位大佬学习日语的经历非常励志。他刚开始去日本的时候，日语只学了标日初级上，基本啥都不会。因为日语不好，工作很痛苦。于是，他给自己订了一个计划:</p>
-<p>早晨5点起床大声朗读课文,并背下所有教材中的例句;</p>
-<p>白天上班过程中尽量多找日本人交流,大胆开口说日语;</p>
-<p>晚上下班回来,7点到10点啃日文教材或小说,请记住不是看是啃,就是搞懂每个句子的语法,每个单词的意思不懂的查字典或记下来第二天问日本人;</p>
-<p>10点到12点看电视练习听力.看的过程中一定要聚精会神注意听他的表现手法和发音,有必要时做点笔记,比如记下发音再去查字典<br>.<br>他从不给自己找借口头懒.不仅工作上的交流基本没问题就是电视也基本都能看懂.在会议上能比较流利的发表自己的看法,也能写出教好的业务报告.</p>
-<p>我觉得他的经历非常有参考价值，学习日语的方法写得也非常好。我的听说读写，就写完全没有锻炼，所以我也想会写。之前有朋友建议我用博客写日语日记，奈何我水平太菜，先从研读日文小说开始吧，日本小说，超让我感动！！由于日文小说是从右往左竖排写得，所以我必须得解决竖着排版的问题。</p>
-<p>日语学习过程中日本外教到底有多重要？ - 言吉外国语的回答 - 知乎<br><a href="https://www.zhihu.com/question/38841412/answer/125171737">https://www.zhihu.com/question/38841412/answer/125171737</a><br>需求：</p>
-<p>解决过程记录。<br>1.寻找竖版解决方案，看了以下文章，决定使用竹取（taketori），它是一个静态js文件。涅槃（nehan）也行，下下来发现太复杂，遂弃用。<br><a href="https://kaix.in/0000/vertical-writing-mode/">https://kaix.in/0000/vertical-writing-mode/</a></p>
-<p>2.导入到hexo中，放入到对应主题的source目录下。发现我的ayer主题下style文件格式是styl（Stylus 是一个CSS的预处理框架），而竹取的style格式是css，所以浏览器搜索，在线自动转换成styl格式，发现其中有4个样式报错，selector expectedcss(css-selectorexpected)，怎么想语法都没错，最后发现是vscode没装styl插件，下了个插件，就不报错了。<br><a href="https://wxnacy.com/2017/12/12/hexo-cust-js/">https://wxnacy.com/2017/12/12/hexo-cust-js/</a></p>
-<p>3.在项目路径下，安装npm install stylus -g<br><a href="https://blog.csdn.net/zc639143029/article/details/72630087?utm_source=blogxgwz1">https://blog.csdn.net/zc639143029/article/details/72630087?utm_source=blogxgwz1</a></p>
-<p>4.导入项目后发现css无法加载，后来仔细扫了一遍taketori.js这个文件，发现它是直接引用方法导入同级的css，于是我把taketori.css和taketori.js放在一起就加载出来了。taketori.js正常使用，竖版问题也就解决了。</p>
 ]]></content>
       <categories>
         <category>技术</category>
       </categories>
       <tags>
-        <tag>前端</tag>
+        <tag>echart</tag>
       </tags>
   </entry>
   <entry>
-    <title>archive归档页面的Bug</title>
-    <url>/2021/03/14/archiveBug/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>首页没问题，但是在archive归档页面出现了bug。发现是get404，archive页面下的get路径不是项目主题的默认路径了，而是一个新的路径,我在后台找到这个路径，新加一个js文件夹，复制taketori.js,taketori.css放进去就行了。</p>
-<p><img src="https://ftp.bmp.ovh/imgs/2021/03/76b758480b1c4d79.png"><br><img src="https://ftp.bmp.ovh/imgs/2021/03/1b80d12fc900554a.png"><br><img src="https://ftp.bmp.ovh/imgs/2021/03/36218d2326818eaf.png"><br><img src="https://ftp.bmp.ovh/imgs/2021/03/5d9ec247903193e8.png"></p>
+    <title>Oracle基础</title>
+    <url>/2021/02/03/Oracle-base/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>sql我最熟悉的就是select from order by left join..</p>
+<p><a href="https://www.w3cschool.cn/oraclejc/oraclejc-xzfk2qv3.html">https://www.w3cschool.cn/oraclejc/oraclejc-xzfk2qv3.html</a></p>
 ]]></content>
       <categories>
         <category>技术</category>
       </categories>
       <tags>
-        <tag>bug</tag>
+        <tag>sql</tag>
       </tags>
   </entry>
   <entry>
-    <title>再来无锡工作，整理最近的感悟</title>
-    <url>/2021/05/02/20210502/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>工作地址：无锡国家软件园</p>
-<p>忧虑点：<br>1.外卖不干净，没味道，我很烦恼。(外部因素:环境)</p>
-<p>2.实力配不上自己的野心。对生活和人生进程感到不满。(内在因素:个人理想太好高骛远天马行空，想的太多，做的太少)</p>
-<p>3.无锡与日本东京环境差距太大，我有很强的失落感。如果没有疫情，我应该已经顺利在日本开始新生活了吧。(外部因素:天灾)</p>
-<p>期待点：<br>1.考过日语2级证书</p>
-<p>2.考过saa日文(以现有的中文证书，在中国找aws的工作属于天方夜谭，要求非常高，年薪有三四十万，但是我技术，经验都不够啊。学历起步211，md我普通一本差一段QAQ)</p>
-<p>3.拾起英语，考托业。(多少分没关系，主要是有个学习的目标。我曾经想过考雅思，发现因为用不上，根本没心思学，遂放弃。)</p>
-<p>4.利用新学的aws，做一些比博客更高端的软件，提升自己的技术。</p>
-<p>小时候，我一直误以为自己有想象力，觉得自己日后是块料，然而毕业进入社会这几年，备受打击与磨难。我现在经常质疑自己，我能变得更加优秀吗？我能成为这样那样的人吗？我能逼着自己违背本性突破自己发展吗？为什么要做那些不切实际的梦？</p>
-<p>我原先的职业计划是进入游戏行业，做出有意思的游戏，赚钱发财。后来发现加班太严重，梦想幻灭。由于没有特别想做的事情，一度回老家等死，从那个时候开始，不，在我实习加班走回出租屋思考人生开始，我就对中国社会产生不满，为什么生活会这么累？为什么在资本与权力面前我会显得如此渺小？为什么劳动法不限制加班？等等等等类似的疑问。我很佩服那些大牛，但是我的学历能力很难达到他们那样的水平。我明白，机会是他们的，获利也是他们的，跟我没关系。</p>
-<p>从离开杭州那一刻起，我就不想做房奴，我想让自己的人生更有价值。我不知道过什么样的生活才更有意义，但绝对不是做房奴。国家的坑我不填。以此为契机，我对中国的国家制度，社会现状等都产生了自己的“偏见”。</p>
-<p>然后我开始寻找新的梦想。</p>
-<p>在大学的时候我就瞎逛知乎，了解过一些去新西兰，加拿大，澳洲，英国，美国，日本等的程序员。自然而然的我就想到了ccp一直恶意宣传的资本主义国家。</p>
-<p>在网上充分调查之后，我决心移民日本。然后就碰上了疫情，又打乱了我的人生计划。。迟迟去不了日本，待在国内，备受煎熬啊。</p>
-<p>经过这次疫情我发现，日本等发达国家再好，只是对本国人好，跟我这种外国难民没关系。</p>
-<p>为了去日本，我已经亏了1万多了。</p>
-<p>“终究只是一个凡人”，大学一位朋友常说这句话。我印象很深。</p>
-<p>我的理解是这样的：想以凡人之躯比肩神明，最后证明自己终究只是个凡人。。</p>
-<p>我就是这样的人吧，心比天高，命如纸薄。可是我能接受这样的自己，有很多想做的事情，却没有能力做到。努力追求过很多事情，却最终放弃。</p>
-<p>虽然我输得很惨，以后还会继续输，但是我争取过啊，我为此尽力过，这就是活着，这就是我的人生。如果我什么都不争取，看着机会从我身边溜走，没有任何经历，人生不就显得太无聊了吗。。不畏惧失败，因为我只是一颗白菜。。输了不就输了，只要没死，我就还能站起来，，，继续输。。哈哈哈哈</p>
-<p>我要用一生证明这句话，我就是一个凡人，所以我取名白菜，一个平凡卑微的蔬菜。说到底，我就是一个自卑的人，我能接受自己的自卑，我能接受自己的各种不足。以后去日本有机会，把名字改成白菜吧。。哈哈哈</p>
+    <title>C#基础</title>
+    <url>/2021/02/03/CSharp_base/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>大学弄的，套路早忘了：文档：C#基础知识点整理.note<br>链接：<a href="http://note.youdao.com/noteshare?id=7648e3ea942c33b488c68c170754a4a9&amp;sub=B8D00CCF33DC4D059DAE9B01DD7A52D1">http://note.youdao.com/noteshare?id=7648e3ea942c33b488c68c170754a4a9&amp;sub=B8D00CCF33DC4D059DAE9B01DD7A52D1</a></p>
+<p>菜鸟教程：<a href="https://www.runoob.com/csharp">https://www.runoob.com/csharp</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>关于提高技术、外语，强身健体的想法</title>
-    <url>/2021/05/02/20210502-1/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>无论技术还是外语，知识点太多了，学了一定会忘。</p>
-<p>参考网上的985学霸，坚持练习。多看，多实践，直到将抽象的知识固化成自己容易理解的东西。就像建立反射一样，一看到这个东西，立刻秒懂，这就是练习的作用。</p>
-<p>技术，码不停蹄。</p>
-<p>外语，经常听读。</p>
-<p>不论是技术还是外语，学了一定会忘，但是下次你想起来，一定会反应更快。</p>
-<p>技术，直接搞项目学。任何技术，有机会，一定要搞项目学。没机会，也要创造机会，搞项目。再不济，就只能多看官网与solution了。</p>
-<p>この世の中に、有很多反人类的东西，很难改善。可是如果是自己日积月累，千锤百炼出来的真才实学，那就是真牛逼那就是真的屌。先立身再出世，世道残酷，只能真刀实枪干了啊。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>云计算基础00</title>
-    <url>/2021/05/06/20210506/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>云技术操作的核心技术是虚拟化，虚拟化允许你将单个物理服务器的硬件资源划分为更小的单元。因此，该物理服务器可以承载多个虚拟机，这些虚拟机运行各自完整的操作系统，每个操作系统都有自己的内存、存储器和网络接入。</p>
-<p>虚拟化的灵活性使得几秒钟内提供一个虚拟服务器成为可能，可以精确地按照项目所需要的时间运行和关闭。释放的资源可立即用于其他工作负载。你可控制使用密度从而从硬件中获取最大的价值，并且可轻松地生成实验性和沙箱化(重定向隔离)的环境。</p>
-<h2 id="云计算通俗的理解"><a href="#云计算通俗的理解" class="headerlink" title="云计算通俗的理解"></a>云计算通俗的理解</h2><p>像水、电、煤一样使用你的IT资源，什么是IT资源，你在构建你的网站，应用，还有你要做的任何的一些Web的APP，你手机上的APP所需要的那些基础设施。<br>那这些基础设施，就是你需要的的计算、存储、网络资源，这些统称为IT资源。<br>那么云计算就是给你交付IT资源的一种新的模式。那它是应对于传统的交付模式，传统的交付模式是在你的自建的数据中心里面或者是在机房里面托管你的计算资源，那现在你就是通过互联网来取得你的IT资源。而且很重要的一点就是，是按照你的使用量来付费的，所以关键词就在这儿了，</p>
-<ul>
-<li>按需使用 </li>
-<li>高弹性 </li>
-<li>超大规模</li>
-</ul>
-<p>那对于你原来使用IT资源的时候，就是在自己的数据中心里面，然后你有自己的机器。然后呢，你就要自己去建，对于使用云计算呢，当你用的时候，这些机器就在那儿了，当你不用的时候它就不在那儿了。所以它就像你们家的水、电、煤一样。你把水龙头打开，那你的水就出来了。你把水龙头关掉，那你的资源就停止使用。也不会产生费用了。</p>
-]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
       <tags>
+        <tag>C#</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java基础</title>
+    <url>/2021/02/03/java-base/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>java基础：<a href="https://www.cnblogs.com/adamjwh/p/8868588.html">https://www.cnblogs.com/adamjwh/p/8868588.html</a></p>
+<p>java复盘：<a href="https://how2j.cn/stage/25.html">https://how2j.cn/stage/25.html</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SAA_Vocabulary</title>
+    <url>/2021/02/02/SAA-Vocabulary/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>behind 在…后面<br>request 请求<br>patterns 模式<br>unpredictable 不可预测的<br>per second 每秒<a id="more"></a><br>be persisted in a backend database 被保留在一个数据库中<br>currently 目前<br>query 查询<br>combination 组合<br>a managed storage solution 一个托管的存储方案<br>high-performance 高性能的<br>concurrent access to files 并发访问文件<br>deliver 提供<br>recommend 建议<br>establish 建立<br>multi-tier 多层网络架构，多层架构<br>scaling 缩放，衡量<br>Availability Zone 可用区<br>infrastructure 基础架构<br>across of<br>application load balancer(ALB) 应用负载平衡器<br>internal 内部的<br>browser-based 基于浏览器</p>
+]]></content>
+      <categories>
+        <category>外语</category>
+      </categories>
+      <tags>
+        <tag>英语</tag>
         <tag>aws</tag>
       </tags>
   </entry>
   <entry>
-    <title>抱有目的性的分配时间，来学习和锻炼，增加工资和未来的发展可能性</title>
-    <url>/2021/05/16/20210516/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>学了，然后用不上，然后忘记了，那么还要学吗？<br>喜欢，然后经过深思熟虑，又不喜欢了，彻底放弃。那么还要喜欢吗？<br>每一次设立目标，每一次都达不成，每一次都懒惰。那么还需要目标吗？<br>好想再掌握一些知识、再尝试一些、再做点东西啊！<br>「精神的に向上心のないものは、馬鹿だ」</p>
-<p>我要去日本，工资超过2万元。要学的东西太多了。</p>
-<p>n1是必须要考的</p>
-<p>aws必须要加强的</p>
-<p>英语也是要加强的</p>
-<p>本职java和前端等传统技术也是要学的</p>
+    <title>动词变形</title>
+    <url>/2021/01/27/Verb/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://ftp.bmp.ovh/imgs/2021/01/2543382840435fd8.png"></p>
 ]]></content>
+      <categories>
+        <category>外语</category>
+      </categories>
+      <tags>
+        <tag>日语</tag>
+      </tags>
   </entry>
   <entry>
-    <title>单体测试注意点</title>
-    <url>/2021/05/19/20210519/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最近在做java项目的单体测试。想小小总结一下。</p>
-<p>通过测试书，结合内设，外设，用工具生成一些バリデーション代码，或者用自动化生成测试代码的工具生成代码。</p>
-<p>基本上都是一个case一个case写。一个case测一个点，最大值，最小值，桁限制什么的。</p>
-<p>读source的能力，大概理解代码的意图。controler，dto，service，api的调用过程。</p>
-<p>Junit单元测试</p>
-<p>对日因为有测试书，自我发挥的空间很小，所以只能在速度和准确率上体现工作能力。</p>
-<p>经验多了，做多了，原来不会的地方也会了，理解也加深了。实际参加项目，获得的经验也是学习成长的一个必要过程。</p>
-<p>更加贴近商业项目，就不只是技术上会不会做的问题，还要注重人与人之间的交往。</p>
-<p>心态放平和。忍耐，克服自己得意忘形，骄傲自大的缺点。谦虚，谨慎，一步一步踏实的继续精进，学习。</p>
+    <title>影子跟读法</title>
+    <url>/2020/01/21/shadowing/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>外文学习，语感培养很重要。</p>
+<p>推荐一个方法：</p>
+<p>Shadowing (シャドーイング，影子跟读法)：像【影子】一样跟在后面尽量模仿其发音</p>
+<p>刚开始，可以用课本跟读。然后慢慢脱离书本。</p>
+<p>日文跟读课本推荐：<br>【超特急说日语】（台湾大新书局）</p>
 ]]></content>
+      <categories>
+        <category>外语</category>
+      </categories>
   </entry>
   <entry>
-    <title>日语和英语</title>
-    <url>/2021/05/24/20210524/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>日语，由于我大概率能去日本工作,不需要太担心。继续学就行了。</p>
-<p>可是英语就难了，上海，香港等大城市里的人从小就有先天优势。我没钱，高考没考好，很难拿到去美国的签证。我这一辈子可能没有能力和机会在美国等国本地学了。</p>
-<p>不过精通英语是必须的，英语作为世界通用语，学好它是通往西方的必备技能。</p>
-<p>我最想掌握的是美式英语。</p>
-]]></content>
+    <title>自我介绍</title>
+    <url>/2020/01/16/self_introduction/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="ec8d3ece3a08d740459d9c2d19b24f8af4f44af70a0dac0fae86cabae4cb4caa">a16cfc2c94f3eb00d10f2fd2867c94caa10977183c02ac3a6d15453922be0630a044e27a7858e87037085ed28fe2b7dc11c4288d200d922022929f3fcef5237c5bf83c96400461e401cfb7d7036048d802b94dbf6f05130df423fd4792a325523914ec3f420f20f5af97ef0e4a0db83ba89b398404897e82c0201108ac08af1ea4c17fe1956c1aabf48410bdb1f88cbe1624964f286ee3d84d5006f20731e4ab7a6847f265364550c3988e3b001001eba4f6272e6ce69338f096d37b933e27590a1aae5d4a30fba4e08a51fe18e91968ecbbbf2c110a642e3e48f211a8674996e0f527f4a8bb2e4920ecc19c87fe5103234b9b767f94ffea28de9a0f051a4a254f49e4cf2d0951bce1c4ad4d00e55ccd12b5798aa85738574f2701827f234f504d72a461663aa057a3fe8691cfbce5e26ae10003e17c113e1e96895352606e0c233b2453f4e99f62839bba4093e1953ffc3a9c5f93fb04ab414d15abc33750194dcf1a6c4b27db81cce1bb58fe004696072eb97da91ad2f7a9cc2d86cdb7c0a3fdeccad918abdd1701d6bac84ba2a0230e5371068071c7244b149fc640ffdfba3dd686a93d5c33f91fff59b2afe8f1ebf2070d07cf84c4870f668c841d2a1041cdfff8c47cb8ae53c2ef202d0a33fd3451b2f1e3c384e6e21a7241413921104cad2272424e99ed19df87f47b6ab0dad6e6b4b96db24c79950827a1f9db0446e96a7762a61233786337713209a6958535bb4b73fd2fe0a24882187185dd29592bc86c916a736fa4208c1792a889274f77e6196edd11f39d438d37c414e92238471b395e6d63ab474e549276dfdf151d48cdc79593f7295ac55a55c9c7e197cbe98f37fec826e2333f26dce830046b4c80c0f82fb1fc8f49535639a02f7952e3bc19ca105e6422e0a95ea04b606acb2b31ce282e6ae6b89109b28b4601c9ddb47e4af2fc79044b1509ae03c09a82fe900d662abdcddc05b1a24218ff3e35d41274667e381a384c4deaa7613901de24178400159a069b5bb4cb8e6dcdadcbb60f6f2782a2446a08f1e54270615384a5fdead79bdffce205941077e929f60cd0b8a11660d9418b97a97370677fe30976b7543a3dc2955b41c889939d44c86667a513cfe9a52182a5fc73eb2e92f183e925049e6baf00099e9eb7050e938c1059c190b03f8090f94f341c8e65638eb51b26c923ccdf7df38ea7817b41352b13f58970</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>作为测试加密</tag>
+      </tags>
   </entry>
 </search>
