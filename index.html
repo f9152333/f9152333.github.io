@@ -183,6 +183,55 @@
 
     
     <article
+  id="post-20210624"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2021/06/24/20210624/"
+    >失敗ても、意味があるのこと、人生就这么计划着进行</a> 
+</h2>
+ 
+
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2021/06/24/20210624/" class="article-date">
+  <time datetime="2021-06-24T15:13:52.000Z" itemprop="datePublished">2021-06-24</time>
+</a>    
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>俺の人生はほとんどひとりで暮らしと思いますので、十分のお金が必要だ。</p>
+<p>赚钱的方法，资金的流向，资本聚集等等経済につぃて的知识和现象，我都想要在生活中一点一点去摸索。</p>
+<p>想开一点，其实，赚钱本身也很有趣。让钱变得越来越多，靠自己的劳动和头脑去赚钱。我觉得我的兴趣很广泛，很容易被诱惑。</p>
+<p>持续专一的学习，成为某个领域的“专家”，我觉得是赚钱最为有保障的方法。</p>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+    </footer>
+  </div>
+
+   
+    
+</article>
+
+    
+    <article
   id="post-20210601"
   class="article article-type-post"
   itemscope
@@ -603,69 +652,6 @@
     <footer class="article-footer">
        
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/bug/" rel="tag">bug</a></li></ul>
-
-    </footer>
-  </div>
-
-   
-    
-</article>
-
-    
-    <article
-  id="post-Vertical-Plate"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2021/03/14/Vertical-Plate/"
-    >新增竖版功能（为了背小说，写日语日记）</a> 
-</h2>
- 
-
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2021/03/14/Vertical-Plate/" class="article-date">
-  <time datetime="2021-03-14T12:40:18.000Z" itemprop="datePublished">2021-03-14</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a>
-  </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>为什么我要做竖版功能？</p>
-<p>原因：今天在知乎上搜【日语学习过程中日本外教到底有多重要？】，发现有位大佬学习日语的经历非常励志。他刚开始去日本的时候，日语只学了标日初级上，基本啥都不会。因为日语不好，工作很痛苦。于是，他给自己订了一个计划:</p>
-<p>早晨5点起床大声朗读课文,并背下所有教材中的例句;</p>
-<p>白天上班过程中尽量多找日本人交流,大胆开口说日语;</p>
-<p>晚上下班回来,7点到10点啃日文教材或小说,请记住不是看是啃,就是搞懂每个句子的语法,每个单词的意思不懂的查字典或记下来第二天问日本人;</p>
-<p>10点到12点看电视练习听力.看的过程中一定要聚精会神注意听他的表现手法和发音,有必要时做点笔记,比如记下发音再去查字典<br>.<br>他从不给自己找借口头懒.不仅工作上的交流基本没问题就是电视也基本都能看懂.在会议上能比较流利的发表自己的看法,也能写出教好的业务报告.</p>
-<p>我觉得他的经历非常有参考价值，学习日语的方法写得也非常好。我的听说读写，就写完全没有锻炼，所以我也想会写。之前有朋友建议我用博客写日语日记，奈何我水平太菜，先从研读日文小说开始吧，日本小说，超让我感动！！由于日文小说是从右往左竖排写得，所以我必须得解决竖着排版的问题。</p>
-<p>日语学习过程中日本外教到底有多重要？ - 言吉外国语的回答 - 知乎<br><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/38841412/answer/125171737">https://www.zhihu.com/question/38841412/answer/125171737</a><br>需求：</p>
-<p>解决过程记录。<br>1.寻找竖版解决方案，看了以下文章，决定使用竹取（taketori），它是一个静态js文件。涅槃（nehan）也行，下下来发现太复杂，遂弃用。<br><a target="_blank" rel="noopener" href="https://kaix.in/0000/vertical-writing-mode/">https://kaix.in/0000/vertical-writing-mode/</a></p>
-<p>2.导入到hexo中，放入到对应主题的source目录下。发现我的ayer主题下style文件格式是styl（Stylus 是一个CSS的预处理框架），而竹取的style格式是css，所以浏览器搜索，在线自动转换成styl格式，发现其中有4个样式报错，selector expectedcss(css-selectorexpected)，怎么想语法都没错，最后发现是vscode没装styl插件，下了个插件，就不报错了。<br><a target="_blank" rel="noopener" href="https://wxnacy.com/2017/12/12/hexo-cust-js/">https://wxnacy.com/2017/12/12/hexo-cust-js/</a></p>
-<p>3.在项目路径下，安装npm install stylus -g<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/zc639143029/article/details/72630087?utm_source=blogxgwz1">https://blog.csdn.net/zc639143029/article/details/72630087?utm_source=blogxgwz1</a></p>
-<p>4.导入项目后发现css无法加载，后来仔细扫了一遍taketori.js这个文件，发现它是直接引用方法导入同级的css，于是我把taketori.css和taketori.js放在一起就加载出来了。taketori.js正常使用，竖版问题也就解决了。</p>
- 
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%89%8D%E7%AB%AF/" rel="tag">前端</a></li></ul>
 
     </footer>
   </div>
