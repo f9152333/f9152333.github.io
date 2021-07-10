@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>写在前面</title>
-    <url>/2021/01/26/statement/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这个博客网站很简单，使用hexo框架、ayer免费开源主题，模仿大佬建站的。只要了解一丢丢前端、git、markdown知识任何人都能轻松建站。主要是用来鼓励自己学习、记录自己生活用的。</p>
-<p>学习计划：<br>超特级说日语，一天听读2单元<br>标日初中级，一天复习4单元<br>anki 标日，红宝书单词卡 最快速度扫过<br>n2真题，两天看一卷（不做只看，听）<br>SAA题库，一天100题纯背不实操扫过就行<br>youzack新概念英语从2开始听读，一天一篇<br>对日开发日语和式样书单词总结</p>
-<p>雕琢日文简历（2021/2/20补充）</p>
-<p>今天[2021/2/18]受一个大佬启发，我这种懒人不定计划每天散漫的学根本毫无进度，而且意志越来越消沉，恶性循环！<br>细节问题先不扣，以后慢慢想。java前端等技术也先不管，我总是贪多嚼不烂，坏毛病一直改不掉<br>【スキル】JAVA、SSH、SSM、ORACLE、MySQL、JS、Ajax、vue、aws</p>
-<p>每天都在博客上打卡，发文章记录学习进度。<br>目前的想法是：<font color="#00dd00">绿色代表完成，</font><font color="#dd0000">红色代表未完成。</font>要不做成表格，视觉化记录学习进度。类似这种<br><img src="https://ftp.bmp.ovh/imgs/2021/02/6e7176b1d6bbe25c.png"></p>
+    <title>最新计划调整</title>
+    <url>/2021/07/10/20210710/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最近，考完N2。大概率过了，加上之前到手的aws的中文的SAP。我手里已经有2个证书了。</p>
+<p>下半年，我希望再考2个证书。</p>
+<ol>
+<li><p>自学考<strong>12月n1</strong>，每天都听读会话。</p>
+</li>
+<li><p>用英语考saa，日文的暂时不管。顺便复习英语。准备好英语简历。</p>
+</li>
+<li><p>技术的龟速推进。。非典型程序员。。</p>
+</li>
+</ol>
 ]]></content>
   </entry>
   <entry>
@@ -1054,6 +1059,16 @@ youzack新概念英语从2开始听读，一天一篇<br>
       <tags>
         <tag>日语</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>写在前面</title>
+    <url>/2021/01/26/statement/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这个博客网站很简单，使用hexo框架、ayer免费开源主题，模仿大佬建站的。只要了解一丢丢前端、git、markdown知识任何人都能轻松建站。主要是用来鼓励自己学习、记录自己生活用的。</p>
+<p>学习计划：<br>超特级说日语，一天听读2单元<br>标日初中级，一天复习4单元<br>anki 标日，红宝书单词卡 最快速度扫过<br>n2真题，两天看一卷（不做只看，听）<br>SAA题库，一天100题纯背不实操扫过就行<br>youzack新概念英语从2开始听读，一天一篇<br>对日开发日语和式样书单词总结</p>
+<p>雕琢日文简历（2021/2/20补充）</p>
+<p>今天[2021/2/18]受一个大佬启发，我这种懒人不定计划每天散漫的学根本毫无进度，而且意志越来越消沉，恶性循环！<br>细节问题先不扣，以后慢慢想。java前端等技术也先不管，我总是贪多嚼不烂，坏毛病一直改不掉<br>【スキル】JAVA、SSH、SSM、ORACLE、MySQL、JS、Ajax、vue、aws</p>
+<p>每天都在博客上打卡，发文章记录学习进度。<br>目前的想法是：<font color="#00dd00">绿色代表完成，</font><font color="#dd0000">红色代表未完成。</font>要不做成表格，视觉化记录学习进度。类似这种<br><img src="https://ftp.bmp.ovh/imgs/2021/02/6e7176b1d6bbe25c.png"></p>
+]]></content>
   </entry>
   <entry>
     <title>影子跟读法</title>
